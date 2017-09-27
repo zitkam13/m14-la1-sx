@@ -1,5 +1,5 @@
 
-# *Protokoll Labor kw38*
+# *Protokoll Labor KW38*
 ## *Themen: Github & Git*
 
 Name: Raphael Tuttner    
@@ -31,11 +31,11 @@ Mithilfe vom Master-Branch kann man in kurzer Zeit auf eine frühere bzw. funkti
 
 
 ### *Wichtige Befehle*
-* pull --> änderungen können vom Server transferiert werden.    
-* push --> Änderungen werden vom lokalen Repository zum Server transferiert werden.    
-* clone --> Hiermit kann die Repository geklont werden.( klonen=verdoppeln)    
-* commit --> Daten werden vom Index zum Lokalen Repository transferiert.    
-* add --> Daten werden vom Workspace an den Index transferiert.
+* pull --> änderungen können vom Server transferiert werden.
+* push --> Änderungen werden vom lokalen Repository zum Server transferiert werden. (git push)    
+* clone --> Hiermit kann die Repository kopiert werden. (z.B. git clone git@github.com:tutram12/test123.git)    
+* commit --> Daten werden vom Index zum Lokalen Repository transferiert. (z.B. git commit -m "hallo")    
+* add --> Daten werden vom Workspace an den Index transferiert. (z.B. git add -A)
     
 Mithilfe von '#' können je nach Anzahl der 'Kanalgitter' Hauptüberschriften und unterüberschriften gemacht werden.
 Bsp. 

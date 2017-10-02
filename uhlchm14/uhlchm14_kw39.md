@@ -18,7 +18,7 @@ Das funktioniert in der Konsole mit dem Befehl "git clone" und danach der Link d
 
 Den Link dazu findet man auf der Github [Webseite](github.com) unter "clone or download"
 
-![SSH KEYS](https://raw.githubusercontent.com/uhlchm14/rep1/master/3.PNG)
+![cod](https://raw.githubusercontent.com/uhlchm14/rep1/master/3.PNG)
 
 Danach kann man in der Konsole Daten verwalten, Branches erstellen und Dateien bearbeiten.
 
@@ -43,6 +43,6 @@ Nach dem Erzeugen wird der öffentliche Schlüssel mit dem Namen id_rsa.pub auf 
 
 Durch das Erstellen des SSH Schlüssels ist nun das klonen mittels SSH möglich.
 
-![SSH KEYS](https://raw.githubusercontent.com/uhlchm14/rep1/master/2.PNG)
+![cod](https://raw.githubusercontent.com/uhlchm14/rep1/master/2.PNG)
 
 

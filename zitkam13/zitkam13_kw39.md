@@ -5,7 +5,7 @@
 Bevor man  mit Repository am Linux System arbeiten kann muss man sie vom GitHub-Server klonen.  
 Dies funktioniert mit der Konsole mit dem Befehl "git clone und der Link der Repository".  
 ![git clone](/zitkam13/clone.png)    
-Den Link findet man bei GitHub in der Repository unter dem Button **clone or downlad.**  
+Den Link findet man bei GitHub in der Repository unter dem Button **clone or downlad.** Man kann über eine **SSH Verschlüsselung** oder über **HTTPS** klonen.   
 ![clone-link](/zitkam13/clone-link.png)  
 Danach kann man mit der Konsole oder mit dem Dateimanger Dateien einfügen oder bearbeiten.  
 Damit man die Dateien wieder mit dem Github-Server synchronisiert benötigt man folgende Befehele.  

@@ -4,6 +4,7 @@
 
 Bevor man  mit Repository am Linux System arbeiten kann muss man sie vom GitHub-Server klonen.  
 Dies funktioniert mit der Konsole mit dem Befehl "git clone und der Link der Repository".  
+![git clone](https://github.com/HTLMechatronics/m14-la1-sx/tree/zitkam13/zitkam1/clone.png)    
 Danach kann man mit der Konsole oder mit dem Dateimanger Dateien einfügen oder bearbeiten.  
 Damit man die Dateien wieder mit dem Github-Server synchronisiert benötigt man folgende Befehele.  
 * git add -A (-A = Damit alle Dateien kopiert werden)  

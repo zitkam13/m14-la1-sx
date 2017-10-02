@@ -16,6 +16,8 @@ Dies funktioniert in der Shell mit dem Befehl "git clone" und danach dem Link de
 
 Den Link dazu findet man im Repository unter clone or download.
 
+![Link_Repository](/wiemam14/Link_Repository.PNG)
+
 Danach kann man mit der Konsole Daten bearbeiten und einfügen.
 
 Hier die wichtigsten Befehle dazu:

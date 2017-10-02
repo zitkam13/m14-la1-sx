@@ -17,19 +17,19 @@ Beide Links findet man bei GitHub in dem Repository, unter dem Button clone or d
 ### *Datein bearbeiten*  
 Da sich jetzt das gewünschte Repository auf dem Rechner befindet kannman mittels der Konsole, oder dem Dateimanager die Daten ändern. Um das geänderte wieder mit dem GitHub-Server zu synchronisieren benötigt man folgende Befehle:  
 
-*git add -A (-A Damit alle Dateien kopiert werden, und nicht nur einzelne)  
+* git add -A (-A Damit alle Dateien kopiert werden, und nicht nur einzelne)  
 Mit dem Befehl **git add** werden die Dateien zum Index transferiert.  
 ![add](https://github.com/HTLMechatronics/m14-la1-sx/blob/strsem13/strsem13/git%20add.png)  
 
-*git commit -m "Kommentar" (-m damit man ein Kommentar einfügen kann)  
+* git commit -m "Kommentar" (-m damit man ein Kommentar einfügen kann)  
 Mit dem Befehl **git commit** werden die Daten vom Index zum lokalen Repository tranferiert  
 ![commit](https://github.com/HTLMechatronics/m14-la1-sx/blob/strsem13/strsem13/git%20commit.png)
 
-*git push  
+* git push  
 Mit dem Befehl **git push** werden die Daten vom lokalen Repository zum Server transferiert.  
 ![push](https://github.com/HTLMechatronics/m14-la1-sx/blob/strsem13/strsem13/git%20push.png)  
 
-*git checkout -b "Branch_Name"
+* git checkout -b "Branch_Name"
 Mit diesem Befehl erstellt man einen Branch, wenn man auf einem gemeinsamen Repository arbeitet, kann dass sehr nutzvoll sein, weil dadurch das ganze Repository viel übersichtlicher ist.  
 
 ### *SSH Schlüssel*  
@@ -38,4 +38,5 @@ Das fuktioniert mit dem Befehl **ssh-keygen**.
 ![ssh-keygen](https://github.com/HTLMechatronics/m14-la1-sx/blob/strsem13/strsem13/ssh-keygen.png)  
 Danach muss man den öffentlichen Schlüssel **id_rsa.pub** kopieren, dass geht am einfachensten wenn man ihn mit dem Befehl **less id_rsa.pub** öffnet und mit dem Mausrad kopiert.  
 ![ssh ordner](https://github.com/HTLMechatronics/m14-la1-sx/blob/strsem13/strsem13/ssh%20ordner.png)  
-
+Als nächstes muss die Seite [GitHub-Keys](https://github.com/settings/keys) geöffnet werden. Wenn man dann auf den Button **New SSH key** drückt kannman den öffentlichen Schlüssel reinkopieren.  
+![Github-Keys](https://github.com/HTLMechatronics/m14-la1-sx/blob/strsem13/strsem13/SSH.png)  

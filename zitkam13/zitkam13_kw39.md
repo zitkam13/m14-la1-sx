@@ -20,4 +20,5 @@ Bevor man mit einem SSH-SChlüssel klonen kann muss man zuerst am Linux System e
 * **New SSH key**    
 
 ## Atmel AVR Studio  
-Atmel AVR Studio ist ein Program mit dem man einen Mirkrocontroller programmieren kann.   
+Atmel AVR Studio ist ein Program mit dem man einen Mirkrocontroller programmieren kann. Am folgenden Bild sieh man die Benutzeroberfläche des Programms.  
+![AVR-Studio](/avr-studio.png)

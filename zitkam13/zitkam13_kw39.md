@@ -8,7 +8,7 @@ Dies funktioniert mit der Konsole mit dem Befehl "git clone und der Link der Rep
 Den Link findet man bei GitHub in der Repository unter dem Button **clone or downlad.** Man kann über eine **SSH Verschlüsselung** oder über **HTTPS** klonen.   
 ![clone-link](/zitkam13/clone-link.png)  
 Danach kann man mit der Konsole oder mit dem Dateimanger Dateien einfügen oder bearbeiten.  
-Damit man die Dateien wieder mit dem Github-Server synchronisiert benötigt man folgende Befehele.  
+Damit man die Dateien wieder mit dem Github-Server synchronisiert benötigt man folgende Befehle.  
 * git add -A (-A = Damit alle Dateien kopiert werden)  
 ![git add](/zitkam13/add.png)  
 * git commit -m "Kurzbefehl" (-m = Für ein Kommentar)  
@@ -31,6 +31,6 @@ Danchach muss man den öffentlichen Schlüssel (id_rsa.pub) bei GitHub in de Ein
 ![ssh-settings](/zitkam13/ssh-settings.png)
 
 ## Atmel AVR Studio  
-Atmel AVR Studio ist ein Program mit dem man einen Mirkrocontroller programmieren kann. Am folgenden Bild sieh man die Benutzeroberfläche des Programms.  
+Atmel AVR Studio ist ein Program mit dem man einen Mirkrocontroller programmieren kann. Am folgenden Bild sieh man die Benutzeroberfläche des Programms. Mit ATMEL AVR Studio kann  in Assembler, C/C++ programmiert werden.  
 ![AVR-Studio](/zitkam13/avr-studio.png)  
 AVR-Studio gibt es nur für Windows-Systeme.

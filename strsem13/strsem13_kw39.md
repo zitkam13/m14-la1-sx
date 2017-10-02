@@ -27,5 +27,13 @@ Mit dem Befehl **git commit** werden die Daten vom Index zum lokalen Repository 
 
 *git push  
 Mit dem Befehl **git push** werden die Daten vom lokalen Repository zum Server transferiert.  
-![push](https://github.com/HTLMechatronics/m14-la1-sx/blob/strsem13/strsem13/git%20push.png)
+![push](https://github.com/HTLMechatronics/m14-la1-sx/blob/strsem13/strsem13/git%20push.png)  
 
+*git checkout -b "Branch_Name"
+Mit diesem Befehl erstellt man einen Branch, wenn man auf einem gemeinsamen Repository arbeitet, kann dass sehr nutzvoll sein, weil dadurch das ganze Repository viel übersichtlicher ist.  
+
+### *SSH Schlüssel*  
+Es ist sehr praktisch wennman sich über SSH mit dem GitHub-Server verbindet, weil man dann kein Passwort und Benutzernamen mehr braucht. Um sich mit dem GitHub-Server zu verbinden muss man zuerst ein RSA-Schlüsselpaar erstellen.  
+Das fuktioniert mit dem Befehl **ssh-keygen**.  
+![ssh-keygen]()  
+Danach muss man den öffentlichen Schlüssel **id_rsa.pub** kopieren, dass geht am einfachensten wenn man ihn mit dem Befehl **less ...** öffnet und mit dem Mausrad kopiert.

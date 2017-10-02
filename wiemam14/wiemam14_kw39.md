@@ -27,3 +27,9 @@ Hier die wichtigsten Befehle dazu:
 * git push (Auf den Server laden)
 
 * git checkout -b "wiemam14" (eigene Daten im eigenen Branch speichern)
+
+## SSH Schlüssel
+
+Für einen SSH Schlüssel muss zuerst mit dem Befehl "ssh-keygen" ein RSA Schlüsselpaar erzeugt werden.
+
+Nach dem Erzeugen wird der öffentliche Schlüssel mit dem Namen id_rsa.pub auf der GitHub Website eingefügt.

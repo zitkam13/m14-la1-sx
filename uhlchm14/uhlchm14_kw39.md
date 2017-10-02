@@ -48,6 +48,6 @@ Durch das Erstellen des SSH Schlüssels ist nun das klonen mittels SSH möglich.
 ## Atmel AVR Studio  
 Atmel AVR Studio ist ein Program mit dem man einen Mirkrocontroller programmieren bzw. simulieren kann. Am folgendem Bild ist die Benutzeröberfläche grob erklärt. Dadurch das das Program auf unseren Rechnern noch nicht einsatzfähig war, haben wir noch nicht so viel darüber gelernt.
 
-![AVR-Studio](https://maxembedded.files.wordpress.com/2011/06/avr-studio-new-project-start-screen.png)  
+![AVR-Studio](https://raw.githubusercontent.com/uhlchm14/rep1/master/68747470733a2f2f6d6178656d6265646465642e66696c65732e776f726470726573732e636f6d2f323031312f30362f6176722d73747564696f2d6e65772d70726f6a6563742d73746172742d73637265656e2e706e67.png)  
 
 

@@ -14,3 +14,8 @@ Dies funktoniert mit dem folgenden Befehl:
 * git checkout -b "zitkam13"  
 
 ## SSH Schlüssel bei GitHub  
+Bevor man mit einem SSH-SChlüssel klonen kann muss man zuerst am Linux System ein RSA-Schlüsselpaar erstellen. Das funktioniert mit der Konsole mit dem Befehl "ssh-keygen". Danchach muss man den öffentlichen Schlüssel (id_rsa.pub) bei GitHub in de Einstellungen einfügen.  
+* ** Settings** bei GitHub  
+* **SSH and GPG keys**  
+* **New SSH key**  
+

@@ -18,7 +18,7 @@ Das funktioniert in der Konsole mit dem Befehl "git clone" und danach der Link d
 
 Den Link dazu findet man auf der Github [Webseite](github.com) unter "clone or download"
 
-![cod](https://raw.githubusercontent.com/uhlchm14/rep1/master/3.PNG)
+![cod](https://raw.githubusercontent.com/uhlchm14/rep1/master/4.PNG)
 
 Danach kann man in der Konsole Daten verwalten, Branches erstellen und Dateien bearbeiten.
 

@@ -24,6 +24,7 @@ Dies funktoniert mit dem folgenden Befehl:
 Bevor man mit einem SSH-Schlüssel klonen kann muss man zuerst am Linux System ein RSA-Schlüsselpaar erstellen. Das funktioniert mit der Konsole mit dem Befehl "ssh-keygen". 
 ![ssh-keygen](/zitkam13/ssh-keygen.png)  
 Danchach muss man den öffentlichen Schlüssel (id_rsa.pub) bei GitHub in de Einstellungen einfügen.  
+![schlüsselpaar](/zitkam13/schlüsselpaar.png)
 * **Settings** bei GitHub  
 * **SSH and GPG keys**  
 * **New SSH key**   

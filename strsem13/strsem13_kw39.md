@@ -9,3 +9,4 @@ Um an einem Repository am Linux System arbeiten zu können, muss man es sich zue
 Dies funktioniert auf 2 Verschieden Arten:
 * Mit einem Link   
 * Über SSH
+dere

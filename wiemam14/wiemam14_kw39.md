@@ -10,7 +10,7 @@ Gruppe: 4
 
 ## Bearbeiten eines Git Repository mit der Linux-Shell
 
-Um mit einem Repository in der Linux-Shell arbeiten zu können, muss man sie vom Server klonen.
+Um mit einem Repository in der Linux-Shell arbeiten zu können, muss man es vom Server klonen.
 
 Dies funktioniert in der Shell mit dem Befehl "git clone" und danach dem Link des Repository.
 

@@ -40,3 +40,5 @@ Danach muss man den öffentlichen Schlüssel **id_rsa.pub** kopieren, dass geht 
 ![ssh ordner](https://github.com/HTLMechatronics/m14-la1-sx/blob/strsem13/strsem13/ssh%20ordner.png)  
 Als nächstes muss die Seite [GitHub-Keys](https://github.com/settings/keys) geöffnet werden. Wenn man dann auf den Button **New SSH key** drückt kannman den öffentlichen Schlüssel reinkopieren.  
 ![Github-Keys](https://github.com/HTLMechatronics/m14-la1-sx/blob/strsem13/strsem13/SSH.png)  
+
+### *Atmel AVR Studio*  

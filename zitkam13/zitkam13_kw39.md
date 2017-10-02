@@ -33,4 +33,4 @@ Danchach muss man den öffentlichen Schlüssel (id_rsa.pub) bei GitHub in de Ein
 ## Atmel AVR Studio  
 Atmel AVR Studio ist ein Program mit dem man einen Mirkrocontroller programmieren kann. Am folgenden Bild sieh man die Benutzeroberfläche des Programms.  
 ![AVR-Studio](/zitkam13/avr-studio.png)  
-AVR-Studio gibt es auch  nur für Windows-Systeme.
+AVR-Studio gibt es nur für Windows-Systeme.

@@ -36,6 +36,8 @@ Für einen SSH Schlüssel muss zuerst mit dem Befehl "ssh-keygen" ein RSA Schlü
 
 Nach dem Erzeugen wird der öffentliche Schlüssel mit dem Namen id_rsa.pub auf der GitHub Website eingefügt.
 
+![SSH](/wiemam14/SSH.PNG) 
+
 
 ## Atmel AVR Studio
 

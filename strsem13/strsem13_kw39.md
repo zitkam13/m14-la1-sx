@@ -45,6 +45,6 @@ Als nächstes muss die Seite [GitHub-Keys](https://github.com/settings/keys) ge�
 Atmel AVR Studio ist ein Programm mit dem man Microcontroller programmieren uund auch simulieren kann.  
 Dadurch das Programm noch nicht funktioniert hatt, haben wir noch nicht viel darüber gehört.  
 AVR-Studio gibt es nur für Windows Betriebssysteme.  
-Die Benutzeroberfläche sieht wie folgt aus:
-![AVR-Studio](https://www.google.at/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwity4zr4NLWAhXDVxoKHfMsBrYQjRwIBw&url=http%3A%2F%2Fmaxembedded.com%2F2011%2F06%2Fusing-avr-studio-5%2F&psig=AOvVaw2zM2yG3RDnaQYPRAfPaEBx&ust=1507061701826297)  
+Die Benutzeroberfläche sieht wie folgt aus:  
+![AVR-Studio](https://maxembedded.files.wordpress.com/2011/06/avr-studio-new-project-start-screen.png)  
 Quelle: [Link](http://maxembedded.com/2011/06/using-avr-studio-5/)

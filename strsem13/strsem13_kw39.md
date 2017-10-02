@@ -4,7 +4,7 @@
  Klasse: 4AHME  
  Datum: 26.09.2017  
  Anwesend: Strutz, Strauß, Tuttner, Uhl, Waltl, Wieser, Zitz  
-### *Repoitory klonen*  
+### *Repository klonen*  
 Um an einem Repository am Linux System arbeiten zu können, muss man es sich zuerst vom Github-Server kopieren.  
 Dies funktioniert auf 2 Verschieden Arten:
 * HTTPS  
@@ -34,6 +34,8 @@ Mit diesem Befehl erstellt man einen Branch, wenn man auf einem gemeinsamen Repo
 
 ### *SSH Schlüssel*  
 Es ist sehr praktisch wennman sich über SSH mit dem GitHub-Server verbindet, weil man dann kein Passwort und Benutzernamen mehr braucht. Um sich mit dem GitHub-Server zu verbinden muss man zuerst ein RSA-Schlüsselpaar erstellen.  
-Das fuktioniert mit dem Befehl **ssh-keygen**.  
-![ssh-keygen]()  
-Danach muss man den öffentlichen Schlüssel **id_rsa.pub** kopieren, dass geht am einfachensten wenn man ihn mit dem Befehl **less ...** öffnet und mit dem Mausrad kopiert.
+Das fuktioniert mit dem Befehl **ssh-keygen**.    
+![ssh-keygen](https://github.com/HTLMechatronics/m14-la1-sx/blob/strsem13/strsem13/ssh-keygen.png)  
+Danach muss man den öffentlichen Schlüssel **id_rsa.pub** kopieren, dass geht am einfachensten wenn man ihn mit dem Befehl **less id_rsa.pub** öffnet und mit dem Mausrad kopiert.  
+![ssh ordner](https://github.com/HTLMechatronics/m14-la1-sx/blob/strsem13/strsem13/ssh%20ordner.png)  
+

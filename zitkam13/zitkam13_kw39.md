@@ -12,3 +12,5 @@ Damit man die Dateien wieder mit dem Github-Server synchronisiert benötigt man 
 Wenn man mit einem gemeinsamen Repository arbeitet kann man auch am Linux-System mit der Konsole Branches erstellen, damit man seine eigenen Dateien in einm eigenen Branch speichern kann.  
 Dies funktoniert mit dem folgenden Befehl:  
 * git checkout -b "zitkam13"  
+
+## SSH Schlüssel bei GitHub  

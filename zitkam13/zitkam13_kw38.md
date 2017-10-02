@@ -2,7 +2,7 @@
 # KW38  
 ## Thema: Git 
 Name: Karlheinz Zitz  
-![GitHub Logo](/index.png)  
+![GitHub Logo](zitkam13/index.png)  
 
 ### GitHub  
 **GitHub** ist ein **Online-Dienst** für Versionsverwaltung dieser auf **Git** basiert.  

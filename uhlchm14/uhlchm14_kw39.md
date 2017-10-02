@@ -16,9 +16,9 @@ Um mit einem Repository in der Linux Konsole arbeiten zu können, muss man es zu
 
 Das funktioniert in der Konsole mit dem Befehl "git clone" und danach der Link des Repository.
 
-Den Link dazu findet man auf der [Github Webseite](github.com) unter "clone or download"
+Den Link dazu findet man auf der Github [Webseite](github.com) unter "clone or download"
 
-
+![SSH KEYS](https://raw.githubusercontent.com/uhlchm14/rep1/master/3.PNG)
 
 Danach kann man in der Konsole Daten verwalten, Branches erstellen und Dateien bearbeiten.
 
@@ -37,7 +37,7 @@ Hier sind die wichtigsten Befehle dazu:
 
 Für einen SSH Schlüssel muss zuerst in der Konsole mit dem Befehl "ssh-keygen" ein RSA Schlüsselpaar (öffentlicher und privater Schlüssel) erzeugt werden.
 
-Nach dem Erzeugen wird der öffentliche Schlüssel mit dem Namen id_rsa.pub auf der [Github Webseite](github.com) unter den Einstellungen eingefügt.
+Nach dem Erzeugen wird der öffentliche Schlüssel mit dem Namen id_rsa.pub auf der Github [Webseite](github.com) unter den Einstellungen eingefügt.
 
 ![SSH KEYS](https://raw.githubusercontent.com/uhlchm14/rep1/master/1.PNG)
 

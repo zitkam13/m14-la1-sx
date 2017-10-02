@@ -33,3 +33,12 @@ Hier die wichtigsten Befehle dazu:
 Für einen SSH Schlüssel muss zuerst mit dem Befehl "ssh-keygen" ein RSA Schlüsselpaar erzeugt werden.
 
 Nach dem Erzeugen wird der öffentliche Schlüssel mit dem Namen id_rsa.pub auf der GitHub Website eingefügt.
+
+
+## Atmel AVR Studio
+
+Das Atmel AVR Studio ist ein Programm für die Programmierung von Mikrocontrollern von Atmel.
+Mit dem Atmel AVR Studio kann in Assembler sowie in C und C++ programmiert werden.
+
+
+

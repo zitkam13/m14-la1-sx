@@ -38,7 +38,7 @@ Nach dem Erzeugen wird der öffentliche Schlüssel mit dem Namen id_rsa.pub auf 
 ## Atmel AVR Studio
 
 Das Atmel AVR Studio ist ein Programm für die Programmierung von Mikrocontrollern von Atmel.
-Mit dem Atmel AVR Studio kann in Assembler sowie in C und C++ programmiert werden.
+Mit dem Atmel AVR Studio kann in Assembler sowie in C und C++ programmiert werden. Außerdem gibt es Atmel Studio nur für Windows.
 
 
 

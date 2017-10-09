@@ -1,4 +1,4 @@
-#Laborprotokoll KW38
+# Laborprotokoll KW39
 ## Git repository mit Linux!
 
 Um mit der Repository an einem Linux System arbeiten zu können, muss man sie als estes vom Github-Server klonen !
@@ -30,5 +30,27 @@ Dies funktioniert so:
 
      -->  git checkout -b + "Name vom Branch"
  
+## SSH Schlüssel
+Man muss als erstes am Linux-System ein RSA-Schlüsselpaar erzeugen!
 
- 
+     --> ssh keygen
+Dannach kann man auswählen wo man den Schlüssel hinspeichern will.
+Als nächstes muss der öffententliche Schlüssel (id_rsa.pub) bei Github in den Einstellungen eingefügt werden.
+Das funktioniert so:
+
+     --> id_rsa
+     --> id_rsa.pub
+     --> known_hosts
+     --> less id_rsa.pub
+     
+Als nächstes öffnet man https://github.com/settings/keys !
+Dannach klickt man auf "new SSH Key" und dannach kann der öffentliche Schlüssel problemlos reinkopiert werden.
+
+
+## Atmel AVR Studio
+
+Atmel AVR Studio ist ein Programm mit dem man Microcontroller programmieren kann und auch simulieren kann !
+Sprich: kostenlose Entwicklungsumbegung:
+Sie basiert ab Version 5 auf der Visual Studio Shell von Microsoft und besteht aus einer Projektverwaltung, einem Editor,
+einem Debugger und Werkzeugen zum Beschreiben der Mikrocontroller. 
+

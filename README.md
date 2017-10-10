@@ -1,10 +1,7 @@
-# Labor 4AHME
+# Labor 4AHME (2017/18) - SX
 
-## 1. Einheit, 19.09.2017  
-Link zur [1. Einheit](https://github.com/HTLMechatronics/m14-la1-sx/blob/strsem13/strsem13/strsem13_kw38.md)
+* Gruppe 4: 1. Einheit, 19.09.2017  
+* Gruppe 4: 2. Einheit, 26.09.2017  
+* Gruppe 4: 3. Einheit, 03.10.2017
 
-## 2. Einheit, 26.09.2017  
-Link zur [2. Einheit](https://github.com/HTLMechatronics/m14-la1-sx/blob/strsem13/strsem13/strsem13_kw39.md)  
-
-## 3. Einheit, 03.10.2017
-Link zur [3.Einheit](...)
+* Gruppe 1: 1. Einheit, 10.10.2017

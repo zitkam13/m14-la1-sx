@@ -1,7 +1,4 @@
-# Labor 4AHME (2017/18) - SX
+# Labor 4AHME (2017/18) - enzgem13
 
-* Gruppe 4: 1. Einheit, 19.09.2017  
-* Gruppe 4: 2. Einheit, 26.09.2017  
-* Gruppe 4: 3. Einheit, 03.10.2017
+1. Einheit 10.10.2017: [1.Einheit](https://github.com/HTLMechatronics/m14-la1-sx/blob/enzgem13/enzgem13/1_Einheit.md)
 
-* Gruppe 1: 1. Einheit, 10.10.2017

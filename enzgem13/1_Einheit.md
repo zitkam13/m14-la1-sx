@@ -22,6 +22,31 @@ Man kann jetzt in diesem Ordner bzw. Verzeichnis arbeiten. Je nach Anwendung Que
   
 Will man die Änderungen wieder in das Repository hochladen, verwendet man den Befehl:  
   
-**git add -A**  
+**git add -A**(-A bedeutet dass alle Änderungen übernommen werden, man kann anstelle von -A auch die Datei einsetzen wenn man nicht den ganzen Inhalt hochladen möchte)  
   
-Nun hat man die Änderung vom **Workspace** (Die Ebene, auf der man am PC arbeitet) in die Staged Area verschoben.
+Nun hat man die Änderung vom **Workspace** (Die Ebene, auf der man am PC arbeitet) in die **Staged Area** verschoben. Mit dem Befehl **git status** kann man sehen welche Elemente sich in der Staged Area befinden, weiters kann man auch den **Branch**, auf dem man sich befindet sehen.  
+  
+Der nächste Schritt ist:  
+  
+**git commit -m"Kommentar"**
+  
+Die nächste Ebene wird **local Repository** genannt. Und mit dem Befehl:  
+  
+**git push**  
+  
+werden die Änderungen ins **remote Repository** hochgeladen.  
+Wenn man Änderungen vom **remote Repository** beziehen, so ist es nicht notwendig, das gesamte Repository erneut zu klonen.  
+Mit dem Befehl:  
+  
+**git pull**  
+  
+werden nur die Änderungen vom **remote Repository** in den **Workspace** übernommen.  
+Weitere Infos: [Git-Book](https://git-scm.com/book/en/v2)  
+  
+## 3: github
+
+Github ist ein kostenloser Online-Dienst, der einem das erstellen und verwalten von Repositorys vereinfachen soll. Ein Nachteil ist, dass solange man nicht gewillt ist zu zahlen jeder darauf zugreifen kann. In unseren Laboreinheiten verwalten wir alles mittels Github.
+
+## 4: Branches
+
+

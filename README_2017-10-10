@@ -1,0 +1,34 @@
+# Protkoll: 1. Einheit
+*Emil Berger*
+4AHME - 1. Gruppe
+Anwesend: Berger, Böcksteiner, Bullner, Ehmann, Enzi, Kobor, Knappitsch
+Abwesend: niemand
+
+### Git
+Git ist ein Versionsverwaltungssystem, das es einem Team aus Softwareentwicklern es einfacher macht miteinander zusammenzuarbeiten.
+Das macht aus diesem Grund Sinn, da man so Fehler, die eventuell eingebaut wurden schneller behoben werden können, oder damit die Entwickler gleichzeitig arbeiten und ihre Werke zusammenführen können.
+Der Vorteil von Git (zB gegenüber SVN) ist der, dass man nicht zwingend online arbeiten muss.
+Das Repository wird lokal am Computer angelegt und wenn eine Verbindung besteht mit dem Online-Repository synchronisiert.
+
+#### Befehle:
+- clone: Repository wird auf dem Computer erstellt und die Daten des Servers übertragen
+- add: Neue Version wird vom Workspace in den Index übertragen
+- commit: Neue Version wird vom Index in das lokale Repository übertragen
+- push: Neue Version wird vom lokalen Repository auf den Server übertragen
+- pull: Neue Version wird vom Server in das Workspace geladen
+- fetch: Neue Version wird vom Server in das lokale Repository übertragen
+- checkout: Neue Version wird vom lokalen Repository in das Workspace geladen
+- status: Anzeige der Änderungen, die übernommen werden
+
+### GitHub
+GitHub ist ein Software-Unternehmen, das Mitgliedern kostenlose - auf Git basierende - Repositories auf seinen Servern zur Verfügung stellt.
+Es eignet sich vor allem für Open-Source-Projekte, da im Gratis-Paket nur öffentliche Repositories enthalten sind, sprich es können alle auf das Projekt zugreifen.
+Wenn man ein privates Repository benötigt, kann man diese Möglichkeit monatlich abonnieren.
+
+### Branches
+Branches werden verwendet um an einem Programm arbeiten zu können, ohne eine stabile, funktionsfähige Version zu gefährden, die dem Kunden nach wie vor zur Verfügung stehen soll.
+Es gibt einen **master**-Branch - die offizielle Version - und Branches in denen zum Beispiel neue Funktionen eingebaut werden, die aber noch nicht stabil laufen.
+
+### Markdown
+Markdowen ist ein System des Text-Editings, das schnelle Formatierungen durch einfache Codes zulässt.
+[Syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)

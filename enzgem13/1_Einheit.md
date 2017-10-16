@@ -43,10 +43,17 @@ Mit dem Befehl:
 werden nur die Änderungen vom **remote Repository** in den **Workspace** übernommen.  
 Weitere Infos: [Git-Book](https://git-scm.com/book/en/v2)  
   
-## 3: github
+## 3: Github
 
 Github ist ein kostenloser Online-Dienst, der einem das erstellen und verwalten von Repositorys vereinfachen soll. Ein Nachteil ist, dass solange man nicht gewillt ist zu zahlen jeder darauf zugreifen kann. In unseren Laboreinheiten verwalten wir alles mittels Github.
 
 ## 4: Branches
 
+Branches erleichtern das Arbeiten auf einem Repository, vor allem in Sachen Ordnung. Hat man beispielsweise eine Arbeitsgruppe, kann man dem jeweiligen Mitglied einen eigenen Branch zuweisen. Der wichtigste Branch, der in jedem Repository vorhanden sein sollte, ist der Branch **Master**. Auf diesem Branch sollten sich nur Dateien befinden, die nicht fehlerbehaftet sind. So kann man die Dateien auf dem eigenen Branch umändern und sollte etwas schiefgehen, kann man sich die funktionierende Datei vom Master-Branch holen.
+
+## 5: Sonstiges über Git und Github
+
+**gitignore**: Ein Dokument, dass Informationen beinhaltet, welche Dateien beim klonen bzw "pullen" übernommen werden sollen und welche nicht.
+
+**markdown-File**: Wird für die Dokumentation von Projekten benutzt (siehe auch: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/))
 

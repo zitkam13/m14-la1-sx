@@ -17,6 +17,7 @@ Im Gegensatz zu SVN werden Repositories lokal gespeichert, dadurch ist die Versi
   * local repository
   * index
   * work directory
+  * stash
 * **Befehle**
   * git clone (Repository wird ins Work Repository kopiert)
   * git add / rm / mv (Dateien im Index hinzufügen / löschen / bewegen)

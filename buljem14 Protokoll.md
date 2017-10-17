@@ -1,6 +1,6 @@
 # Protokoll 1
 
-##Thema: Git und Github
+## Thema: Git und Github
 
 Datum: 10.10.2017
 Abwesend: Niemand
@@ -20,7 +20,7 @@ Im Git gibt es 5 Speicherebenen:
 
 Github ist der bedeutenste Online Gitdienst-Anbieter. Die Benutzung ist vollkommen kostenlos, solange alles für jeden zugäglich bleibt.
 
-Git-Kommandos
+### Git-Kommandos
 
 * git stash apply (Daten vom Stash in den Workplace ziehen)
 * git add (Daten vom Workplace in den Index verschieben)

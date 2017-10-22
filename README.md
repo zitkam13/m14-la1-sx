@@ -5,5 +5,5 @@
   [Protokoll](ehmjum14/README_2017-10-10.md)
   
 * 2. Einheit, 17.10.2017
-  [Protokoll](https://github.com/HTLMechatronics/m14-la1-sx/blob/ehmjum14/ehmjum14/2.Protokoll)
+  [Protokoll](https://github.com/HTLMechatronics/m14-la1-sx/blob/ehmjum14/ehmjum14/2.Protokoll.md)
 

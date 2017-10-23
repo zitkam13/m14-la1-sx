@@ -17,10 +17,11 @@ Github ist eine Open-Source Sofware, somit können alle User auf Öffentliche Re
 Es ist auch eine Pro-Version verfügbar die es ermöglicht ein Privates Repository zu erstellen, dies kostet jedoch einen bestimmten Betrag pro Monat.  
 
 ## Ebenen und Befehle für Git
-  Es sind fünf Ebenen vorhanden, zwischen diesen Ebenen wird mit Befehlen komuniziert.
-  *Stash
-  *Workspace
-  *Index
-  *local Repository
-  *remote Repository
-### Befehle
+  Es sind fünf Ebenen vorhanden, zwischen diesen Ebenen wird mit Befehlen komuniziert.  
+  *Stash  
+  *Workspace  
+  *Index  
+  *local Repository  
+  *remote Repository  
+### Befehle  
+

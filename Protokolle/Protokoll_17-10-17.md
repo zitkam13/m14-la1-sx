@@ -12,16 +12,17 @@ Sie basiert auf der Visual Studio Shell von Microsoft und ist deshalb nur auf Wi
 Projektverwaltung, einem Editor, einem Debugger und Werkzeugen zum Beschreiben der Mikrocontroller .Mit dem Atmel Studio
 kann in Assembler sowie C/C++ programmiert werden.
 
-### ATmega328P
+### ATmega328P ([Datenblatt](http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf))
 Da unser Arduino Nano, mit dem wir im FIVU Unterricht arbeiten, den MicroProzessor ATmega328P verbaut hat, haben wir diesen 
 auch im Atmel Studio gewählt. Das Programm zeigt folgendes im Prozessormenü an:
 * Program Counter
 * Stack Pointer (begrenzt den Stack-Speicher indem er auf den letzen Speicherplatz des Stack-Speichers zeigt)
 * XYZ-Register
 * Status Register
-* Cycle Counter (zeigt die Takt-Durchläufe an)
-* Frequency (Frequenz)
-* Stop Watch (zeigt die Betriebszeit an)
+* Werden im Atmel-Studio angezeigt, sind aber nicht im Prozessor verbaut:
+  * Cycle Counter (zeigt die Takt-Durchläufe an)
+  * Frequency (Frequenz)
+  * Stop Watch (zeigt die Betriebszeit an)
 
 #### Technische Daten
 * 32kB Flash-Speicher

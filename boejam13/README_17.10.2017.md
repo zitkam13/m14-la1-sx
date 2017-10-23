@@ -42,5 +42,7 @@
    
    Der Stackpionter zeigt immer auf den nächsten freien platz im Stack, zeigt dieser auf den ersten Wert, ist der Stack leer in unserem Fall wäre das der Wert *08FF*. Zeigt der Stackpointer auf einen Wert der nicht mehr im Rahmen für den Stack liegt so spricht man von einem Stackoverflow.
    
-   ![Aufbau Stack ATmega328P](https://github.com/HTLMechatronics/m14-la1-sx/blob/boejam13/boejam13/StackSpeicher.png)
+   ![Aufbau Stack ATmega328P](https://github.com/HTLMechatronics/m14-la1-sx/blob/boejam13/boejam13/StackSpeicher.png)  
+   
+   
    

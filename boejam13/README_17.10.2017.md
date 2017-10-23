@@ -50,5 +50,10 @@
    
    Maschinenbefehl | Ausführung
    --------------- | ----------
-   
-   
+   RJMP | springt zu einem anders gelistetem Maschinenbefehl
+   CLR R1 | Das Register R1 wird mit sich selbst XOR verknüpft --> es wird mit Nullen überschrieben
+   OUT 0x3F, R1 | 0x3F --> Statusregister wird auf '0' gesetzt
+   SER R28 | setzt R28 auf 0xFF
+   CDI R29, 0x08 | *CDI --> lädt Konstante in Register 16-31* 0x08 wird in Register 29 geladen. Dadurch, dass R28 auf 0xFF und R29 auf    0x08 gesetzt wird, wird das Y-Register '0x08FF'
+   OUT 0x3E, R29 | 0x3E & 0x3D --> Stackpointer
+   OUT 0x3D, R29 | Stackpointer auf '08FF' gesetzt, das heist er ist leer (08FF ist der erste Stackspeicher). 

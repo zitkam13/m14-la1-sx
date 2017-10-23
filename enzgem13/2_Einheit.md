@@ -25,5 +25,15 @@ zu gewährleisten. In unserem Fall wählen wir den ATMEGA 328p.
 * Frequenz: 16 MHz
 * Flash-Speicher: 32 kb
 * RAM: 2kb static RAM
-* CPU: 32 Register (wobei jedes Register aus 8 Bit besteht)
+* CPU-Register: 32 Register (wobei jedes Register aus 8 Bit besteht)
 * EEPROM(Electrically Erasasable Programmable Read Only Memory): 1 kb
+  
+Aufbau der CPU:  
+  
+![CPU-Aufbau](https://github.com/HTLMechatronics/m14-la1-sx/blob/enzgem13/enzgem13/cpu_svg.svg)  
+  
+Nun kann man beginnen, ein Programm zu schreiben. Wir haben es fürs erste nur bei der main.c mit einem *return* befehl belassen.  
+  
+## Debugger
+
+Wenn man das Programm fertig übersetzt hat, hat man die Möglichkeit in den Debug-modus zu wechseln. Dort kann man nun in einem Fenster sehen, welche Werte bestimmte Teile der CPU (siehe Grafik) haben. So kann man nun den Wert des **Program Counter** (Speicheradresse des derzeitigen Befehls), dem **Stack Pointer** (zeigt auf die nächste Freie Adresse im Stack), den **X, Y, Z Registern** (Register R26, R27->x; R28, R29->y; R30, R31->z)

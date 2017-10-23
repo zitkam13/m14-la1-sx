@@ -23,13 +23,28 @@ Es ist auch eine Pro-Version verfügbar die es ermöglicht ein Privates Reposito
   * Index  
   * local Repository  
   * remote Repository  
+  
 ### Befehle
-    * git checkout (Dateien vom lokalen Repository zum Workspace befördern)
-    * git add (Datien vom Workspace zum Index befördern)
-    * git commit (Datien vom Index zum lokalen repository befördern)
-    * git push (Änderungen werden vom lokalen Repository zum Server befördert)
-    * git clone (gesamtes Repository wrid geklont)
-    * git pull (Änderungen werden vom Server geladen)
-    * git status (zeigt alle Änderungen)
+  * git checkout (Dateien vom lokalen Repository zum Workspace befördern)
+  * git add (Datien vom Workspace zum Index befördern)
+  * git commit (Datien vom Index zum lokalen repository befördern)
+  * git push (Änderungen werden vom lokalen Repository zum Server befördert)
+  * git clone (gesamtes Repository wrid geklont)
+  * git pull (Änderungen werden vom Server geladen)
+  * git status (zeigt alle Änderungen)  
+  
+  ## Markdown  
+   Markdown ist eine Möglichkeit um den Text auf git zu formatieren. 
+   
+  ### Befehle
+  * "#" Erste Überschrift; "##" Zweite Überschrift; "###" Dritte Überschrift  
+  * "*...* " Text ist kursiv  
+  * " * *...* * " Text ist fett  (Zwischen den Sternen keine Leerzeichen)
+  * " * " Es wird eine Liste erstellt  
+  * "[Name] (Link)" erstellt einen Link (Keine Leerzeichen zwischen den Klammern)
+  * "![Name] (url)": Bild wird eingefügt (Keine Leerzeichen zwischen den Klammern)  
+  
+  Es werden alle Funtionen unter folgendem Link nochmals genau erklärt: [Markdown](https://guides.github.com/features/mastering-markdown/)
+  
 
 

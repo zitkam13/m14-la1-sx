@@ -7,7 +7,7 @@
 * Abwesend: -
 
 ### Atmel Studio
-Das Atmel Studio ist eine kostenlose Entwicklungsumgebung für die die Programmierung der AVR-Mikrocontroller von Atmel.
+Das [Atmel Studio](http://www.atmel.com/microsite/atmel-studio/) ist eine kostenlose Entwicklungsumgebung für die die Programmierung der AVR-Mikrocontroller von Atmel.
 Sie basiert auf der Visual Studio Shell von Microsoft und ist deshalb nur auf Windows verfügbar. Sie besteht aus einer
 Projektverwaltung, einem Editor, einem Debugger und Werkzeugen zum Beschreiben der Mikrocontroller .Mit dem Atmel Studio
 kann in Assembler sowie C/C++ programmiert werden.
@@ -31,9 +31,9 @@ auch im Atmel Studio gewählt. Das Programm zeigt folgendes im Prozessormenü an
 
 #### XYZ-Register
 Mithilfe dieser Register kann man auch Werte, die größer als 255 Bit sind, speichern.
-X Register: R26 + R27
-Y Register: R28 + R29
-Z Register: R30 + R31
+* X Register: R26 + R27
+* Y Register: R28 + R29
+* Z Register: R30 + R31
 
 ### Stackspeicher
 Der Stapelspeicher wird vom Stackpointer nach unten hin begrenzt. Er arbeitet nach dem Speicherprinzip *First-in-First-out*. Daten

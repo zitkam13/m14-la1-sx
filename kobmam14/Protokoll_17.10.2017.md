@@ -26,4 +26,22 @@ FLASH und den Rest des Adressbereiches (Register, I/O) verwenden KANN,
 aber nicht muss)
 * **einem Status Register** (enthält eine Reihe von Flags, die von der arithmetisch-logischen Einheit (ALU) in Abhängigkeit von der zuletzt durchgeführten Rechenoperation gesetzt werden)
 * und arbeitet mit einer **Frequenz von 16 MHz** <br> <br>
-Er verfügt aber nicht über einen **Cycle Counter**
+Er verfügt aber nicht über einen **Cycle Counter** <br>
+
+Weiters besitzt er: <br>
+* einen 32 kb großen Flash-Speicher
+* eine 2 kb Static RAM
+* 32 Register
+* 1 kb EEPROM (Electrically Erasable Programmable Read-Only Memory)
+
+### Stackspeicher
+
+**Der Stackspeicher (Stapelspeicher) ist eine Datenstruktur, welche Elemente der Reihenfolge ihrer Speicherung nach aufnimmt und in umgekehrter Reihenfolge wieder ausgibt (Last-In-First-Out-Prinzip (LIFO)).**
+
+Er wird mit folgenden Operationen angesprochen:
+
+* **push** (legt ein Objekt oben auf den Stapel)
+* **pop** (liefert und entfernt das oberste Objekt vom Stapel)
+* **peek** (liefert das oberste Objelt vom Stapel, ohne es zu entfernen)
+
+Ein Stapelspeicher eignet sich gut zum Speichern von bestimmten Teilaufgeben, speziell wenn eine Aufgabe mehrfach von sich selbst aufgerufen werden kann. Stapelspeicherstrukturen werden daher von den meisten Mikroprozessoren hardwaremäßig unterstützt.

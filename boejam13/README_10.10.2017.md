@@ -12,4 +12,15 @@
 Branches sind Verzweigungen, diese werden verwendet da man ein Projekt immer *stabil* halten sollte, wenn jemand am Projekt arbeitet sollte immer die letzte Version am *master-branch* liegen, da man dann falls ein Fehler gemacht wird immer auf die letzte Version zugreifen kann.  
 
 ## Github
-Github ist ein Online-Dienst der auf Git basiert.  Github ist eine Open-Source Sofware, somit können alle User auf Öffentliche Repsitories zugreifen.  Es ist auch eine Pro-Version verfügbar die es ermöglicht ein Privates Repository zu erstellen, dies kostet jedoch einen bestimmten Betrag pro Monat.
+Github ist ein Online-Dienst der auf Git basiert.  
+Github ist eine Open-Source Sofware, somit können alle User auf Öffentliche Repsitories zugreifen.  
+Es ist auch eine Pro-Version verfügbar die es ermöglicht ein Privates Repository zu erstellen, dies kostet jedoch einen bestimmten Betrag pro Monat.  
+
+## Ebenen und Befehle für Git
+  Es sind fünf Ebenen vorhanden, zwischen diesen Ebenen wird mit Befehlen komuniziert.
+  *Stash
+  *Workspace
+  *Index
+  *local Repository
+  *remote Repository
+### Befehle

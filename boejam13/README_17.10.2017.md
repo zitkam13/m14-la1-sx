@@ -35,7 +35,12 @@
   ## Stack
   Stackdaten werden mit dem LIFO Verfahrenen gespeichert (Last in first Out), das heist die Daten werden zwar von unten nach oben angelegt jedoch werden sie von oben nach unten ausgelesen. Funktionen für den Stack:  
 - push: Legt die Datei in den Stack
-- pop: Oberstes objekt wird ausgelesen und aus dem Stack eintfernt  
+- pop: Oberstes Objekt wird ausgelesen und aus dem Stack entfernt  
 - peek: Oberstes Objekt wird ausgelesen wird aber nicht entfernt
    
+   ### Stackpointer
+   
+   Der Stackpionter zeigt immer auf den nächsten freien platz im Stack, zeigt dieser auf den ersten Wert, ist der Stack leer in unserem Fall wäre das der Wert *08FF*. Zeigt der Stackpointer auf einen Wert der nicht mehr im Rahmen für den Stack liegt so spricht man von einem Stackoverflow.
+   
+   ![Aufbau Stack ATmega328P](https://github.com/HTLMechatronics/m14-la1-sx/blob/boejam13/boejam13/StackSpeicher.png)
    

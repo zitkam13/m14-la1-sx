@@ -19,5 +19,11 @@
   * CPU-Register: 32 (zu je 8 Bit)  
   * 1 kb EEPROM (Electrically Erasable Programmable Read-Only Memory)
   
+  ### CPU-Register
+  Der ATmega328P verfügt über einen XYZ-Register:   
+  * X = 26&27   
+  * Y = 28&29   
+  * Z = 30/31  
+  
   ### CPU Aufbau
    Siehe FIVU-Biblithek: [FIVU-µC, CPU](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#188315330)

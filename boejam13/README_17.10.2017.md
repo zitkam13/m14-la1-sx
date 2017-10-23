@@ -44,5 +44,6 @@
    
    ![Aufbau Stack ATmega328P](https://github.com/HTLMechatronics/m14-la1-sx/blob/boejam13/boejam13/StackSpeicher.png)  
    
+   ## Übung
    
-   
+   Wir haben eine einfache main funktion erstellt die nur einen **return 0;** enthalten hat wir haben die wichtigsten Codes aus dem [Instruction Set Manual](http://www.atmel.com/images/Atmel-0856-AVR-Instruction-Set-Manual.pdf) herausgesucht. Die Wichtigsten Informationen folgen.   

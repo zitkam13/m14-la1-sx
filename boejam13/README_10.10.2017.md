@@ -18,10 +18,18 @@ Es ist auch eine Pro-Version verfügbar die es ermöglicht ein Privates Reposito
 
 ## Ebenen und Befehle für Git
   Es sind fünf Ebenen vorhanden, zwischen diesen Ebenen wird mit Befehlen komuniziert.  
-  *Stash  
-  *Workspace  
-  *Index  
-  *local Repository  
-  *remote Repository  
-### Befehle  
+  * Stash  
+  * Workspace  
+  * Index  
+  * local Repository  
+  * remote Repository  
+### Befehle
+    * git checkout (Dateien vom lokalen Repository zum Workspace befördern)
+    * git add (Datien vom Workspace zum Index befördern)
+    * git commit (Datien vom Index zum lokalen repository befördern)
+    * git push (Änderungen werden vom lokalen Repository zum Server befördert)
+    * git clone (gesamtes Repository wrid geklont)
+    * git pull (Änderungen werden vom Server geladen)
+    * git status (zeigt alle Änderungen)
+
 

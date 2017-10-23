@@ -51,7 +51,7 @@ werden immmer in die oberste Adresse geschrieben (PUSH) und schieben die bereits
 
 * Jeder Speicherplatz ist 2 Byte groß (in Hex)
 
-* Mit F10/F11 sind wir Befehl für Befehl durchgegangen:
+* Mit F10/F11 sind wir Befehl für Befehl durchgegangen [InstuctionSetManual.pdf](http://www.atmel.com/images/Atmel-0856-AVR-Instruction-Set-Manual.pdf):
   * RJMP PC+0x0034 (relativer Jump nach Speicherplatz 34)
   * CLR R1 (cleared Register R1: wendet EXOR zwischen R1 und R1 an (ergibt also 0, da die 2 Werte immer gleich sind --> ZeroFlag 1))
   * OUT 0x3F, R1 (Daten aus R1 werden ins I/O-Register 3F (SREG = Status Register) geschreiben --> ZeroFlag 0)

@@ -26,4 +26,7 @@
   * Z = 30/31  
   
   ### CPU Aufbau
-   Siehe FIVU-Biblithek: [FIVU-µC, CPU](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#188315330)
+ ![CPU-Aufbau](https://github.com/HTLMechatronics/m14-la1-sx/blob/boejam13/boejam13/CPU-Mikroprozessor.png)  
+   Für genauere Information siehe FIVU-Biblithek: [FIVU-µC, CPU](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#188315330)  
+   
+   

@@ -45,3 +45,17 @@ Er wird mit folgenden Operationen angesprochen:
 * **peek** (liefert das oberste Objelt vom Stapel, ohne es zu entfernen)
 
 Ein Stapelspeicher eignet sich gut zum Speichern von bestimmten Teilaufgeben, speziell wenn eine Aufgabe mehrfach von sich selbst aufgerufen werden kann. Stapelspeicherstrukturen werden daher von den meisten Mikroprozessoren hardwaremäßig unterstützt.
+
+### Befehle
+
+**In der Mikrocontrollerprogrammierung werden Befehle verwendet um bestimmte Aufgaben zu erfüllen.**
+
+Hier die in der Schule besprochenen Befehle:
+
+* RJMP (Relative Jump): Sprung zu einer Adresse (Kann nur einen bestimmten Offset überspringen, Benötigt 4 Byte)
+* JMP: Sprung zu einer Adresse (Benötigt 8 Byte)
+* CLR R1: Setzt Register 1 auf 0 (Entspricht Exor)
+* OUT 0x3F, R1: Überträgt die Daten von Register 1 in ein I/O Register (3F -> Status Register)
+* SER R28: Das Register R28 bekommt den Wert 0xFF
+* LDI R29, 0x08: Läd einen konstanten Wert in ein Register von 16-31 (R29 = 0x08)
+* OUT 0x3E, R29 & OUT 0x3D, R28: setzen den Stackpointer auf 08FF (08FF ist die erste Adresse des Stackspeichers -> Der Stack ist leer)

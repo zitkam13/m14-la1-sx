@@ -44,6 +44,7 @@ So haben wir z.B. einen Befehl der aus 2 Bytes besteht(hexadezimal angeschrieben
 33.c0->  
 -> 0011 0011 1100 0000 - zunächst müssen die beiden Bytes vertauscht werden...  
 -> 1100 0000 0011 0011 - nun im Instruction Set Manual den entsprechenden Befehl suchen...  
+-> 1100 kkkk kkkk kkkk - RJMP Befehl
 ```  
 Es handelt sich hierbei um einen *RJMP* Befehl -> führt einen Sprung zu einer Addresse durch (weitere Infos: [Instruction Set Manual](http://www.atmel.com/images/Atmel-0856-AVR-Instruction-Set-Manual.pdf))  
 Weitere Befehle:
@@ -51,5 +52,16 @@ Weitere Befehle:
 * *OUT* -> Ein bestimmtes Register wird einem Register in der CPU zugewiesen (z.B.: *SREG* - Status Register - I/O Register wird R1 zugewiesen)  
 * *SER* -> Set all Bits in Register ladet lediglich den Wert 0xFF in ein Register (Alle Bits werden gesetzt)  
 * *LDI* -> Load immediately lädt eine 8-Bit Konstante in ein Register (nur für R16 bis R31)  
+  
+Ein weiteres Register ist der *SP* Stackpointer - dieser zeigt auf ein Byte im Arbeitsstpeicher.  
+  
+## Stack
+
+Im Mikroprozessor befindet sich ein sogenannter Stack-Speicher, auch Stapelspeicher. Die Speicherung erfolgt in exakter Reihenfolge und wird in umgekehrter Reihenfolge wieder ausgegeben.  
+  
+Um mit dem Speicher zu kommunizieren werden folgende Operanden benötigt:
+* push (ein Objekt wird hinzugefügt)
+* pop (ein Objekt wird geliefert und entfernt)
+* peek (ein Objekt wird nur geliefert)  
 
 

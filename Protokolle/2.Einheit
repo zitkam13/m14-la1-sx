@@ -1,1 +1,8 @@
-2.Protokoll
+# 2.Protokoll
+## Thema: Atmel Studio
+
+Datum 17.10.2017
+Abwesend: Niemand
+
+AtmelStudio ist eine IDE für die Programmierung und Simulation dieser Programme der Atmel Microcontroller, womit man auch Einblicke in die Register der Microcontroller bekommt. 
+Es ist reinewegs nur auf Windows lauffähig, jedoch gibt es Alternativen, wie z.B.: [NetBeans](https://netbeans.org) oder Arduino.

@@ -34,6 +34,10 @@ Weiters besitzt er: <br>
 * 32 Register
 * 1 kb EEPROM (Electrically Erasable Programmable Read-Only Memory)
 
+### Aufbau einer CPU
+
+![CPU](/kobmam14/CPU.png)
+
 ### Stackspeicher
 
 **Der Stackspeicher (Stapelspeicher) ist eine Datenstruktur, welche Elemente der Reihenfolge ihrer Speicherung nach aufnimmt und in umgekehrter Reihenfolge wieder ausgibt (Last-In-First-Out-Prinzip (LIFO)).**
@@ -46,7 +50,7 @@ Er wird mit folgenden Operationen angesprochen:
 
 Ein Stapelspeicher eignet sich gut zum Speichern von bestimmten Teilaufgeben, speziell wenn eine Aufgabe mehrfach von sich selbst aufgerufen werden kann. Stapelspeicherstrukturen werden daher von den meisten Mikroprozessoren hardwaremäßig unterstützt.
 
-### Befehle
+### Maschinenbefehle
 
 **In der Mikrocontrollerprogrammierung werden Befehle verwendet um bestimmte Aufgaben zu erfüllen.**
 

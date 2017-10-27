@@ -7,4 +7,4 @@ Link zur [1. Einheit](https://github.com/HTLMechatronics/m14-la1-sx/blob/strsem1
 Link zur [2. Einheit](https://github.com/HTLMechatronics/m14-la1-sx/blob/strsem13/strsem13/strsem13_kw39.md)  
 
 ## 3. Einheit, 03.10.2017
-Link zur [3.Einheit](...)
+Link zur [3.Einheit](https://github.com/HTLMechatronics/m14-la1-sx/blob/strsem13/strsem13/strsem13_kw40.md)

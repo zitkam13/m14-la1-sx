@@ -51,8 +51,4 @@ um mit dem Speicher zu kommunizieren, benötigt man folgende Operanden:
 Der Stackpointer zeigt immer auf den nächsten freien Platz im Stack-Speicher. Das gefährliche an einem Stack ist der sogennante "**Stackoverflow**". **Stackoverflow** bedeutet, dass der Stack-Speicher voll ist, und wenn das passiert, ist es möglich bzw. sehr wahrscheinlich dass das System abstürtzt.  
 
 ### *Debugger*  
-
-
-
-
-
+Wenn man ein programm fertig übersetzt hatt, kann man in den Debug-Modus wechseln. dort kann man dann, bestimmte Werte der CPU sehen. jetzt kann man den Wert des **Program Counter** (Speicheradresse des derzeitigen Befehls), 

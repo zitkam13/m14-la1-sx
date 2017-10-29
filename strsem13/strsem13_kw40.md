@@ -51,4 +51,21 @@ um mit dem Speicher zu kommunizieren, benötigt man folgende Operanden:
 Der Stackpointer zeigt immer auf den nächsten freien Platz im Stack-Speicher. Das gefährliche an einem Stack ist der sogennante "**Stackoverflow**". **Stackoverflow** bedeutet, dass der Stack-Speicher voll ist, und wenn das passiert, ist es möglich bzw. sehr wahrscheinlich dass das System abstürtzt.  
 
 ### *Debugger*  
-Wenn man ein programm fertig übersetzt hatt, kann man in den Debug-Modus wechseln. dort kann man dann, bestimmte Werte der CPU sehen. jetzt kann man den Wert des **Program Counter** (Speicheradresse des derzeitigen Befehls), 
+Wenn man ein programm fertig übersetzt hatt, kann man in den Debug-Modus wechseln. dort kann man dann, bestimmte Werte der CPU sehen. jetzt kann man den Wert des **Program Counter** (Speicheradresse des derzeitigen Befehls), dem **Stack Pointer**, den **XYZ Registern** und dem **Status Register** (beinhaltet die Status-Flags) sehen. Weiters sieht man den **Cycle Counter**, dieser zeigt, wieviele Zyklen durchgelaufen wurden, um das Prgoramm auszuführen.  
+man kann uach sehen welche Register und Bits gesetzt wurden. Aus dieser Hilfe(und dem [Instruction Set Maanual](http://www.atmel.com/images/Atmel-0856-AVR-Instruction-Set-Manual.pdf)) kann man ermitteln welche Befehle ausgeführt werden.  
+
+Befehle über die wir uns informiert haben:
+* *RJUMP* -> führt einen Sprung zu einer Adresse durch.  
+* *CLR*   -> "Clear Register" Exklusive Oder Verknüpfung mit sich selbst.  
+* *OUT*   -> Ein bestimmtes Register wird einem Register der CPU zugewiesen.    
+* *SER*   -> Setzt alle Bits im Register.  
+* *LDI*   -> Lädt eine 8-Bit Konstante in ein Register.  
+* *RCALL* -> Stack Pointer wir um 2 reduziert; Adresse wird im Stack gespeichert.   
+* *RET*   -> Stack pointer wird um 2 erhöhrt; Adresse wird vom Stack geladen.  
+* *PUSH*  -> Speichert Register auf Stack.  
+* *POP*   -> Ladet Register vom Stack.  
+* *IN*    -> Ladet Daten vom I/O Register.  
+* *STD*   -> Speichert einzelne Bytes vom Register in ein Datenraum(z.B. Stack).  
+* *SUBI*  -> Subtrahiert ein Register mit einer Konstanten.  
+
+

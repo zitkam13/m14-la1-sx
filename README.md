@@ -7,3 +7,5 @@
 * 2. Einheit, 17.10.2017
   [Protokoll](https://github.com/HTLMechatronics/m14-la1-sx/blob/kobmam14/kobmam14/Protokoll_17.10.2017.md)
 
+* 3. Einheit, 24.10.2017
+  [Protokoll](https://github.com/HTLMechatronics/m14-la1-sx/blob/kobmam14/kobmam14/Protokoll_24.10.2017.md)

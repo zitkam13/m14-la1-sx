@@ -17,3 +17,13 @@ siehe [2. Protokoll](https://github.com/HTLMechatronics/m14-la1-sx/edit/kobmam14
 
 ### Fortsetzung mit Atmel Studio
 
+Wie begannen damit die folgende Funktion zu erstellen und zu analysieren. <br> <br>
+int main (void) <br>
+{ <br>
+   volatile unsigned char x; <br>
+   x = 12; <br>
+   return x; <br>
+} <br> <br>
+Es wurde eine Variable **"x"** mit dem Datentyp **"unsigned char"**, welche mit dem Schlüsselwort **"volatile"** versehen wurde, im Stackspeicher angelegt. <br>
+Daraufhin bekommt diese den Wert **12** zugewiesen. <br>
+Im Anschluss wird die Variable x, nach einem Typecast auf "int", zurückgegeben.

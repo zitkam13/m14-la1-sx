@@ -6,7 +6,7 @@
 * Anwesend: Berger Emil, Bullner Jeremy, Böcksteiner Jakob, Ehmann Julian, Enzi Gert, Kobor Markus, Knappitsch Robert
 * Abwesend: -
 ### Wiederholung
-Nachdem die Protokolle kontrolliert wurden, hat Herr Prof. Steiner jedem Schüler der Teilgruppe einige Fragen zum Stoff der vergangenen Stunden (siehe Protokoll [1](https://github.com/HTLMechatronics/m14-la1-sx/blob/knarom14/Protokolle/Protokoll_10-10-17.md)&[2](https://github.com/HTLMechatronics/m14-la1-sx/blob/knarom14/Protokolle/Protokoll_17-10-17.md)) gestellt. Die Note setzte sich dann aus Protokoll und Stundenwiederholung zusammen.
+Nachdem die Protokolle kontrolliert wurden, hat Herr Prof. Steiner jedem Schüler der Teilgruppe einige Fragen zum Stoff der vergangenen Stunden (siehe [Protokoll 1](https://github.com/HTLMechatronics/m14-la1-sx/blob/knarom14/Protokolle/Protokoll_10-10-17.md) & [Protokoll 2](https://github.com/HTLMechatronics/m14-la1-sx/blob/knarom14/Protokolle/Protokoll_17-10-17.md)) gestellt. Die Note setzte sich dann aus Protokoll und Stundenwiederholung zusammen.
 
 ### Heartbleed-Bug
 Der Heartbleed-Bug ist ein schwerwiegender Programmfehler in OpenSSL. Gelöschte Daten (private Schlüssel) werden nicht direkt vom Speicher entfernt. Sie bleiben solange erhalten, bis sie von neuen Daten überschrieben werden. Hacker konnten diesen Bug ausnutzen, indem sie Anfragen an den Server schickten, bei denen sie sich mit zusätzlichen Befehlen deutlich mehr Daten schicken ließen. So wurden auch die "gelöschten" privaten Schlüssel freigegeben. Der Bug wurde allerdings behoben bevor Hacker großen Schaden anrichten konnten.
@@ -14,12 +14,13 @@ Der Heartbleed-Bug ist ein schwerwiegender Programmfehler in OpenSSL. Gelöschte
 ### Praktische Übung
 <pre><code>int main (void)
 {
-unsigned char x;
+volatile unsigned char x;
 x = 12;
 return 0;
 } </code></pre>
 
 #### Disassembly
+Der Compiler deklariert die Variable x und weißt ihr den Wert 12 zu. 
 <pre><code>PUSH R28     --> legt R28 auf dem Stack ab
 PUSH R29   --> legt R29 auf dem Stack ab 
 PUSH R1   --> legt R1 am Stack ab
@@ -31,4 +32,20 @@ LDD R24, Y+1
 LDI R25, 0x00   --> setzt R25 auf 0
 POP R0  --> entfernt R0 vom Stack, um um an R29/R28 heranzukommen
 POP R29
-POP R28   --> stellt R28 und R29 wieder her, da er diese Register nicht verändern darf
+POP R28   --> stellt R28 und R29 wieder her, da er diese Register nicht verändern darf</code></pre>
+
+#### Volatile
+Dieses Keyword hindert den Compiler daran, den Code zu optimieren und damit, aus seiner Sicht nicht gebrauchte Teile, wegzulassen. Im Unterricht benötigten wir dieses Keyword, um uns im Disassembly den gesamten Vorgang ansehen zu können.
+
+#### Rechenoperationen
+
+##### Addition, Subtraktion, Multiplikation
+Für diese Rechenoperationen hat der AT328P eigene Befehle/Tabellen und kann sie daher schnell ausführen
+##### Division
+Für eine Division braucht der Prozessor deutlich länger, da er keine Tabellen dfür hat.
+
+#### Rechnen mit größeren Datentypen
+Werden immer größere Datentypen bei Rechenoperationen verwendet braucht der Prozessor unverhältnismäßig viel länger, da er viele Register hizuziehen muss und daher viel mehr Befehle braucht.
+
+
+

@@ -4,3 +4,5 @@
 [1.Protokoll](https://github.com/HTLMechatronics/m14-la1-sx/blob/buljem14/Protokolle/1.Einheit)
 * Gruppe 1: 2. Einheit, 17.10.2017
 [2.Protokoll](https://github.com/HTLMechatronics/m14-la1-sx/blob/buljem14/Protokolle/2.Einheit.md)
+* Gruppe 1: 3. Einheit, 24.10.2017
+[3.Protokoll](https://github.com/HTLMechatronics/m14-la1-sx/blob/buljem14/Protokolle/3.Einheit.md)

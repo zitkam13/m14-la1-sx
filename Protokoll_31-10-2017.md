@@ -45,11 +45,10 @@ Markdown ist ein Textdateisystem welches oft im Internet gebrauch findet (HTML-W
 **Syntax:** 
 * **Fett:**  `**(text)**`
 * *Kursiv:*  `*(text)*`
-
-
-
-
-
-
-
+* Überschriften: `# 1. Überschrift, ## 2. Überschrift, ...`
+* Bilder: `![Bildbezeichnung](Dateipfad)`
+* Reihung mit Ordnung: `1. Erstens, 1. Zweitens, 1. Drittens, ...`
+* Reihung ohne Ordnung: `* Ersents, * Zweitens, * Drittens, ...`
+* Links: `[Name](Addresse)`
+* Code: ``(text)``
 

@@ -40,11 +40,11 @@ Nach dem Übersetzen des Programms kann man in den Debug-Modus wechsekn und in b
 **Einige Maschinenbefehle**  
 Maschinenbefehl | Ausführung  
 ----------------|----------  
-RJUMP|führt einen Sprung zu einer beliebigen Adresse durch     
-SER|Setzt alle Bits im Register    
-RCALL|Stack Pointer wird um 2 reduziert, Adresse wird im Stack gespeichert    
-OUT|Ein bestimmtes Register wird einem Register der CPU zugewiesen   
-LDI|Lädt eine 8 Bit Konstante in ein Register  
-RET|Stack Pointer wird um 2 erhöht, Adresse wird vom Stack geladen  
-STD|Speichert einzelne Bytes vom Register in einem Datenraum (z.B. STack)  
-IN|Ladet Daten vo I/O Register  
+RJUMP | führt einen Sprung zu einer beliebigen Adresse durch     
+SER | Setzt alle Bits im Register    
+RCALL | Stack Pointer wird um 2 reduziert, Adresse wird im Stack gespeichert    
+OUT | Ein bestimmtes Register wird einem Register der CPU zugewiesen   
+LDI | Lädt eine 8 Bit Konstante in ein Register  
+RET | Stack Pointer wird um 2 erhöht, Adresse wird vom Stack geladen  
+STD | Speichert einzelne Bytes vom Register in einem Datenraum (z.B. STack)  
+IN | Ladet Daten vo I/O Register  

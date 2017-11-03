@@ -14,7 +14,7 @@ Abwesend:  <br>
 Versionsverwaltungsprogramme werden verwendet um Änderungen an Dateien "rückverfolgen" zu können, zeitlicher Verlauf wird abgespeichert.
 Es wird vor allem in Arbeitsgruppen zum austausch von Dateien verwendet. 
 <br>
-**Versionsverwaltungsprogramme**
+**Versionsverwaltungsprogramme:**
   * Git
   * SVN (Subversion)
   * CVS
@@ -31,7 +31,11 @@ Es wird vor allem in Arbeitsgruppen zum austausch von Dateien verwendet.
                                                         
 ### GitHub
 GitHub ist ein **Onlien-Dienst** basierend auf dem Versionsverwaltungssystem **Git**.
-
+**Eigenschaften:** 
+* dieser *Dienst* ist für jeden zugänglich 
+* alle Daten sind öffentlich
+* Öffentliche Repositories sind kostenlos
+* Private Repositories sind kostenpflichtig
 
 
 

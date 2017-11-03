@@ -26,4 +26,10 @@ In der Schule verwenden wir den Mirkrocontroler ATmega328p. Da es diesen bei Atm
 Für die Speicherung eines Wertes über 255, git es beim ATmega328p die **XYZ-Register**. Diese setzten sich zusammen aus:  
 * X :arrow_right: 26 und 27  
 * Y :arrow_right: 28 und 29  
-* Z :arrow_right: 30 und 31
+* Z :arrow_right: 30 und 31  
+
+## Atmel Studio  
+
+Atmel Studio (zuerst AVR-Studio) ist eine Open-Source Software und dient zur Programmierung von AVR-Mikroprozessoren. Das Programm basiert auf der Visual Studio Shell von Microsoft und besteht aus einem Editor, einem Debugger und Werkzeugen für das Beschreiben eines Mikroprozessors.   
+
+Mit Atmel Studio kann man in Assembler, C und C++ programmieren. Atmel Studio ermäglicht eine Simulation auf einem Atmel-Mikrokontroller. Man erhält auch eine detallierte Information über die Maschinenbefehle, die aus dem programmierten Quellcode kompiliert wurden. Man hat auch einen Einblick in die Register des Controllers.  

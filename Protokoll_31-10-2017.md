@@ -14,7 +14,8 @@ Abwesend:  <br>
 Versionsverwaltungsprogramme werden verwendet um Änderungen an Dateien "rückverfolgen" zu können, zeitlicher Verlauf wird abgespeichert.
 Es wird vor allem in Arbeitsgruppen zum austausch von Dateien verwendet. 
 <br>
-**Versionsverwaltungsprogramme:**  * Git
+**Versionsverwaltungsprogramme:**  
+                                   * Git
                                    * SVN (Subversion)
                                    * Mercury
                                    * ... <br>

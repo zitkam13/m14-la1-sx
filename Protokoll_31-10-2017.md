@@ -15,10 +15,10 @@ Versionsverwaltungsprogramme werden verwendet um Änderungen an Dateien "rückve
 Es wird vor allem in Arbeitsgruppen zum austausch von Dateien verwendet. 
 <br>
 **Versionsverwaltungsprogramme:**  
-                                   * Git
-                                   * SVN (Subversion)
-                                   * Mercury
-                                   * ... <br>
+* Git
+* SVN (Subversion)
+* Mercury
+* ... <br>
 
 ### Git
 **Linus Torvalds** entwickelte 2005 die **OpenSource-Software** Git, diese Software dient zur **Versionsverwaltung** von Dateien. <br>
@@ -35,6 +35,7 @@ GitHub ist ein **Onlien-Dienst** basierend auf dem Versionsverwaltungssystem **G
 * Öffentliche Repositories sind kostenlos
 * Private Repositories sind kostenpflichtig
 
-
+### Aufbau von Git/GitHub
+Git/GitHub ist in mehreren Ebenen Aufgeteilt, zwischen diesen Ebenen wird mittels Befehlen kommuniziert.
 
 

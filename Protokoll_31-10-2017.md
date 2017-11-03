@@ -7,6 +7,6 @@ Datum der Einheit: 31.10.2017 <br>
 Anwesend:  <br>
 Abwesend:  <br>
 
-
 ## 1. Einheit
 ### Thema: Versionsverwaltung
+

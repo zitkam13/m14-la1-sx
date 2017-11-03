@@ -39,7 +39,7 @@ Nach dem Übersetzen des Programms kann man in den Debug-Modus wechsekn und in b
 
 **Einige Maschinenbefehle**  
 Maschinenbefehl | Ausführung  
-----------------|----------  
+---------------- | ----------  
 RJUMP | führt einen Sprung zu einer beliebigen Adresse durch     
 SER | Setzt alle Bits im Register    
 RCALL | Stack Pointer wird um 2 reduziert, Adresse wird im Stack gespeichert    

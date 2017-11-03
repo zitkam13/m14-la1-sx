@@ -11,7 +11,7 @@ Abwesend:  <br>
 ## Thema: Versionsverwaltung
 
 ### Versionsverwaltungen
-Versionsverwaltungsprogramme werden verwendet um Änderungen an Dateien "rückverfolgen" zu können, zeitlicher Verlauf wird abgespeichert. <br>
+Versionsverwaltungsprogramme werden verwendet um Änderungen an Dateien "rückverfolgen" zu können, zeitlicher Verlauf wird abgespeichert. <br> <br>
 **Versionsverwaltungsprogramme**
 * Git
 * SVN (Subversion)

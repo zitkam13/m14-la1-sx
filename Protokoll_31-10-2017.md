@@ -20,11 +20,7 @@ Es wird vor allem in Arbeitsgruppen zum austausch von Dateien verwendet.
   * CVS
   * ClearCase
   * Mercury
-  * ... <br> <br>
-
-### Git/GitHub
-Git ist eine **OpenSource-Software** weclche von Linus Torvalds entwickelt wurde, sie dient zur **Versionsverwaltung** von Dateien. <br>
-**Unterschiede zu typischen Versionsverwaltungen:** * Dateien können auf den Rechner heruntergeladen werden um auch offline die Änderungen vornehmen zu können.
+  * ... <br>
 
 ### Git
 **Linus Torvalds** entwickelte 2005 die **OpenSource-Software** Git, diese Software dient zur **Versionsverwaltung** von Dateien. <br>

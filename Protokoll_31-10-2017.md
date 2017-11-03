@@ -43,8 +43,8 @@ Quelle: [Git-Protokoll SX](https://www.htl-mechatronik.at/e-books/sx/html/git/gi
 ### Markdown
 Markdown ist ein Textdateisystem welches oft im Internet gebrauch findet (HTML-Webpages), es dient zu einfachen Formatieurung von Texten.
 **Syntax:** 
-* **Fett:** > **(text)**
-* *Kursiv:* > *(text)*
+* **Fett:**  `<**(text)**>`
+* *Kursiv:*  *(text)*
 
 
 

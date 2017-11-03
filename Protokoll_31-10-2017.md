@@ -15,13 +15,16 @@ Versionsverwaltungsprogramme werden verwendet um Änderungen an Dateien "rückve
 Es wird vor allem in Arbeitsgruppen zum austausch von Dateien verwendet. 
 <br>
 **Versionsverwaltungsprogramme**
-* Git
-* SVN (Subversion)
-* CVS
-* ClearCase
-* Mercury
-* ... <br> <br>
+  * Git
+  * SVN (Subversion)
+  * CVS
+  * ClearCase
+  * Mercury
+  * ... <br> <br>
 
 ### Git/GitHub
-Git ist eine **OpenSource-Software** weclche von Linus Torvalds entwickelt wurde, sie dient zur **Versionsverwaltung** von Dateien.
+Git ist eine **OpenSource-Software** weclche von Linus Torvalds entwickelt wurde, sie dient zur **Versionsverwaltung** von Dateien. <br>
+**Unterschiede zu typischen Versionsverwaltungen:*
+  * Dateien können auf den Rechner heruntergeladen werden um auch offline die Änderungen vornehmen zu können.
 
+### Git

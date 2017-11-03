@@ -38,14 +38,13 @@ Mit Atmel Studio kann man in Assembler, C und C++ programmieren. Atmel Studio er
 Nach dem Übersetzen des Programms kann man in den Debug-Modus wechsekn und in bestimmte Werte der CPU einsehen.(zum Beispiel: **Program Counter**, **Stack Pointer**, **Status Register**, **XYZ Register** und **Cycle Counter**) Der **Cycle Counter** zeigt die gebrauchten Zyklen zur Durchführung des Programs an.   
 
 **Einige Maschinenbefehle**  
-|Maschinenbefehl | Ausführung                                                          |
-|----------------|---------------------------------------------------------------------|  
-| RJUMP          |führt einen Sprung zu einer beliebigen Adresse durch                 |  
-| CLR            |"Clear Regiser", Exklusive Oder Verknüpfung                          |  
-| SER            |Setzt alle Bits im Register                                          |  
-| RCALL          |Stack Pointer wird um 2 reduziert, Adresse wird im Stack gespeichert |  
-| OUT            |Ein bestimmtes Register wird einem Register der CPU zugewiesen       |  
-| LDI            |Lädt eine 8 Bit Konstante in ein Register                            |  
-| RET            |Stack Pointer wird um 2 erhöht, Adresse wird vom Stack geladen       |  
-| STD            |Speichert einzelne Bytes vom Register in einem Datenraum (z.B. STack)|  
-| IN             |Ladet Daten vo I/O Register                                          |
+|Maschinenbefehl | Ausführung 
+|----------------|----------  
+|RJUMP|führt einen Sprung zu einer beliebigen Adresse durch     
+|SER|Setzt alle Bits im Register    
+|RCALL|Stack Pointer wird um 2 reduziert, Adresse wird im Stack gespeichert    
+|OUT|Ein bestimmtes Register wird einem Register der CPU zugewiesen   
+|LDI|Lädt eine 8 Bit Konstante in ein Register  
+|RET|Stack Pointer wird um 2 erhöht, Adresse wird vom Stack geladen  
+|STD|Speichert einzelne Bytes vom Register in einem Datenraum (z.B. STack)  
+|IN|Ladet Daten vo I/O Register  

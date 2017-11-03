@@ -10,4 +10,5 @@ Abwesend:  <br>
 ## 1. Einheit
 ## Thema: Versionsverwaltung
 
-### **GIT-GITHUB**
+### Versionsverwaltungen
+Versionsverwaltungsprogramme werden verwendet um Änderungen an Dateien "rückverfolgen" zu können.

@@ -38,5 +38,18 @@ GitHub ist ein **Onlien-Dienst** basierend auf dem Versionsverwaltungssystem **G
 ### Aufbau von Git/GitHub
 Git/GitHub ist in mehreren Ebenen Aufgeteilt, zwischen diesen Ebenen wird mittels Befehlen kommuniziert.
 ![Git-Commands](/git_data_transport_commands.png)
-Quelle: ![Git-Protokoll SX](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html#(1))
+Quelle: [Git-Protokoll SX](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html#(1))
+
+### Markdown
+Markdown ist ein Textdateisystem welches oft im Internet gebrauch findet (HTML-Webpages), es dient zu einfachen Formatieurung von Texten.
+**Syntax:** 
+* **Fett:** '<**(text)**>'
+* *Kursiv:* '<*(text)*>'
+
+
+
+
+
+
+
 

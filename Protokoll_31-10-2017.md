@@ -28,9 +28,10 @@ Git ist eine **OpenSource-Software** weclche von Linus Torvalds entwickelt wurde
 
 ### Git
 **Linus Torvalds** entwickelte 2005 die **OpenSource-Software** Git, diese Software dient zur **Versionsverwaltung** von Dateien. <br>
-**Unterscheide zu herkömmlichen Versionsverwaltungen:** * Versionsverwaltung kann auch offline genutzt werden
-                                                        * Repositories werden auf dem Rechner gespeichert
-                                                        * Lokale Repositories werden (sobald Verbindung besteht) mit einem zentralem Repository abgeglichen
+**Unterscheide zu herkömmlichen Versionsverwaltungen:** 
+* Versionsverwaltung kann auch offline genutzt werden
+* Repositories werden auf dem Rechner gespeichert
+* Lokale Repositories werden (sobald Verbindung besteht) mit einem zentralem Repository abgeglichen <br>
                                                         
 ### GitHub
 GitHub ist ein **Onlien-Dienst** basierend auf dem Versionsverwaltungssystem **Git**.

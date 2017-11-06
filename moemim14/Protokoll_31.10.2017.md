@@ -20,3 +20,4 @@ Unterschiede zu anderen Versionsverwaltungen:
   * Jeder benutzer hat eine lokale Kopie des gesamten Repositories (local repository)
   * Es wird kein Internetzugriff erfordert (man kann also überall darauf zugreifen und damit arbeiten)
   * Synchronisation über das Internet möglich
+  * Sollten zwei Personen gleichzeitig eine Änderung an der selben Datei durchführen und synchronisieren, werden beide Dateien hochgeladen und es entsteht ein Konflikt der gelöst werden muss

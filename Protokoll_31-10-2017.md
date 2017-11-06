@@ -43,7 +43,7 @@ Quelle: [Git-Protokoll SX](https://www.htl-mechatronik.at/e-books/sx/html/git/gi
 ### Git-Repository mit SSH-Key
 Bei einer Übeung haben wir, um das Arbeiten mit GitHub zu erleichtern, einen SSH-*Verbigung* angelegt. Dies geschah wie folgt: <br>
 1. SSH-Schlüsselpaar am PC anlegen mit `ssh-keygen`
-1. nun wird der Public-Key auf github.com unter *Settings* *SSH and GPG keys* eingefügt. [Hilfe](https://help.github.com/articles/connecting-to-github-with-ssh/)
+1. nun wird der Public-Key auf github.com unter *Settings* *SSH and GPG keys* eingefügt. [Hilfe](https://help.github.com/articles/connecting-to-github-with-ssh/) <br>
 Nun muss man nicht bei jedem Zugriff auf das Repository sich mit seinem Benutzname und Passwort anmelden, dies erledigt der SSH-Key.
 
 ### Markdown

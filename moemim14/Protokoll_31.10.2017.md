@@ -43,6 +43,22 @@ Andere Versionsverwaltungen: SVM, CVS, Mercury und Clearcase
 
 Mithilfe von Befehlen wird zwischen den Ebenen kommuniziert.
 
+**Befehle in Git:**
+* git checkout
+	* Dateien werden vom lokalen Repository in den Workspace befördert
+* git add
+	* Dateien werden vom Workspace in den Index befördert
+* git commit
+	* Dateien werden vom Index in das lokales repository befördert
+* git push
+	* Änderungen im lokalen Repository werden auf den Git-Server geladen
+* git clone
+	* Ein gesamtes Repository wird geklont
+* git pull
+	* Änderungen werden vom Server geladen
+* git status
+	* zeigt alle Änderungen im repository
+
 ## SSH Git-Repository
 
 ### Konfigurieren von Github 

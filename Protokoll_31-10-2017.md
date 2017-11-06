@@ -57,6 +57,3 @@ Markdown ist ein Textdateisystem welches oft im Internet gebrauch findet (HTML-W
 * Reihung ohne Ordnung: `* Ersents, * Zweitens, * Drittens, ...`
 * Links: `[Name](Addresse)`
 * ...
-<br>
-Quelle: [Markdown](https://www.guides.github.com/features/mastering-markdown/)
-

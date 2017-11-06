@@ -80,8 +80,8 @@ Den Umgang mit Markdown kann man [hier](https://guides.github.com/features/maste
 ## SSH Git-Repository
 
 ### Konfigurieren von Github 
-1. SSH-Schlüsselpaar erzeugen und public-key unter settings - SSH and GPG Keys einfügen
-*das erzeugen des SSH-Schlüsselpaars kann [hier](https://help.github.com/articles/connecting-to-github-with-ssh/) genauer nachgelesen werden.
+1. SSH-Schlüsselpaar erzeugen und public-key unter settings - SSH and GPG Keys einfügen  
+das erzeugen des SSH-Schlüsselpaars kann [hier](https://help.github.com/articles/connecting-to-github-with-ssh/) genauer nachgelesen werden.
 
 2. SSH-Config konfigurieren zur Verbindung mit Github
 

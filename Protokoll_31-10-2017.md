@@ -47,7 +47,7 @@ Bei einer Übeung haben wir, um das Arbeiten mit GitHub zu erleichtern, einen SS
 Nun muss man sich nicht mehr bei jedem Zugriff auf das Repository mit seinem Benutzname und Passwort anmelden, dies erledigt der SSH-Key.
 
 ### Markdown
-Markdown ist ein Textdateisystem welches oft im Internet gebrauch findet (HTML-Webpages), es dient zu einfachen Formatieurung von Texten.
+Markdown ist ein Textdateisystem welches oft im Internet gebrauch findet (HTML-Webpages), es dient zu einfachen Formatieurung von Texten. <br>
 **Syntax:** 
 * **Fett:**  `**(text)**`
 * *Kursiv:*  `*(text)*`
@@ -57,3 +57,5 @@ Markdown ist ein Textdateisystem welches oft im Internet gebrauch findet (HTML-W
 * Reihung ohne Ordnung: `* Ersents, * Zweitens, * Drittens, ...`
 * Links: `[Name](Addresse)`
 * ...
+<br>
+Quelle:[GitHub-Markdown](https://guides.github.com/features/mastering-markdown/)

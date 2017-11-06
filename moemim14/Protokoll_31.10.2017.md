@@ -9,9 +9,8 @@ Gruppe: 2
 Anwesend: Nebel Florian, Mandl Gerhard, Michael Mörth, Moritz Martinak, Mario Nabernik, Muri Lorenz, Platzer Andreas, Marcel Köhler    
 Abwesend: -
 
-## Was ist Git? Was ist Github?
-**Git ist eine freie Software, welche zur Verwaltung von Dateien genützt wird.
-Der Sinn von Git ist es, eine Arbeit im Team zu ermöglichen.**
+## Was ist Git?
+**Git ist eine freie Software, welche zur Verwaltung von Dateien genützt wird.**
 
 Unterschiede zu anderen Versionsverwaltungen:
 * Das Erstellen von den Programmen ist meist nicht linear. 
@@ -22,8 +21,29 @@ Unterschiede zu anderen Versionsverwaltungen:
   * Synchronisation über das Internet möglich
   * Sollten zwei Personen gleichzeitig eine Änderung an der selben Datei durchführen und synchronisieren, werden beide Dateien hochgeladen und es entsteht ein Konflikt der gelöst werden muss
 
+## Was ist Github
+Github basiert auf der freien Software Git. Dadurch ist es möglich, dass alle Nutzer von Github einen Lesezugriff, jedoch keinen Schreibzugriff auf alle Repositorys haben, solange diese nicht privat sind. Private Repositorys können mit Geld erworben werden.
 
-## 5.SSH Git-Repository
+**Der Sinn von Github ist es, Daten versionsverwaltet zu speichern. Github und andere Versionsverwaltungen eignen sich besonders bei Projekten an denen mehrere Personen arbeiten, da die Verwaltung immer protokolliert, wer wann und was geändert hat. Außerdem ist das Wiederherstellen von alten Version auch jederzeit möglich.**
+
+Andere Versionsverwaltungen: SVM, CVS, Mercury und Clearcase
+
+## Ebenen und Befehle mit Git
+
+**Git wird in fünf Ebenen unterteilt:**
+* Stash (Zwischenspeicher)
+* Workspace (Arbeitskopie) 
+	* hier werden Änderungen vorgenommen 
+* index (staging area)
+	* hier sind Dateien welche im nächsten commit enthalten sind
+* local repository
+	* Lokales Repository im Verzeichnis .git
+* remote repository
+	* Repository auf einem Git-Server
+
+Mithilfe von Befehlen wird zwischen den Ebenen kommuniziert.
+
+## SSH Git-Repository
 
 ### Konfigurieren von Github 
 1. SSH-Schlüsselpaar erzeugen und public-key unter settings - SSH and GPG Keys einfügen

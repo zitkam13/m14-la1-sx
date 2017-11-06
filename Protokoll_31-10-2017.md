@@ -58,6 +58,5 @@ Markdown ist ein Textdateisystem welches oft im Internet gebrauch findet (HTML-W
 * Links: `[Name](Addresse)`
 * ...
 <br>
-Quelle: [Markdown](https://guides.github.com/features/mastering-markdown/)
-[Git-Protokoll SX](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html#(1))
+Quelle: [Git-Protokoll SX](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html#(1))
 

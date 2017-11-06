@@ -59,6 +59,24 @@ Mithilfe von Befehlen wird zwischen den Ebenen kommuniziert.
 * git status
 	* zeigt alle Änderungen im repository
 
+## Branches
+
+Branches werden auch Verzweigungen genannt. Sinn und Zweck eines Branches ist es, Funktionen getrennt voneinander zu entwickeln. Bei dem Erstellen eines neues Repositorys wird der sogenannte **Master Branch** erstellt. Im Master Branch sollten immer nur funktionsfähige Programme gespeichert werden, da es ansonsten zu Problemen bei der Zusammenarbeit kommen könnte.  
+Um trotzdem eine Zusammenarbeit ermöglichen zu können, git es sogenannte Nebenzweige, welche dazu verwendet werden, unfertige und nicht funktionierende Funktionen zu verwalten. Nach der Fertigstellung eines Programmes kann dieses in den Master-Branch geschoben werden.
+
+## Issues
+
+**Issues sind Feedbacks von anderen Git-Nutzern. Dadurch können Erweiterungen sowie Fehler für ein Projekt leichter vefolgt werden.**
+Issues können mit dem gesamten Team geteilt werden. Natürlich können diese Issues auch diskutiert werden. Desweiteren ist es möglich, dass wenn ein Issue verfasst wurde, der Ersteller des Projektes über eine E-Mail informiert wird.
+
+Den Umgang mit Issues kann man [hier](https://guides.github.com/features/issues/) genauer nachlesen.
+
+## Markdown
+
+**Markdown ist eine Möglichkeit, eine Text-Datei in eine HTML-Datei umzuwandeln. Markdown wird z.B. von GitHub verwendet.**
+
+Den Umgang mit Markdown kann man [hier](https://guides.github.com/features/mastering-markdown/) nachlesen.
+
 ## SSH Git-Repository
 
 ### Konfigurieren von Github 

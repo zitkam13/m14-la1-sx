@@ -31,32 +31,32 @@ weiters gibt es noch 2 Ebenen:
 #### Terminal History der letzten Einheit + Erklärung:
 
   122  cd la1  
-  123  git clone https://github.com/****/labor.git        _auschecken/kopiren des zentralen Repositories/es besteht nun aus workspace, index und local repository_  
+  123  git clone https://github.com/****/labor.git        __auschecken/kopiren des zentralen Repositories/es besteht nun aus workspace, index und local repository__  
   124  ll  
   125  cd labor/  
   126  ll  
-  127  git status                                             _Änderungen im Repository_ 
-  128  git checkout stunde4                                   _wir wechseln in den genannten Branch_  
+  127  git status                                             __Änderungen im Repository__ 
+  128  git checkout stunde4                                   __wir wechseln in den genannten Branch__  
   129  git status  
   130  ll  
   131  nano main.c  
   132  gir status  
   133  git status                                               
-  134  git add main.c                                         _auf commit vorbereiten_  
+  134  git add main.c                                         __auf commit vorbereiten__  
   135  git status  
-  136  git commit -m "Testcommit"                             _wir führen den commit aus, verschieben es damit vom index in das local repository und schreiben ein Bermerkung bei_  
+  136  git commit -m "Testcommit"                             __wir führen den commit aus, verschieben es damit vom index in das local repository und schreiben ein Bermerkung bei__  
   137  git config --global  user.email ""  
   138  git config --global  user.name ""  
   139  git commit -m "Testcommit"  
   140  nano ~/.gitconfig   
-  141  git push                                               _wir bringen unsere Änderung in das entfernte Repository/nun können andere Mitarbeiter auch auf diese zugreifen_  
+  141  git push                                               __wir bringen unsere Änderung in das entfernte Repository/nun können andere Mitarbeiter auch auf diese zugreifen__  
   142  cd ~/.ssh  
   143  ssh -keygen  
   144  ssh keygen  
-  145  ssh-keygen                                             _wir generieren ein Schlüsselpaar_  
+  145  ssh-keygen                                             __wir generieren ein Schlüsselpaar__  
   146  cd ~/.ssh  
   147  ll  
-  148  cat id_rsa.pub                                         _wir sehen nun unseren öffentlichen Schlüssel, den wir für die Konfiguration der Verschlüsselung unseres Gits benötigen_  
+  148  cat id_rsa.pub                                         __wir sehen nun unseren öffentlichen Schlüssel, den wir für die Konfiguration der Verschlüsselung unseres Gits benötigen__  
   149  exit  
   150  cd la1  
   151  sudo rm -r labor  
@@ -73,7 +73,7 @@ weiters gibt es noch 2 Ebenen:
   162  git status  
   163  git checkout master  
   164  git status   
-  165  git merge stunde4                                    _Änderung des aktuellen Branch werden mit dem master branch zusammengeführt_  
+  165  git merge stunde4                                    __Änderung des aktuellen Branch werden mit dem master branch zusammengeführt__  
   166  git push  
   167  exit  
   

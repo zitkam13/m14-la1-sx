@@ -18,7 +18,7 @@ Abwesend: ---
 
 **GitHub bezeichnet eine auf Git basierende Software, welches als OpenSource-Projekt gehandhabt wird und dadurch jedem ermöglicht jedes Ropository einzusehen.**
 * Man kann dem Verfasser eines Repositorys Vorschläge (Issues) zu seinem Projekt machen, oder dessen Arbeit übernehmen und selbst weiterführen.
-* Um Repositorys nur für sich selbst zu nutzen, kann man eine kostenpflichtige Version erwerben.
+* Um Repositorys nur für sich selbst zu nutzen, kann man eine kostenpflichtige Version erwerben.  
 **GitHub ermöglicht Projekte im Team einfach abzuwickeln, da jederzeit von jedem nachvollzogen werden kann, wer, was, wann verändert hat und das Wiederherstellen von alten Versionen jederzeit möglich ist.**
 
 ## Verwaltungsebenen:

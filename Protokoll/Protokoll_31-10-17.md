@@ -35,8 +35,8 @@ weiters gibt es noch 2 Ebenen:
   124  ll  
   125  cd labor/  
   126  ll  
-  127  git status                                             __Änderungen im Repository__ 
-  128  git checkout stunde4                                   __wir wechseln in den genannten Branch__  
+  127  git status                                             __Änderungen im Repository__  
+  128  git checkout stunde4                                   __wir wechseln in den genannten Branch__    
   129  git status  
   130  ll  
   131  nano main.c  

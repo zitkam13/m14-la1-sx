@@ -13,8 +13,8 @@ Abwesend: ---
 **Git ist eine Software zur versionsverwaltenden Dateiablage, welche kostenlos zur Verfügung gestellt wird.**
 
 **Entscheidende Merkmale dieses Systems sind:**
-*Es kann an verschiedenen Zweigen (Branches) des Dateisystem zur selben Zeit gearbeitet werden, dass ermöglicht Veränderungen an einem bereits von Nutzern verwendeten Programms, da nur auf einem parallel verlaufendem Zweig gearbeitet wird, wärend der vom Endnutzer verwendete Zweig unberührt bleibt. Sobald die einwandfreie Funktion des veränderten Programms sichergestellt wird, können die Zweige wieder verschmolzen werden.
-*Da kein zentraler Server verwendet wird, sondern jeder eine lokale Kopie des gesamten Repositorys besitzt, ist keine dauerhafte Internetverbindung erforderlich. Nach Änderungen kann man sein Repository mit der Onlinversion abgleichen. Solten mehrere Personen zur selben Zeit die selbe Datei verändert haben, kommt es zu einem Konflikt, welcher gelöst werden muss.
+* Es kann an verschiedenen Zweigen (Branches) des Dateisystem zur selben Zeit gearbeitet werden, dass ermöglicht Veränderungen an einem bereits von Nutzern verwendeten Programms, da nur auf einem parallel verlaufendem Zweig gearbeitet wird, wärend der vom Endnutzer verwendete Zweig unberührt bleibt. Sobald die einwandfreie Funktion des veränderten Programms sichergestellt wird, können die Zweige wieder verschmolzen werden.
+* Da kein zentraler Server verwendet wird, sondern jeder eine lokale Kopie des gesamten Repositorys besitzt, ist keine dauerhafte Internetverbindung erforderlich. Nach Änderungen kann man sein Repository mit der Onlinversion abgleichen. Solten mehrere Personen zur selben Zeit die selbe Datei verändert haben, kommt es zu einem Konflikt, welcher gelöst werden muss.
 
 **GitHub bezeichnet eine auf Git basierende Software, welches als OpenSource-Projekt gehandhabt wird und dadurch jedem ermöglicht jedes Ropository einzusehen.**
 *Man kann dem Verfasser eines Repositorys Vorschläge (Issues) zu seinem Projekt machen, oder dessen Arbeit übernehmen und selbst weiterführen.
@@ -23,11 +23,11 @@ Abwesend: ---
 
 ## Verwaltungsebenen:
 **Die Unterteilung des Git-Systems erfolgt in fünf Ebenen.**
-*Stash
-*Workspace
-*index
-*lokal repository
-*remote repository
+* Stash
+* Workspace
+* index
+* lokal repository
+* remote repository
 
 ## Befehle:
 * **git checkout:** *Dateien werden vom lokal repository in den Workspace bewegt.*
@@ -47,7 +47,7 @@ Issues (übersetzt: "Vorschläge") werden verwendet um den Entwicklern eines Rep
 ## Markdown:
 Damit kann man Text-Dateien mit einfachen Mitteln in eine formatierte HTML-Datei zu verwandeln. Markdown wird unter anderem von GitHub verwendet.
 **Beispiele für Regeln zur Formatierung:**
-*"#", "##", und "###" für Überschriften
-*"* ... *": italic
-*"** ... **": fett
-*"[Name](Link)": erstellt einen Link
+* "#", "##", und "###" für Überschriften
+* "* ... *": italic
+* "** ... **": fett
+* "[Name](Link)": erstellt einen Link

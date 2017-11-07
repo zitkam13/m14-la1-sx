@@ -1,4 +1,4 @@
-# Protokoll 31.10.2017  
+# Protokoll 31.10.2017 ![Bild](https://github.com/HTLMechatronics/m14-la1-sx/blob/marmom13/marmom13/git.png) 
 
 ## 1. Einheit  
 

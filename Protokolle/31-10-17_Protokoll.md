@@ -24,22 +24,20 @@ erstellt, was bedeutet das man auch wenn man keine Internetverbndung hat an dem 
 
 #### Git Befehle
 * git add               (Datei wird zum Index hinzugefügt)
-* git commit [-a]       (Datei wird dem Local Repository hinzugefügt (-a lädt alle Dateien ins local Repository))
-* git pull              (Local Repository wird auf das Remote Repository geladen)
+* git commit [-a]       (Dateie vom Index werden dem Local Repository hinzugefügt (-a lädt alle Dateien ins local Repository))
+* git push              (Local Repository wird auf das Remote Repository geladen)
 * git clone             (Remote Repository wird ins Local repository gespeichert)
 * git checkout <branch> (zum wechseln zwischen der verscheidenenn Branches)
-* git merge             (zum zusammenfügen von zwei branches)
+* git merge             (zum zusammenfügen von zwei Branches)
 
 ### Versionsverwaltung
-Die Versionsverwaltung ist ein system das verwendet wird um Dateien welche gespeichert oder verändert wurden mit einem Zeitstempel
-zu versehen. Dies ist sehr nützlich da man dadurch, falls eine Datei fehlerhaft ist, eine ältere Version wiederherstellen kann.
+Die Versionsverwaltung ist ein System das verwendet wird um Dateien welche gespeichert oder verändert wurden mit einem Zeitstempel zu versehen. Dies ist sehr nützlich da man dadurch, falls eine Datei fehlerhaft ist, eine ältere Version wiederherstellen kann.
 
 * **Branches**  
 Branches (Zweige) dienen dazu um an verschiedenen Versionen gleichzeitig arbeiten zu können ohne das man sich untereinander stört.
 
 * **Merge**  
-Bei eine merge führt man zwei Arbeitzweige zusammen. Meist passiert dies mit dem Master-branch und dem Work-branch, wenn der Work-branch
-ausgibig getestet wurde und das Programm/ die Datei freigegeben wurde.
+Bei eine merge führt man zwei Arbeitzweige zusammen. Meist passiert dies mit dem Master-branch und dem Work-branch, wenn der Work-branch ausgibig getestet wurde und das Programm/die Datei freigegeben wurde.
 
 ### Markdown
 [Markdown](https://de.wikipedia.org/wiki/Markdown) ist eine vereinfachte Auszeichnungssprache.

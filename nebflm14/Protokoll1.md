@@ -37,6 +37,7 @@ Abwesend: ---
 * **git clone:** *Das gesamte Repository wird geklont.*
 * **git pull:** *Dateien werden vom Git-Server heruntergeladen.*
 * **git status:** *Alle Änderungen anzeigen.*
+Weitere Informationen finden Sie [hier](https://wiki.ubuntuusers.de/Git/).
 
 ## Branch:
 Ein Branch bezeichnet einen Zweig innerhalb eines Repositoritys. Die Idee hinter Verzweigungen ist die, eine funktionsfähige, stabile Version welche bereits von einem Kunden genutzt wird nicht zu gefährden und trotzdem weiterarbeiten zu können. Beim erstellen eines neuen Repositorys wird standartmäsig ein *Master Branch* erstellt. In diesem Zweig sollte sich immer eine funktionsfähige Version befinden. Die Nebenzweige werden genutzt um weiterzuarbeiten bzw. neue Dinge auszuprobieren. Wenn der Nebenzweig stabil läuft und man diese Version in den Hauptzweig integrieren will, kann man beide verschmelzen.
@@ -48,6 +49,7 @@ Issues (übersetzt: "Vorschläge") werden verwendet um den Entwicklern eines Rep
 Damit kann man Text-Dateien mit einfachen Mitteln in eine formatierte HTML-Datei zu verwandeln. Markdown wird unter anderem von GitHub verwendet.
 **Beispiele für Regeln zur Formatierung:**
 * "#", "##", und "###" für Überschriften
-* "* ... *": italic
-* "** ... **": fett
-* "[Name]("Link")": erstellt einen Link
+* "* ... * ": *italic*
+* "** ... ** ": **fett**
+* "[Name]""(Link)": erstellt einen Link
+Weitere Informationen finden Sie [hier](https://guides.github.com/features/mastering-markdown/).

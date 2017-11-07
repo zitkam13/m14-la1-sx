@@ -9,7 +9,7 @@ Gruppe:   2
 Anwesend: Köhler Marcel, Mandl Gerhard, Martinak Moritz, Mörth Michael, Muri Lorenz, Nabernik Mario, Nebel Florian, Platzer Andreas  
 Abwesend: ---
 
-##Was versteht man unter Git bzw. GitHub?
+## Was versteht man unter Git bzw. GitHub?
 **Git ist eine Software zur versionsverwaltenden Dateiablage, welche kostenlos zur Verfügung gestellt wird.**
 
 **Entscheidende Merkmale dieses Systems sind:**
@@ -21,7 +21,7 @@ Abwesend: ---
 *Um Repositorys nur für sich selbst zu nutzen, kann man eine kostenpflichtige Version erwerben.
 **GitHub ermöglicht Projekte im Team einfach abzuwickeln, da jederzeit von jedem nachvollzogen werden kann, wer, was, wann verändert hat und das Wiederherstellen von alten Versionen jederzeit möglich ist.**
 
-##Verwaltungsebenen:
+## Verwaltungsebenen:
 **Die Unterteilung des Git-Systems erfolgt in fünf Ebenen.**
 *Stash
 *Workspace
@@ -29,7 +29,7 @@ Abwesend: ---
 *lokal repository
 *remote repository
 
-##Befehle:
+## Befehle:
 * **git checkout:** *Dateien werden vom lokal repository in den Workspace bewegt.*
 * **git add:** *Dateien werden vom Workspace nach Index bewegt.*
 * **git commit:** *Dateien werden vom Index ins lokal repository bewegt.*
@@ -38,13 +38,13 @@ Abwesend: ---
 * **git pull:** *Dateien werden vom Git-Server heruntergeladen.*
 * **git status:** *Alle Änderungen anzeigen.*
 
-##Branch:
+## Branch:
 Ein Branch bezeichnet einen Zweig innerhalb eines Repositoritys. Die Idee hinter Verzweigungen ist die, eine funktionsfähige, stabile Version welche bereits von einem Kunden genutzt wird nicht zu gefährden und trotzdem weiterarbeiten zu können. Beim erstellen eines neuen Repositorys wird standartmäsig ein *Master Branch* erstellt. In diesem Zweig sollte sich immer eine funktionsfähige Version befinden. Die Nebenzweige werden genutzt um weiterzuarbeiten bzw. neue Dinge auszuprobieren. Wenn der Nebenzweig stabil läuft und man diese Version in den Hauptzweig integrieren will, kann man beide verschmelzen.
 
-##Issue:
+## Issue:
 Issues (übersetzt: "Vorschläge") werden verwendet um den Entwicklern eines Repositorys über Fehler oder Verbesserungsvorschläge zu informieren. Der Adressat eines Issues wird kann über ein e-Mail informiert werden.
 
-##Markdown:
+## Markdown:
 Damit kann man Text-Dateien mit einfachen Mitteln in eine formatierte HTML-Datei zu verwandeln. Markdown wird unter anderem von GitHub verwendet.
 **Beispiele für Regeln zur Formatierung:**
 *"#", "##", und "###" für Überschriften

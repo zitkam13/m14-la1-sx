@@ -10,11 +10,13 @@ Gruppe: 2
 Übungsdatum: 31.10.2017  
 Abwesend: -  
 
-## Git  
+## Git und GitHub  
 
-**Git ist eine freie Software zur verteilten Versionsverwaltung von Dateien.**
+**Git** ist eine freie Software zur verteilten Versionsverwaltung von Dateien.
 Einer der Hintergrundgedanken von Git ist das Arbeiten ohne an ein Netzwerk gebunden zu sein. Das wird durch ein Lokales
-Repository am Rechner selbst erzielt.             
+Repository am Rechner selbst erzielt.
+
+**GitHub** ist ein Open-Source Onlinedienst der auf Git basiert und kostenlos verwendbar ist (es sei denn man will ein privates Repository erstellen, dann zahlt man eine monatliche Gebühr). Es kann jeder nutzer auf öffentliche Repositorys zugreifen, diese aber nur mit Berechtigung des Besitzers bearbeiten. Man kann ein Repository aber klonen und dann unabhängig selbst weiter arbeiten.
 
 **Ebenen**
 

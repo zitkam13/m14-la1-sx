@@ -64,7 +64,7 @@ int main ()
 }
 ```
 Atmel Studios lieferte uns dann einige Maschinenbefehle, welche aus dem Quellcode kompiliert wurden.
-Mit Hilfe des [Atmel Instruction Set Manual](http://www.atmel.com/images/Atmel-0856-AVR-Instruction-Set-Manual.pdf) konnten wir dann die Funktion der Maschinenbefehle bestimmen. Die Maschinenbefehle **müssen** unter der *mega-AVR-Familie* nachgeschlagen werden, da die Maschinenbefehle bei anderen µ-Cs anders funktionieren und z.B. andere Register beschreiben.
+Mit Hilfe des [Atmel Instruction Set Manual](http://www.atmel.com/images/Atmel-0856-AVR-Instruction-Set-Manual.pdf) konnten wir dann die Funktion der Maschinenbefehle bestimmen. Die Maschinenbefehle **müssen** unter der *mega-AVR-Familie* nachgeschlagen werden, da die Maschinenbefehle bei anderen µ-Cs anders arbeiten könnten und z.B. andere Register beschreiben.
 
 ### Wichtige Maschinenbefehle:
 * RJMP: Sprung zu einer Adresse (Kann nur einen bestimmten Offset überspringen, Benötigt 4 Byte)

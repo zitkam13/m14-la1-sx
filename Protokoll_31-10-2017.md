@@ -5,8 +5,8 @@ Name: Muri Lorenz <br>
 Klasse: 4AHME <br>
 Gruppe: 2 <br>
 Datum der Einheit: 31.10.2017 <br>
-Anwesend:  <br>
-Abwesend:  <br>
+Anwesend: Nebel Florian, Mandl Gerhard, Michael Mörth, Moritz Martinak, Mario Nabernik, Muri Lorenz, Platzer Andreas, Marcel Köhler <br>
+Abwesend: - <br>
 
 ## Thema: Versionsverwaltung
 

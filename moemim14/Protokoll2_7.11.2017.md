@@ -43,7 +43,7 @@ Weitere wichtige Register sind:
 * Register 3E = SPH = Stackpointer initialisieren (Register 7-15)
 * Register 3D = SDL = Stackpointer initialisieren (Register 0-7)
 
-Pinbelegung und weitere Informationen zum Atmega328p können [hier](http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf) nachgelesen werden.
+**Pinbelegung und weitere Informationen zum Atmega328p können [hier](http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf) nachgelesen werden.**
 
 ## Stack
 Der Stack wird auch als **Stapelspeicher** bezeichnet. Im Stack werden Daten im Speicher von unten nach oben abgelegt. Dieses Verfahren nennt man Last-in-first-out. Eingelesen werden die Daten dann allerdings von oben nach unten.

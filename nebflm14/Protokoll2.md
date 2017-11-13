@@ -32,7 +32,7 @@ Der Stack ist wichtiger Bestandteil des Speichers und wird im Deutschen als Stap
 Der Stackpointer entspricht einem Zeiger, welcher auf den *nächsten freien Platz* im Stack zeigt. Zeigt der Zeiger auf den untersten bzw. letzten Platz im Speicher, ist dieser leer. In unserem Fall entsprach dies dem Wert '08FF'. Sollte der Stackpointer auf einen Bereich zeigen, der nicht für den Stack reserviert war spricht man von einem **Stackoverflow**. Dieser löst Probleme aus welche nicht unmittelbar zum Vorschein kommen müssen.
 
 ### Aufbau des SRAM's im Atmel ATmega16
-
+![SRAM](https://github.com/HTLMechatronics/m14-la1-sx/blob/nebflm14/nebflm14/SRAM_Aufbau.PNG)
 > Quelle: [FIVU Skript](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#189503049)
 
 ## Übung

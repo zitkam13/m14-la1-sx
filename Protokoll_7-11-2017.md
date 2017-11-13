@@ -16,6 +16,6 @@ Die Entwicklungsumgebung wird verwendet um Programme, simuliert auf Mikrocontrol
 
 ### CPU
 Im folgenden Blockdiagramm ist der prinzipiellen Aufbau einer CPU dargestellt.
-![CPU-Aufbau](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/download/file/EC743ABCF7AB5.symlink/F607FABBC42B3/en:D48F77549F87A/cpu_svg)
+![CPU-Aufbau](https://github.com/HTLMechatronics/m14-la1-sx/blob/murlom14/cpu.svg)
 
 Quelle: [Mirkroprozessor-FIVU](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#188315330)

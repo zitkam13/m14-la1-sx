@@ -11,4 +11,7 @@ Abwesend: - <br>
 ## Thema: Atmel-Studio
 
 ### Atmel-Studio
-Atmel Studio ist eine Umwicklungsumgebung 
+Atmel Studio ist eine Entwicklungsumgebung zur Programmierung von [Atmel](http://www.atmel.com/) Mikrocontrollern. Sie besteht hauptsächlich aus drei Teilen: einem **Editor**, einem **Debugger** und verschieden **Werkzeugen**. Es können Programme in **C/C++ und Assembler** programmiert werden. 
+Die Entwicklungsumgebung wird verwendet um Programme, simuliert auf Mikrocontrollern auszuführen. Außerdem werden alle Maschinenbefehle aufgelistet.
+
+

@@ -18,7 +18,35 @@ Genauere Informationen zu Atmel Studio können in den Links unterhalb gefunden w
   [Website Atmel](http://www.atmel.com)  
   [Website Atmel Studio 7](http://www.atmel.com/microsite/atmel-studio/)  
   
-  ## CPU
+  ## CPU-Aufbau
   ![CPU](https://github.com/HTLMechatronics/m14-la1-sx/blob/moemim14/moemim14/CPU.PNG)
-  
-  Quelle: [FIVU Skript](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#188315330)
+  > Quelle: [FIVU Skript](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#188315330)
+
+### Atmega 328p
+In der Schule arbeiten wir mit dem **Atmega 328p**. In Atmel Studios gibt es diese Ausführung des µ-Cs allerdings nicht, daher verwendeten wir bei der Übung den **Atmega328**.
+
+Einige Daten zum Atmega 328p:
+* 16MHz Mikroprozessor
+* 32kB Flash-Speicher
+* 32 Register
+* 2kB SRAM
+* 1kB EEPROM
+
+Pinbelegung und weitere Informationen zum Atmega328p können [hier](http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf) nachgelesen werden.
+
+## XYZ Register
+Beim Atmega328p gibt es die sogenannten XYZ Register. Diese werden dazu verwendet, um Werte > 255 zu speichern. Dies Register Setzen sich wie folgt zusammen:
+* X = Register 26+27
+* Y = Register 28+29
+* Z = Register 30+31
+
+## Stack
+Der Stack wird auch als **Stapelspeicher** bezeichnet. Im Stack werden Daten im Speicher von unten nach oben abgelegt. Dieses Verfahren nennt man Last-in-first-out. Eingelesen werden die Daten dann allerdings von oben nach unten.
+
+### Stack-pointer
+Der Stackpointer zeigt immer auf den **nächsten freien Platz** im Stack-Speicher. Wenn der Stack also leer ist, zeigt der Stackpointer auf den unteresten Platz im Speicher. Bei unserer Simulation war das der Wert `08FF`. Wenn der Stackpointer allerdings über den reservierten Speicherplatz hinaus geht, spricht man von einem **Stackoverflow**.
+
+### Aufbau SRAM
+[SRAM](https://github.com/HTLMechatronics/m14-la1-sx/blob/moemim14/moemim14/SRAM_Aufbau.PNG)
+> Quelle: [FIVU Skript](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#189503049)
+

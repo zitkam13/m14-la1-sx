@@ -46,7 +46,8 @@ int main ()
 {
   return 0;
 }
-``` <br>
+``` 
+<br>
 
 **Ausgabe von Atmel Studio**
 ![Atmel-Studio-OUT](https://github.com/HTLMechatronics/m14-la1-sx/blob/murlom14/Atmel_Studio_OUT.jpg)

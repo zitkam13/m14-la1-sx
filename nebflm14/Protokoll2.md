@@ -10,7 +10,7 @@ Anwesend: Köhler Marcel, Mandl Gerhard, Martinak Moritz, Mörth Michael, Muri L
 Abwesend: ---
 
 ## Was versteht man unter [Atmel Studio](http://www.atmel.com/microsite/atmel-studio/)?
-Atmel Studio ist eine kostenlose Entwicklungsumgebung, welche von Atmel Corporation zur Verfügung gestellt wird. Grundsätzlich wurde Atmel Studio entwickelt um Software für Chips, hergestellt von Atmel Corporation, zu programmieren bzw. simmulieren. Dieses Programm kann auch für die Simulation von Chips anderer Hersteller verwendet werden. Da Atmel Studio auf der Visual Studio Shell, hergestellt von Microsoft basiert, kann es aber nur unter Windows eingesetzt werden.
+Atmel Studio ist eine kostenlose **Entwicklungsumgebung**, welche von *Atmel Corporation* zur Verfügung gestellt wird. Grundsätzlich wurde Atmel Studio entwickelt um Software für Chips, hergestellt von Atmel Corporation, zu programmieren bzw. simmulieren. Dieses Programm kann auch für die Simulation von Chips anderer Hersteller verwendet werden. Da Atmel Studio auf der Visual Studio Shell, hergestellt von Microsoft basiert, kann es aber nur unter Windows eingesetzt werden.
 
 ## Hardware
 Im Unterricht wird von uns der [ATmega328p](http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf) verwendet. Da dieser Mikrocontroller in Atmel Studio nicht zur Verfügung steht, weichen wir bei unseren Übungen auf den sehr ähnlichen **ATmega328** aus.

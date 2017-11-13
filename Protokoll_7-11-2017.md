@@ -20,9 +20,20 @@ Im folgenden Blockdiagramm ist der prinzipiellen Aufbau einer CPU dargestellt.
 
 Quelle: [Mirkroprozessor-FIVU](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#188315330)
 
+### Arbeitsspeicher bei Mirkroprozessoren
+
+
 ### Arbeiten mit Atmel Studio
 
 Wir haben ein sehr einfaches C-Programm geschreiben, welches wir anschließend mit Atmel Studio, auf dem Mikroprozessor Atmega328 simuliert haben. 
+
+**Daten von Atmega328:**
+ * 16MHZ Mikroprozessor
+ * 2kB SRAM
+ * 1kB EEPROM
+ * 32kB Flash-Speicher
+ * 32 Register <br>
+ 
 
 **C-Programm**
 ```c

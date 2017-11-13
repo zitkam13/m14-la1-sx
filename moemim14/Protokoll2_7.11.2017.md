@@ -20,4 +20,4 @@ Genauere Informationen zu Atmel Studio können in den Links unterhalb gefunden w
   
   ## CPU
   ![CPU](https://github.com/HTLMechatronics/m14-la1-sx/blob/moemim14/moemim14/CPU.PNG)
-  
+  Quelle: [FIVU Skript](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#188315330)

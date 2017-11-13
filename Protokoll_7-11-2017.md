@@ -9,3 +9,6 @@ Anwesend: Nebel Florian, Mandl Gerhard, Michael Mörth, Moritz Martinak, Mario N
 Abwesend: - <br>
 
 ## Thema: Atmel-Studio
+
+### Atmel-Studio
+Atmel Studio ist eine Umwicklungsumgebung 

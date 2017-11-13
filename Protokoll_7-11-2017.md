@@ -39,7 +39,6 @@ Wir haben ein sehr einfaches C-Programm geschreiben, welches wir anschließend m
  * 32kB Flash-Speicher
  * 32 Register 
  <br>
- 
 
 **C-Programm**
 ```c
@@ -47,4 +46,7 @@ int main ()
 {
   return 0;
 }
-```
+``` <br>
+
+**Ausgabe von Atmel Studio**
+![Atmel-Studio-OUT](https://github.com/HTLMechatronics/m14-la1-sx/blob/murlom14/Atmel_Studio_OUT.jpg)

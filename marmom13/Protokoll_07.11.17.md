@@ -20,3 +20,7 @@ Durch die Simulation einer Ausführung eines Mikrocontrollerprogrammes kann man 
 Weitere Informationen erhält man auf der Offiziellen Seite des Entwicklers:  
 [Atmel](http://www.atmel.com)  
 [Atmel Studio](http://www.atmel.com/microsite/atmel-studio/)  
+
+## CPU-Aufbau
+
+![CPU](https://github.com/HTLMechatronics/m14-la1-sx/blob/marmom13/marmom13/CPU.png) 

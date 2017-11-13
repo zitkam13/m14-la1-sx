@@ -47,6 +47,6 @@ Der Stack wird auch als **Stapelspeicher** bezeichnet. Im Stack werden Daten im 
 Der Stackpointer zeigt immer auf den **nächsten freien Platz** im Stack-Speicher. Wenn der Stack also leer ist, zeigt der Stackpointer auf den unteresten Platz im Speicher. Bei unserer Simulation war das der Wert `08FF`. Wenn der Stackpointer allerdings über den reservierten Speicherplatz hinaus geht, spricht man von einem **Stackoverflow**.
 
 ### Aufbau SRAM
-[SRAM](https://github.com/HTLMechatronics/m14-la1-sx/blob/moemim14/moemim14/SRAM_Aufbau.PNG)
+![SRAM](https://github.com/HTLMechatronics/m14-la1-sx/blob/moemim14/moemim14/SRAM_Aufbau.PNG)
 > Quelle: [FIVU Skript](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#189503049)
 

@@ -14,7 +14,7 @@ Atmel Studio ist eine Entwicklungsumgebung, welche von der Firma Atmel zur Verf�
 
 Wenn man mit Atmel Studios die Ausführung eines Programmes auf einem Mikrocontroller simuliert, erhält man detailierte Informationen über die Maschinenbefehle, welche aus dem Quellcode des Programmes kompiliert wurden. Desweiteren können die Register des Controllers eingesehen werden.
 
-Genauere Informationen zu Atmel Studio können in den Links unterhalb gefunden werden:
+Genauere Informationen zu Atmel Studio können in den Links unterhalb gefunden werden:  
   [Website Atmel](http://www.atmel.com)  
   [Website Atmel Studio 7](http://www.atmel.com/microsite/atmel-studio/)  
   

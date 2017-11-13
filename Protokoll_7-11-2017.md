@@ -27,8 +27,8 @@ Quelle: [Mirkroprozessor-FIVU](https://lms.at/dotlrn/classes/informatik/610437.4
 
 Wir haben ein sehr einfaches C-Programm geschreiben, welches wir anschließend mit Atmel Studio, auf dem Mikroprozessor Atmega328 simuliert haben. 
 
-**Daten von Atmega328:**
- * 16MHZ Mikroprozessor
+**Daten von [Atmega328](http://www.microchip.com/wwwproducts/en/ATmega328):**
+ * 20MHZ Mikroprozessor
  * 2kB SRAM
  * 1kB EEPROM
  * 32kB Flash-Speicher

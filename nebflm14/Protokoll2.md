@@ -33,7 +33,7 @@ Der Stackpointer entspricht einem Zeiger, welcher auf den *nächsten freien Plat
 
 ### Aufbau des SRAM's im Atmel ATmega16
 ![SRAM](https://github.com/HTLMechatronics/m14-la1-sx/blob/nebflm14/nebflm14/SRAM_Aufbau.PNG)
-> Quelle: [FIVU Skript](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#189503049)
+> Die Grafik wurde dem Skript [FIVU](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#189503049) entnommen.
 
 ## Übung
 Folgender Quelltext wurde erstellt, simuliert und analysiert:

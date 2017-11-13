@@ -51,3 +51,17 @@ int main ()
 
 **Ausgabe von Atmel Studio**
 ![Atmel-Studio-OUT](https://github.com/HTLMechatronics/m14-la1-sx/blob/murlom14/Atmel_Studio_OUT.jpg)
+
+**Wichtige Assembler-Befehle**
+* RJMP: Sprung zu einer Adresse
+* CLR R1: Register 1 wird auf 0 gesetzt
+* OUT 0x3F, R1: Daten werden von Register 1 ins I/O Register übertragen
+* SER R28: Das Register R28 bekommt den Wert 0xFF
+* LDI R29, 0x08: Läd einen konstanten Wert in ein Register
+
+
+
+
+
+
+

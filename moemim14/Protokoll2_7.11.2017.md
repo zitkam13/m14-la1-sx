@@ -19,5 +19,5 @@ Genauere Informationen zu Atmel Studio können in den Links unterhalb gefunden w
   [Website Atmel Studio 7](http://www.atmel.com/microsite/atmel-studio/)  
   
   ## CPU
-  ![CPU](/moemim14/CPU.png)
+  ![CPU](https://github.com/HTLMechatronics/m14-la1-sx/blob/moemim14/moemim14/CPU.PNG)
   

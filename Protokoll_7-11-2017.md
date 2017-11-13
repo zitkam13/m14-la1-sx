@@ -19,3 +19,15 @@ Im folgenden Blockdiagramm ist der prinzipiellen Aufbau einer CPU dargestellt.
 ![CPU-Aufbau](https://github.com/HTLMechatronics/m14-la1-sx/blob/murlom14/cpu.svg)
 
 Quelle: [Mirkroprozessor-FIVU](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#188315330)
+
+### Arbeiten mit Atmel Studio
+
+Wir haben ein sehr einfaches C-Programm geschreiben, welches wir anschließend mit Atmel Studio, auf dem Mikroprozessor Atmega328 simuliert haben. 
+
+**C-Programm**
+```c
+int main ()
+{
+  return 0;
+}
+```

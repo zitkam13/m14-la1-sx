@@ -41,7 +41,7 @@ Beim Atmega328p gibt es die sogenannten XYZ Register. Diese werden dazu verwende
 Weitere wichtige Register sind:
 * Register 3F = SREG = Statusflagregister
 * Register 3E = SPH = Stackpointer initialisieren (Register 7-15)
-* Register 3D = SDL = Stackpointer initialisieren (Register 0-7)
+* Register 3D = SPL = Stackpointer initialisieren (Register 0-7)
 
 **Pinbelegung und weitere Informationen zum Atmega328p können [hier](http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf) nachgelesen werden.**
 
@@ -63,4 +63,14 @@ int main ()
   return 0;
 }
 ```
+Atmel Studios lieferte uns dann einige Maschinenbefehle, welche aus dem Quellcode kompiliert wurden.
+Mit Hilfe des [Atmel Instruction Set Manual](http://www.atmel.com/images/Atmel-0856-AVR-Instruction-Set-Manual.pdf) konnten wir dann die Funktion der Maschinenbefehle bestimmen. Die Maschinenbefehle **müssen** unter der *mega-AVR-Familie* nachgeschlagen werden, da die Maschinenbefehle bei anderen µ-Cs anders funktionieren und z.B. andere Register beschreiben.
 
+### Wichtige Maschinenbefehle:
+* RJMP: Sprung zu einer Adresse (Kann nur einen bestimmten Offset überspringen, Benötigt 4 Byte)
+* JMP: Sprung zu einer Adresse (Benötigt 8 Byte)
+* CLR R1: Setzt Register 1 auf 0 (Entspricht XOR)
+* OUT 0x3F, R1: Überträgt die Daten von Register 1 in ein I/O Register (3F -> Statusflagregister)
+* SER R28: Das Register R28 bekommt den Wert 0xFF
+* LDI R29, 0x08: Läd einen konstanten Wert in ein Register von 16-31 (R29 = 0x08)
+* OUT 0x3E, R29 & OUT 0x3D, R28: setzen den Stackpointer auf 08FF (08FF ist die erste Adresse des Stackspeichers -> Der Stack ist leer)

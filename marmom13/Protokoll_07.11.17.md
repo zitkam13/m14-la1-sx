@@ -23,4 +23,7 @@ Weitere Informationen erhält man auf der Offiziellen Seite des Entwicklers:
 
 ## CPU-Aufbau
 
-![CPU](https://github.com/HTLMechatronics/m14-la1-sx/blob/marmom13/marmom13/CPU.png) 
+![CPU](https://github.com/HTLMechatronics/m14-la1-sx/blob/marmom13/marmom13/CPU.PNG)  
+
+Quelle: [Skriptum](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#188315330)
+

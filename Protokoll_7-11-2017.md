@@ -20,7 +20,12 @@ Im folgenden Blockdiagramm ist der prinzipiellen Aufbau einer CPU dargestellt.
 
 Quelle: [Mirkroprozessor-FIVU](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#188315330)
 
-### Arbeitsspeicher bei Mirkroprozessoren
+### Speicher bei μ-Cs
+Der **Speicher** bei Mikrocontrollern werden meist mit einem **[Stack](https://de.wikipedia.org/wiki/Stapelspeicher)** (Stapelspeicher) realiesiert. Er heißt deswegen Stapelspeicher weil er einfach alle Datein *übereinenaderstapelt* und jeder Datei wird durch den **Stackpointer** eine **Adresse zugewissen** (die nächste Adresse im Speicher). <br>
+Wenn der reservierte **Speicher nicht ausreicht** wird von einem **Stack-Overflow** gesprochen. <br>
+
+![Arbeitsspeciher-Atmega](https://github.com/HTLMechatronics/m14-la1-sx/blob/murlom14/SRAM_Aufbau.PNG)
+Quelle: [Mirkroprozessor-FIVU](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#189503049) <br>
 
 
 ### Arbeiten mit Atmel Studio

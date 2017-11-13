@@ -32,7 +32,8 @@ Wir haben ein sehr einfaches C-Programm geschreiben, welches wir anschließend m
  * 2kB SRAM
  * 1kB EEPROM
  * 32kB Flash-Speicher
- * 32 Register <br>
+ * 32 Register 
+ <br>
  
 
 **C-Programm**

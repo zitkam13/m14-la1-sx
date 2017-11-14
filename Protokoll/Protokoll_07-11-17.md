@@ -42,6 +42,8 @@ _Datenblatt:_ [Atmega 328p](http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Mi
 Der Stack (Stapelspeicher) ist eine dynamische Datenstruktur, welche von den meisten Mikroprozessoren in der Hardware unterstützt wird.
 Er funktioniert so, dass der Stapel eine begrenzte Menga an Objekten __aufeinanderstapeln__ kann. Diese Elemente können aber nur wieder in umgekehrter Reihenfolge vom Stapel heruntergenommen werden ([Last-In-First-Out-Prinzip](https://de.wikipedia.org/wiki/Last_In_%E2%80%93_First_Out)).
 
+![Stack](https://upload.wikimedia.org/wikipedia/de/thumb/b/b5/Lifo.svg/602px-Lifo.svg.png)
+
 #### Stackpointer
 Ein Stackpointer ist ein Zeiger, welcher immer auf den __nächsten freien Speicherplatz__ im Stack zeigt.
 Ist der Stapelspeicher leer, so zeigt dieser auf den untersten Speicherplatz. Bei unserer Simulation war dieser der Wert __08FF__.
@@ -54,6 +56,8 @@ Der Heap ([dynamischer Speicher](https://de.wikipedia.org/wiki/Dynamischer_Speic
 #### Unterschiede zum Stack:
 * im Stack angeforderte Speicherabschnitte müssen in der __umgekehrten Reihenfolge__ wieder freigegeben werden
 * der Zeitaufwand bei einer automatischen Speicheranforderung (Stack) zur Laufzeit ist in der Regel deutlich geringer als bei der dynamischen Speicheranforderung
+
+![Speichereinheit](https://github.com/HTLMechatronics/m14-la1-sx/blob/nabmam14/Protokoll/Speichereinheit.png)
 
 ## Übung
 

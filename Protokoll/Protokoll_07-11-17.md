@@ -19,6 +19,13 @@ _Download:_
 ## Mikrocontroller
 In der Schule arbeiten wir mit dem __Atmega 328p__ und simulieren den sehr ähnlichen __Atmega 328__.
 
+### Produktdaten  
+* CPU-Register: 32 (jedes Register hat 8 Bit)  
+* Frequenz: 16MHz   
+* Flash Speicher: 32kB 
+* SRAM: 2kB   
+* EEPROM: 1kB 
+
 ### Register
 #### XYZ-Register
 XYZ-Register sind Register, welche vom Atmel328p dazu verwendet werden, um Werte >255 zu speichern. 
@@ -75,10 +82,10 @@ Daraufhin mussten wir im Instruction Set Manual der mega-AVR-Familie nachsehen, 
 
 ### Maschinenbefehle
 
-* CLR R1: Setzt Register 1 auf 0 
-* JMP: Sprung zu einer Adresse
-* LDI R29, 0x08: Läd einen konstanten Wert in Register 29
-* OUT 0x3F, R1: Überträgt die Daten von Register 1 in ein I/O Register
-* OUT 0x3E, R29 & OUT 0x3D, R28: setzen den Stackpointer auf 08FF
-* RJMP: Sprung zu einer Adresse 
-* SER R28: Das Register R28 bekommt den Wert 0xFF
+* _CLR R1_ - Setzt Register 1 auf 0 
+* _JMP_ - Sprung zu einer Adresse
+* _LDI R29, 0x08_ - Läd einen konstanten Wert in Register 29
+* _OUT 0x3F, R1_ - Überträgt die Daten von Register 1 in ein I/O Register
+* _OUT 0x3E, R29 & OUT 0x3D, R28_ - setzen den Stackpointer auf 08FF
+* _RJMP_ - Sprung zu einer Adresse 
+* _SER R28_ - Das Register R28 bekommt den Wert 0xFF

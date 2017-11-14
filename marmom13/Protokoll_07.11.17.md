@@ -38,7 +38,7 @@ Bei dem Mikrocontroller den wir verwenden handelt es sich um den **Atmega 328p**
 * 1kB EEPROM  
 
 ### XYZ Register  
-XYZ Register werden dazu verwendet, um Werte > 255 zu speichern, sie zeten sich aus folgenden Bestandteilen zusammen:  
+XYZ Register werden dazu verwendet, um Werte > 255 zu speichern, sie setzen sich aus folgenden Bestandteilen zusammen:  
 * X = Register 26+27
 * Y = Register 28+29
 * Z = Register 30+31

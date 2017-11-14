@@ -28,7 +28,7 @@ In der Schule arbeiten wir mit dem __Atmega 328p__ und simulieren den sehr ähnl
 
 ### Register
 #### XYZ-Register
-XYZ-Register sind Register, welche vom Atmel328p dazu verwendet werden, um Werte >255 zu speichern. 
+XYZ-Register sind Register, welche vom Atmel328p dazu verwendet werden, um Werte __>255__ zu speichern. 
 Aufbau dieser Register:
 * X = Register 26+27
 * Y = Register 28+29
@@ -78,7 +78,7 @@ int main ()
 ```
 
 Mit dem [AVR Instruction Ser Manual](http://www.atmel.com/images/Atmel-0856-AVR-Instruction-Set-Manual.pdf) wurden die Befehle von uns analysiert und bestimmt.
-Daraufhin mussten wir im Instruction Set Manual der mega-AVR-Familie nachsehen, da bei anderen µ-Prozessoren die Maschinenbefehle anders arbeiten können und somit auch andere Register beschrieben werden könnten.
+Daraufhin mussten wir im __Instruction Set Manual__ der mega-AVR-Familie nachsehen, da bei anderen µ-Prozessoren die Maschinenbefehle anders arbeiten können und somit auch andere Register beschrieben werden könnten.
 
 ### Maschinenbefehle
 

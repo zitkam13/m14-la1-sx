@@ -7,7 +7,7 @@
 Name: Moritz Martinak  
 Lehrer: sx  
 Gruppe: 2  
-Übungsdatum: 31.10.2017  
+Übungsdatum: 17.11.2017  
 Abwesend: -  
 
 ## Atmel Studio

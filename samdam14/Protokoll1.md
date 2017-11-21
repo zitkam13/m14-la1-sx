@@ -33,6 +33,14 @@ Versionsverwaltungssysteme sind wichtig für Firmen, bei denen mehrere Teammitgl
   * lokaler Speicher im Verzeichnis _.git_  
 * Remote repository  
   * externer Speicher auf einem Git-Server  
+  
+---------------------------------------------------  
+
+Git add -> workspace in index
+Git commit -> index in local repository
+Git push -> local rep. in remote repository
+Git pull -> remote rep. in workspace
+Git fetch -> remote rep. in local repository
 
   
 ![GIT-Ebenen und Kommandos](https://github.com/HTLMechatronics/m14-la1-sx/blob/samdam14/samdam14/System.PNG)

@@ -21,5 +21,5 @@ Versionsverwaltungssysteme sind wichtig für Firmen, bei denen mehrere Teammitgl
 * Synchronisation kann über Internet stattfinden  
   
   
-  ![GIT-Ebenen und Kommandos](C:\Daniel\4AHME\lab\SX\System.png)  
+  ![GIT-Ebenen und Kommandos](m14-la1-sx/samdam14/System.PNG)  
   

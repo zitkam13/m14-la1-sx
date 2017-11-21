@@ -20,6 +20,7 @@ Versionsverwaltungssysteme sind wichtig für Firmen, bei denen mehrere Teammitgl
 * 2 oder mehr Personen können gleichzeitig an einer Datei Änderungen vornehmen (Verwaltung über Server)  
 * Synchronisation kann über Internet stattfinden  
   
-  
-  ![GIT-Ebenen und Kommandos](m14-la1-sx/samdam14/System.PNG)  
+ ![ ](m14-la1-sx/samdam14/System.PNG)  
+   
+   ![GIT-Ebenen und Kommandos](https://github.com/HTLMechatronics/m14-la1-sx/blob/samdam14/samdam14/System.PNG)
   

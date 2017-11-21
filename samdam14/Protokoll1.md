@@ -10,4 +10,6 @@
   
   
   
-### 1. GIT
+### GIT  
+GIT ist ein System zur Versionsverwaltung von Dateien. Versionsverwaltungssysteme, wie zum Beispiel GIT, sehen die Daten als eine Menge an Dateien und Änderungen. Andere Systeme sehen die Daten hingegen als eine fortlaufende Liste an Änderungen der Dateien.  
+Versionsverwaltungssysteme sind wichtig für Firmen, bei denen mehrere Teammitglieder an einem Projekt gleichzeitig arbeiten.

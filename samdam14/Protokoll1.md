@@ -20,7 +20,8 @@ Versionsverwaltungssysteme sind wichtig für Firmen, bei denen mehrere Teammitgl
 * 2 oder mehr Personen können gleichzeitig an einer Datei Änderungen vornehmen (Verwaltung über Server)  
 * Synchronisation kann über Internet stattfinden  
   
-#### GIT-Ebenen und Kommandos  
+#### Git-Ebenen und Kommandos  
+##### Git-Ebenen  
 * Stash  
   * _Zwischenspeicher_ für Änderungen, während andere Daten bearbeitet werden  
 * Workspace  
@@ -35,13 +36,17 @@ Versionsverwaltungssysteme sind wichtig für Firmen, bei denen mehrere Teammitgl
   * externer Speicher auf einem Git-Server  
   
 ---------------------------------------------------  
-
-Git add -> workspace in index
-Git commit -> index in local repository
-Git push -> local rep. in remote repository
-Git pull -> remote rep. in workspace
-Git fetch -> remote rep. in local repository
-
-  
+##### Transport-Kommandos  
+* Git add  
+  * Transport der Datei vom _workspace_ in die _staging area/index_  
+* Git commit  
+  * Transport der Datei von der _staging area_ in das _local repository_  
+* Git push  
+  * Transport der Datei vom _local repsitory_ in das _remote repository_  
+* Git pull  
+  * Transport der Datei vom _remote repository_ in den _workspace_  
+* Git fetch  
+  * Transport der Datei vom _remote repository_ in das _local repository_  
+ 
 ![GIT-Ebenen und Kommandos](https://github.com/HTLMechatronics/m14-la1-sx/blob/samdam14/samdam14/System.PNG)
   

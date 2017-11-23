@@ -55,10 +55,14 @@ zum Online-Dienst: [GitHub](https://github.com/)
 ![GIT-Ebenen und Kommandos](https://github.com/HTLMechatronics/m14-la1-sx/blob/samdam14/samdam14/System.PNG)  
 Bildursprung: [E-Book SX](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html#(4))    
   
+#### Arbeitsprinzip  
+Alles funktioniert auf dem Prinzip von Zweigen (_Branches_). Im Hauptzweig (_master branch_) soll sich die funktionsfähige Version befinden. Gearbeitet wird im Nebenzweig (_sub branch_). Den Hauptzweig kann man mit dem Befehl _git checkout_ verlassen.  
+im Skript: [E-Book SX](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html#(6))  
+  
 #### Markdown  
 ...ist eine Möglichkeit, mit der man Textdokumente mit _plain text_ durch einfache Codes zu formatieren.  
   
 Codes zur Gestaltung/Formatierung findest du hier: [MasteringMarkdown](https://guides.github.com/features/mastering-markdown/)  
   
-
+  
   

@@ -7,7 +7,7 @@
   
 **Anwesenheit: _Es waren alle Schüler anwesend_**  
   
-  
+-----------------------------------------------------------
   
 ### GIT  
 GIT ist ein System zur Versionsverwaltung von Dateien. Versionsverwaltungssysteme, wie zum Beispiel GIT, sehen die Daten als eine Menge an Dateien und Änderungen (_Snapshots_). Andere Systeme sehen die Daten hingegen als eine fortlaufende Liste an Änderungen der Dateien.  

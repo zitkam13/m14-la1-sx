@@ -5,7 +5,7 @@
 **Gruppe:** 3
 
 Anwesend: Reinbacher, Ruffenacht, Sackl M., Sackl R., Sammer, Schmuck, Schuster   
-Abwesend: -
+Abwesend: -  
 
 ### Was ist GitHub?  
 **GitHub** basiert auf der freien Software **Git**. Da GitHub eine Open-Source Software ist, hat jeder Lesezugriff auf öffentliche Repositories, aber keinen Schreibzugriff, solange sie nicht privat sind. Private Repositories können mit Geld erworben werden.  

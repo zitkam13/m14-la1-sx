@@ -22,7 +22,7 @@ Versionsverwaltungssysteme sind wichtig für Firmen, bei denen mehrere Teammitgl
   
 ##### Git-Hub  
 ...ist ein kostenloser Online-Dienst, mit dem eine Versionskontrollsystem in einem Team verwirklicht werden kann!  
-[GitHub](https://github.com/)  
+zum Online-Dienst: [GitHub](https://github.com/)  
   
 #### Git-Ebenen und Kommandos  
 ##### Git-Ebenen  
@@ -52,5 +52,11 @@ Versionsverwaltungssysteme sind wichtig für Firmen, bei denen mehrere Teammitgl
 * Git fetch  
   * Transport der Datei vom _remote repository_ in das _local repository_  
  
-![GIT-Ebenen und Kommandos](https://github.com/HTLMechatronics/m14-la1-sx/blob/samdam14/samdam14/System.PNG)
+![GIT-Ebenen und Kommandos](https://github.com/HTLMechatronics/m14-la1-sx/blob/samdam14/samdam14/System.PNG)  
+  
+#### Markdown  
+...ist eine Möglichkeit, mit der man Textdokumente mit _plain text_ durch einfache Codes zu formatieren.  
+Codes zur Gestaltung/Formatierung findest du hier: [MasteringMarkdown](https://guides.github.com/features/mastering-markdown/)  
+  
+
   

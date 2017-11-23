@@ -53,9 +53,11 @@ zum Online-Dienst: [GitHub](https://github.com/)
   * Transport der Datei vom _remote repository_ in das _local repository_  
  
 ![GIT-Ebenen und Kommandos](https://github.com/HTLMechatronics/m14-la1-sx/blob/samdam14/samdam14/System.PNG)  
+Bildursprung: [E-Book SX](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html#(4))    
   
 #### Markdown  
 ...ist eine Möglichkeit, mit der man Textdokumente mit _plain text_ durch einfache Codes zu formatieren.  
+  
 Codes zur Gestaltung/Formatierung findest du hier: [MasteringMarkdown](https://guides.github.com/features/mastering-markdown/)  
   
 

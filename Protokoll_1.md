@@ -30,7 +30,7 @@ zufrieden war (z.B: SVN,CVS,ClearCase)
 **Aufbau von Git:**
 
 Git ist auf 5 Ebenen aufbgebaut:
-![Aufbau GIT](C:\Users\Florian\Documents\SCHULE1718\LABOR\Steiner\Bild1.png)
+![Aufbau GIT](C:\\Users\\Florian\\Documents\\SCHULE1718\\LABOR\\Steiner\\Bild1.png)
 Bild vom [Skript](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html)
 
 * __*workspace:*__ Arbeitsbereich

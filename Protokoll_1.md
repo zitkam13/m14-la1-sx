@@ -1,4 +1,5 @@
-# **1.Laborprotokoll** *von Florian Ruffenacht*
+# **1.Laborprotokoll** 
+*von Florian Ruffenacht*
 
 Datum: 21.11.2017 (Gruppe 3)
 
@@ -29,7 +30,8 @@ zufrieden war (z.B: SVN,CVS,ClearCase)
 
 Git ist auf 5 Ebenen aufbgebaut:
 ![Aufbau GIT](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/Bild1.png)
-Bild vom [Skript](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html)
+
+(Bild vom [Skript](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html))
 
 * __*workspace:*__ Arbeitsbereich
 * __*stash:*__ Rücksicherung der Daten aus dem Workspace
@@ -55,7 +57,7 @@ Um trotzdem eine Zusammenarbeit ermöglichen zu können, git es sogenannte Neben
 ## **GitHub**
 
 Mit GitHub können kostenlose Git-Systeme erstellt werden, bei denen jeder über Leserechte verfügt (öffentliche repositorys).
-Schreibrechte hat nur der Benutzer. Private repositorys können mit Geld erworben werden. Beim erstellen einer repository 
+Schreibrechte hat nur der Benutzer. Private repositorys können mit Geld erworben werden. Beim Erstellen einer repository 
 ist auf folgendes zu achten:
 * Es ist empfelenswert eine der vorgefertigten open source Lizenzen auszuwählen
 * Es sollte die Programmiersprache ausgewählt werden, das so gewisse Datein ignoriert werden

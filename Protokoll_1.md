@@ -1,11 +1,11 @@
- 
 # **Laborprotokoll**
 
 Datum: 21.11.2017 (Gruppe 3)
 Ort: AUT-Labor
 Lehrkraft: SX
-Übung Nr: 1
+Übung Nr: 
 Abwesend: -
+
 
 ## **Versionsverwaltung mit Git**
 
@@ -28,11 +28,11 @@ zufrieden war (z.B: SVN,CVS,ClearCase)
 Git ist auf 5 Ebenen aufbgebaut:
 ![Aufbau GIT](C:\Users\Florian\Documents\SCHULE1718\LABOR\Steiner\Bild1.png]
 Bild vom [Skript](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html#(4))
-* *workspace:* Arbeitsbereich
-* *stash:* Rücksicherung der Daten aus dem Workspace
-* *index:* Zwischenspeicher wenn Daten noch nicht für alle freigegeben werden sollen
-* *local repository:* Lokale Datenverwaltung am eigenen PC
-* *remote repository:* Gemeinsame Datenverwaltung, die sich mit den loaklen Datenverwaltungen abgeleicht
+* __*workspace:*__ Arbeitsbereich
+* __*stash:*__ Rücksicherung der Daten aus dem Workspace
+* __*index:*__ Zwischenspeicher wenn Daten noch nicht für alle freigegeben werden sollen
+* __*local repository:*__ Lokale Datenverwaltung am eigenen PC
+* __*remote repository:*__ Gemeinsame Datenverwaltung, die sich mit den loaklen Datenverwaltungen abgeleicht
 
 **Branches**
 
@@ -50,6 +50,7 @@ ist auf folgendes zu achten:
 
 Mit *readme´s* können Informationen an den Nutzer weitergegeben werden (z.B. Installationsinformation)
 Link zur Website: [GitHub](https://github.com/)
+
 
 ## **Markdown**
 

@@ -5,7 +5,9 @@ Datum: 21.11.2017 (Gruppe 3)
 Ort: AUT-Labor
 
 Lehrkraft: SX
-Übung Nr: 
+
+Übung Nr: 1
+
 Abwesend: -
 
 
@@ -29,7 +31,7 @@ zufrieden war (z.B: SVN,CVS,ClearCase)
 
 Git ist auf 5 Ebenen aufbgebaut:
 ![Aufbau GIT](C:\Users\Florian\Documents\SCHULE1718\LABOR\Steiner\Bild1.png)
-Bild vom [Skript](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html#(4))
+Bild vom [Skript](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html)
 
 * __*workspace:*__ Arbeitsbereich
 * __*stash:*__ Rücksicherung der Daten aus dem Workspace

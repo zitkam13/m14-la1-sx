@@ -29,11 +29,15 @@ GitHub ist ein Onlinedienst zur Versionsverwaltung auf Basis von GIT. Hauptmerkm
 Eine Alternative zu GitHub wäre [BitBucket](https://bitbucket.org/).
 
 #### Wie beginnt man mit GIT?  
-Als erstes muss man sich das Git-Paket am Rechner installieren (z.B. mit apt-get install git). Danach legt man sich am besten einen Ornder an, der nur für GIT-Repositories gedacht ist. Ist dies geschehen, muss man noch mit   
+Als erstes muss man sich das Git-Paket am Rechner installieren (z.B. mit `apt-get install git`). Danach legt man sich am besten einen Ornder an, der nur für GIT-Repositories gedacht ist. Ist dies geschehen, muss man noch mit   
 
-git config --global user.name "Franz Meier"   
-git config --global user.email meierfranzl@saustall.at
+`git config --global user.name "Franz Meier"`   
+`git config --global user.email meierfranzl@saustall.at`
 
-seine persönlichen Einstellungen hinterlegen. Nun kann man schon entweder mit git init ein neues Repository anlegen oder mit git clone ein entferntes Repository klonen. Am besten ist, man klont sich das Repository mit einem SSH-Schlüssel, da dies wesentlich sicherer ist, als die Kennwortauthentifizierung. 
+seine persönlichen Einstellungen hinterlegen. Nun kann man schon entweder mit `git init` ein neues Repository anlegen oder mit `git clone` ein entferntes Repository klonen. Am besten ist, man klont sich das Repository mit einem SSH-Schlüssel, da dies wesentlich sicherer ist, als die Kennwortauthentifizierung. 
+
+#### Welche Befehle muss man noch wissen?  
+* `git fetch <beispielrepository>`
+  damit holt man sich den aktuellen Serverstand auf den Rechner
 
 

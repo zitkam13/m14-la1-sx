@@ -39,6 +39,15 @@ Bild vom [Skript](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html)
 * __*local repository:*__ Lokale Datenverwaltung am eigenen PC
 * __*remote repository:*__ Gemeinsame Datenverwaltung, die sich mit den loaklen Datenverwaltungen abgeleicht
 
+**Wichitge Befehle:**
+
+* __*git add:*__ Dateien werden vom Workspace nach Index bewegt.
+* __*git commit:*__ Dateien werden vom Index ins lokal repository bewegt.
+* __*git push:*__ Dateien vom lokal repository auf Git-Server geladen.
+* __*git clone:*__ Das gesamte Repository wird geklont.
+* __*git pull:*__ Dateien werden vom Git-Server heruntergeladen.
+* __*git status:*__ Alle Änderungen anzeigen.
+
 **Branches**
 
 Branches werden auch Verzweigungen genannt. Sinn und Zweck eines Branches ist es, Funktionen getrennt voneinander zu entwickeln. Bei dem Erstellen eines neues Repositorys wird der sogenannte **Master Branch** erstellt. Im Master Branch sollten immer nur funktionsfähige Programme gespeichert werden, da es ansonsten zu Problemen bei der Zusammenarbeit kommen könnte.  
@@ -65,6 +74,6 @@ von GitHub verwendet.
 
 [Syntax Guide](https://guides.github.com/features/mastering-markdown/)
 
-##
+
 
 

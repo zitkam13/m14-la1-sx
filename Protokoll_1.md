@@ -20,7 +20,7 @@ wenn man alleine arbeitet. Git wurde von Linus Torvald entwickelt, der mit den a
 zufrieden war (z.B: SVN,CVS,ClearCase)
 
 **Vorteile von Git:**
-
+##
 * Git unterstützt verschmelzen von Entwicklungszweigen
 * Jeder Projektteilhaber hat eine lokale Kopie des gesamten Repositories (local repository)
 * Somit ist zum Arbeiten keine Internetverbindung nötig
@@ -74,6 +74,9 @@ von GitHub verwendet.
 
 [Syntax Guide](https://guides.github.com/features/mastering-markdown/)
 
+## **SSH und GitHub**
 
+Da die sichere Übertragung der Daten durch Benutzername und Passwort heutzutag relativ leicht geknackt werden kann, ist eine Verschlüsselung mit SSH sinnvoll und bei GitHub auch möglich. Das ist **sicherer** und **bequemer**, weil kein Passwort eingegeben 
+werden muss. Um das möglich zu machen, muss auf dem eigenen PC mit dem Befehl *ssh_keygen* ein Schlüsselpaar erzeugt werden. Dann kann auf GitHub in den Einstellungen die Verschlüsselung mittel SSH gewählt werden und der öffentliche Schlüssel eingefügt werden. Ist das geschehen, kann man in der eigenen repository *Clone with SSH* auswählen und ein Link steht zur Verfügung. Dann muss nur noch in der Konsole der Befehl *git clone <Link>* ausgeführt werden und die Verschlüsselung über SSH ist eingerichtet.
 
 

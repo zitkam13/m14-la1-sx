@@ -37,7 +37,24 @@ Als erstes muss man sich das Git-Paket am Rechner installieren (z.B. mit `apt-ge
 seine persönlichen Einstellungen hinterlegen. Nun kann man schon entweder mit `git init` ein neues Repository anlegen oder mit `git clone` ein entferntes Repository klonen. Am besten ist, man klont sich das Repository mit einem SSH-Schlüssel, da dies wesentlich sicherer ist, als die Kennwortauthentifizierung. 
 
 #### Welche Befehle muss man noch wissen?  
-* `git fetch <beispielrepository>`
+* `git fetch <beispielrepository>`  
   damit holt man sich den aktuellen Serverstand auf den Rechner
-
+* `git add <Datei>`  
+  damit wird die Datei in den Index gebracht (vorbereitet für commit), `add -A` werden alle geänderten Dateien angesprochen
+* `git commit`  
+  damit werden die Änderungen kommentiert und fertig gemacht zum Hochladen 
+* `git checkout <Branch>`
+  damit wechselt man zu einem bestimmten Branch (Zweig), wenn man `checkout -b` verwendet, wird ein neuer Branch angelegt
+* `git push`
+  damit werden die Änderungen auf den Server hochgeladen
+  
+ #### Wobei handelt es sich bei Markdown-Dateien (.md)?
+ Dies sind Dateien, welche verwendet werden, um eine bessere Übersichtlichkeit und Strukturierbarkeit als bei reinen Plain-Text-Dateien (.txt) zu erreichen, jedoch trotzdem auf jeder Plattform nur mit einem Editor erstellt werden können. Obwohl sie viel einfacher aufgebaut sind als z.B. OpenDocument-Text-Dateien (.odt), kann man damit trotzdem übersichtlich gestalten und strukturieren. 
+ Möglich sind:  
+ * mit `#` verschiedene Ebenen von Überschriften  
+* mit `*` Aufzählungen  
+ * mit `1.` fortlaufende Nummerierungen
+ * mit `[anzuzeigenderText](http://hyper.link)` Links
+ * sowie viele weitere Möglichkeiten, nachzulesen im Dokument [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+ 
 

@@ -24,9 +24,8 @@ Git ist ein eine freie Software, welche die Versionsverwaltung von Dateien mögl
 GitHub ist ein Onlinedienst zur Versionsverwaltung auf Basis von GIT. Hauptmerkmale sind unter anderem:
 * Registrierung von Privatpersonen, Organisationen oder Unternehmen ist kostenlos
 * Der Betrieb von beliebig vielen öffentlich zugänglichen Repositories ist kostenlos
-* Der Betrieb von beliebig vielen privaten Repositories schlägt mit 8 USD pro Monat zu Buche.  
-Alternative zu GitHub wäre [BitBucket](1).
+* Der Betrieb von beliebig vielen privaten Repositories schlägt mit 8 USD pro Monat zu Buche.    
 
-[1](https://bitbucket.org/)
+Alternative zu GitHub wäre [BitBucket](https://bitbucket.org/).
 
 

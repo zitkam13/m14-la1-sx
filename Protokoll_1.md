@@ -9,7 +9,7 @@ Abwesend: -
 
 ## **Versionsverwaltung mit Git**
 
-### **Git**
+**Git**
 
 Git ist ein System mit zur Versonsverwaltung, welches sehr häufig verwendet wird. Damit können mehrere Personen,
 die an einem Projekt arbeiten, auf die gemeinsamen Datein zugreifen. Es ist aber auch sinnvoll mit Git zu arbeiten
@@ -26,7 +26,7 @@ zufrieden war (z.B: SVN,CVS,ClearCase)
 **Aufbau von Git:**
 
 Git ist auf 5 Ebenen aufbgebaut:
-![Aufbau GIT](C:\Users\Florian\Documents\SCHULE1718\LABOR\Steiner\Bild1]
+![Aufbau GIT](C:\Users\Florian\Documents\SCHULE1718\LABOR\Steiner\Bild1.png]
 Bild vom [Skript](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html#(4))
 * *workspace:* Arbeitsbereich
 * *stash:* Rücksicherung der Daten aus dem Workspace

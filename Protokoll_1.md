@@ -1,12 +1,10 @@
-# **Laborprotokoll**
+# **1.Laborprotokoll** *von Florian Ruffenacht*
 
 Datum: 21.11.2017 (Gruppe 3)
 
 Ort: AUT-Labor
 
 Lehrkraft: SX
-
-Übung Nr: 1
 
 Abwesend: -
 
@@ -30,7 +28,7 @@ zufrieden war (z.B: SVN,CVS,ClearCase)
 **Aufbau von Git:**
 
 Git ist auf 5 Ebenen aufbgebaut:
-![Aufbau GIT](C:\\Users\\Florian\\Documents\\SCHULE1718\\LABOR\\Steiner\\Bild1.png)
+![Aufbau GIT](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/Bild1.png)
 Bild vom [Skript](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html)
 
 * __*workspace:*__ Arbeitsbereich

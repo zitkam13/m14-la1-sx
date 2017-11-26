@@ -22,7 +22,7 @@ zufrieden war (z.B: SVN,CVS,ClearCase)
 **Vorteile von Git:**
  
 * Git unterstützt verschmelzen von Entwicklungszweigen
-* Jeder Projektteilhaber hat eine lokale Kopie des gesamten Repositories (local repository)
+ * Jeder Projektteilhaber hat eine lokale Kopie des gesamten Repositories (local repository)
 * Somit ist zum Arbeiten keine Internetverbindung nötig
 * local repositorys können über das Internet synchronisiert werden
 
@@ -81,6 +81,6 @@ werden muss.
 
 Um das möglich zu machen, muss auf dem eigenen PC mit dem Befehl __*ssh_keygen*__ ein Schlüsselpaar erzeugt werden. Dann kann auf GitHub in den Einstellungen die Verschlüsselung mittel SSH gewählt werden und der öffentliche Schlüssel eingefügt werden. [Genaue Anweisung Klick für Klick](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
-Ist das geschehen, kann man in der eigenen repository __*Clone with SSH*__ auswählen und ein Link steht zur Verfügung. Dann muss nur noch in der Konsole der Befehl __*git clone <Link>*__ ausgeführt werden und die Verschlüsselung über SSH ist eingerichtet.
+Ist das geschehen, kann man in der eigenen repository __*Clone with SSH*__ auswählen und ein Link steht zur Verfügung. Dann muss nur noch in der Konsole der Befehl __*git clone < Link >*__ ausgeführt werden und die Verschlüsselung über SSH ist eingerichtet.
 
 

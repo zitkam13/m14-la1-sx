@@ -1,7 +1,9 @@
 # **Laborprotokoll**
 
 Datum: 21.11.2017 (Gruppe 3)
+
 Ort: AUT-Labor
+
 Lehrkraft: SX
 Übung Nr: 
 Abwesend: -
@@ -26,8 +28,9 @@ zufrieden war (z.B: SVN,CVS,ClearCase)
 **Aufbau von Git:**
 
 Git ist auf 5 Ebenen aufbgebaut:
-![Aufbau GIT](C:\Users\Florian\Documents\SCHULE1718\LABOR\Steiner\Bild1.png]
+![Aufbau GIT](C:\Users\Florian\Documents\SCHULE1718\LABOR\Steiner\Bild1.png)
 Bild vom [Skript](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html#(4))
+
 * __*workspace:*__ Arbeitsbereich
 * __*stash:*__ Rücksicherung der Daten aus dem Workspace
 * __*index:*__ Zwischenspeicher wenn Daten noch nicht für alle freigegeben werden sollen
@@ -49,6 +52,7 @@ ist auf folgendes zu achten:
 * Es sollte die Programmiersprache ausgewählt werden, das so gewisse Datein ignoriert werden
 
 Mit *readme´s* können Informationen an den Nutzer weitergegeben werden (z.B. Installationsinformation)
+
 Link zur Website: [GitHub](https://github.com/)
 
 
@@ -56,6 +60,7 @@ Link zur Website: [GitHub](https://github.com/)
 
 Markdown ist ein Format, mit dem man ein Textfile in eine HTML-Datei (oder PDF´s, usw...)  umwandeln kann. Markdown wird zum Beispiel 
 von GitHub verwendet. 
+
 [Syntax Guide](https://guides.github.com/features/mastering-markdown/)
 
 ##

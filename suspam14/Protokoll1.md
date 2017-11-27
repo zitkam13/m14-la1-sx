@@ -54,7 +54,13 @@ lädt das remote Repository ins lokale Repository
 
 ## Github
 Github ist ein Online-Dienst basierend auf Git. Man kann online Repositorys anlegen auf die jeder Zugriff hat. Deswegen wird Github vorwiegend für Open Source Projekte verwendet. Es ist auch möglich ein privates Repository zu erstellen, das ist aber mit Kosten verbunden.  
-
+## Erstellen eines Repositorys
+* Auf Github anmelden
+* Auf `New repository` klicken
+* Optional: .gitignore hinzufügen  
+Hier gibt man an in welche Dateitypen Github ignorieren soll. Das bewirkt das keine unnötigen oder privaten Dateien (z.B. Log-Dateien) hochgeladen werden.
+* Optional: Lizenz hinzufügen  
+Wenn keine Lizenz angegeben wird, ist es möglich, dass jemand anderes die Dateien mit einer Lizenz veröffentlicht und er diese dann sein Eigen nennen kann.
 ## Markdown  
 Markdown ist ein Dateiformat für Text-Dateien. Man benötigt um einen Text in Markdown zu schreiben nur einen Editor. Im Vergleich zu `.txt` Dateien ist es möglich diese übersichtlicher und strukturierter zu gestalten. Markdown wird z.B. in Github verwendet.  
 **Syntax Guide für Markdown: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)**

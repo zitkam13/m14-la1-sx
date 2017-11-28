@@ -46,20 +46,48 @@ Benutzer A wird benachrichtigt und kann diesen _pull request_ _commiten_, um Än
 [Mikrocontroller.net/Atmel Studio](https://www.mikrocontroller.net/articles/Atmel_Studio)  
 
 --------------------------------------------  
+#### Prozessorfenster  
+**Programm Counter**  
+* Gibt Adresse des nächsten Maschinenbefehls  
+**Cycle Counter**  
+* Gibt an, wie viele Zyklen seit dem letzten Reset durchgelaufen sind  
+**X-/Y-/Z-Register**  
+Um die 2048Byte nutzen zu können, bräuchte man theoretisch mehr als 32 Register (32 Register => 255 Werte). Im ATmega328 wurde die mit dem X-/Y-/ und Z-Register umgesetzt:  
+Register | Zusammensetzung  
+-------- | ---------------  
+X | R27&R26  
+Y | R29&R28  
+Z | R31&R30  
 ##### Projekt anlegen  
 * new  
   * project  //Projekt anlegen  
 * Atmel Boards  
   * STK600ATmega328   //Board auswählen  
 * Kompellieren  
-* Debugg  
+* Debuggen  
   * simulate    //Debugger auswählen  
   * speichern  
-##### Prozessorfenster  
-**Programm Counter**  
-* Gibt Adresse des nächsten Maschinenbefehls  
-**Cycle Counter**  
-* Gibt an, wie viele Zyklen seit dem letzten Reset durchgelaufen sind  
+* Reset  
+  * debug -> windows -> disassembly   //nun befindet man sich im _disassembly_  
+  * disassembly: debug -> reset   //Reset  
+  * mit F11 kann man jeden Maschinenbefehl eines Programms extra Aufrufen lassen  
+----------------------------------------------  
+##### Instruction Set Manual  
 
-In disassembly (debug-> windows-> diassembly)   
-	Debug -> reset   
+##### Beispiel  
+int main (void)  
+{  
+  return 0;  
+}  
+
+-----------------------------------  
+###### RJMP 33.c0  
+* RJMP springt zu einer Adresse innerhalb des Program Counters PC (von -2k bis +2k)  
+* Wenn der Programmspeicher kleiner als 4k ist, dann kann an jede beliebige Stelle gesprungen werden  
+  
+33.c0 => 0011 0011[Byte 2] 1100 0000[Byte 1]  
+1100 0000 0011 0011 Maschinenbefehl  
+Muster für JMP: **11**kk kkkk kkkk kkkk  
+
+----------------------------------------------   
+###### 

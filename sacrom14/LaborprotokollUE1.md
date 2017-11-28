@@ -7,11 +7,14 @@
   
   **Abwesend:**-   
   **Anwesend:**   Sackl Martin, Sackl Roland, Reinbacher Bernhard,Sammer Daniel,Ruffennacht Florian,Schuster Patrick,Schmuck Martin
+   
+
+----------------------------
 
 
 
 ### Git
-Git ist eine Software für die Versionsverwaltung von Dateiein, das es einem Team aus Softwareentwicklern es einfacher macht miteinander zusammenzuarbeiten.
+Git ist eine Software für die Versionsverwaltung von Dateiein, das es einem Team aus Softwareentwicklern es einfacher macht miteinander zusammenzuarbeiten.  
 Das macht aus diesem Grund Sinn, da man so Fehler, die eventuell eingebaut wurden schneller behoben werden können, oder damit die Entwickler gleichzeitig arbeiten und ihre Werke zusammenführen können.
 
 **Vorteile bei Git:**  
@@ -29,7 +32,7 @@ Es eignet sich vor allem für Open-Source-Projekte, da im Gratis-Paket nur öffe
 
 ## Branches
 
-Ein Branch bezeichnet einen Zweig innerhalb eines Repositoritys. Die Idee hinter Verzweigungen ist die, eine funktionsfähige, stabile Version welche bereits von einem Kunden genutzt wird nicht zu gefährden und trotzdem weiterarbeiten zu können. Es gibt einen **master**-Branch - die offizielle Version - und Branches in denen zum Beispiel neue Funktionen eingebaut werden, 
+Ein Branch bezeichnet einen Zweig innerhalb eines Repositoritys. Die Idee hinter Verzweigungen ist die, eine funktionsfähige, stabile Version welche bereits von einem Kunden genutzt wird nicht zu gefährden und trotzdem weiterarbeiten zu können.   Es gibt einen **master**-Branch - die offizielle Version - und Branches in denen zum Beispiel neue Funktionen eingebaut werden, 
 die aber noch nicht stabil laufen.Um trotzdem eine Zusammenarbeit ermöglichen zu können, git es sogenannte Nebenzweige, welche dazu verwendet werden, unfertige und nicht funktionierende Funktionen zu verwalten. Nach der Fertigstellung eines Programmes kann dieses in den Master-Branch geschoben werden.  
 
 

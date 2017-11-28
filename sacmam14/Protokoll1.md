@@ -52,11 +52,7 @@ Unteschiede zu anderen Versionsverwaltungen:
 
 ### Branches  
 Branches werden auch Verzweigungen genannt. Repositories können in Branches unterteilt werden, damit eine stabile Version immer erhalten bleibt, wenn man daran arbeitet. Daher sollte sich die stabile Version immer im **Master branch** befinden.  
-Mehr dazu finden Sie [hier](https://git-scm.com/book/en/v1/Git-Branching-What-a-Branch-Is).  
-
-### Issues  
-Issues sind Feedbacks von anderen Git-Nutzern. Dadurch können Fehler und Erweiterungen in einem Projekt leichter verfolgt werden.  
-Mehr dazu finden Sie [hier](https://guides.github.com/features/issues/).  
+Mehr dazu finden Sie [hier](https://git-scm.com/book/en/v1/Git-Branching-What-a-Branch-Is).    
 
 ### Markdown  
 Markdown ist eine Möglichkeit, eine Textdatei in eine HTML-Datei umzuwandeln. Markdown wird z.B. von GitHub verwendet.

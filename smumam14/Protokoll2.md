@@ -21,5 +21,9 @@ Wenn jemand auf ein Issue nicht reagiert, kann man mit `fork` ein bestimmte Repo
 Es gibt mehrere Webseiten, auf denen man die aktuellen Marktanteile der verschiedenen Plattformen einsehen kann. Eine davon ist [TIOBE](https://www.tiobe.com/tiobe-index/). Da der TIOBE-Index sich allerdings auf umstrittene Quellen verlässt (z.B. Google-Suchanfragen), wird er heftig kritisiert. Eine Alternative wäre [RedMonk](http://redmonk.com/sogrady/2017/06/08/language-rankings-6-17/). Diese Seite richtet sich nach der Anzahl der Sprachen, in den Projekte auf [GitHub](github.com) gehalten sind, und der Anzahl der Theards über diese Sprach auf [Stackoverflow](stackoverflow.com).
 
 ### Einführung µC
-#### 
+___________________
+
+#### Atmel Studio  
+Atmel Studio ist eine Entwicklungsumgebung, welche durch die Firma __Atmel__ zur Verfügung gestellt wird. Diese IDE ist optimiert für die eigenen Atmega-Chips. Man kann damit auch einen Mikrokontroller simulieren. Diese Software baut auf das Microsoft Visual Studio auf, daher ist sie leider nur für Windows-Systeme verfügbar.  
+Man kann damit einen µC komplett simulieren, und daher
 

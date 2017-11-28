@@ -5,11 +5,9 @@
   **Uhrzeit:** *9:40-12:25*  
   **Gruppe:** *3*  
   
-   
-    
- **Abwesend:** -  
- **Anwesend:**  Bernhard Reinbacher, Ruffenacht Florian, Sackl Martin, Sackl Roland, Sammer Daniel, Schmuck Martin, Schuster Patrick  
--------------------------------------
+  **Abwesend:**-   
+  **Anwesend:**   Sackl Martin, Sackl Roland, Reinbacher Bernhard,Sammer Daniel,Ruffennacht Florian,Schuster Patrick,Schmuck Martin
+
 
 
 ### Git
@@ -62,7 +60,7 @@ Weitere Informationen finden Sie [hier](https://guides.github.com/features/maste
 
 
 
-**Befehle in Git:**
+## Befehle in Git:  
 * git checkout
 	* Dateien werden vom lokalen Repository in den Workspace befördert
 * git add
@@ -77,5 +75,19 @@ Weitere Informationen finden Sie [hier](https://guides.github.com/features/maste
 	* Änderungen werden vom Server geladen
 * git status
 	* Anzeige der Änderungen, die übernommen werden
-  
-  
+	
+	
+## Git Repository 
+Um von Linux aus mit gitHub zu arbeiten muss man zuerst das gesamte Reposiroty vom Git-Server klonen. Dies geeschieht mit **git clone (link des Repository)** Hier kann man die Verbindung auswählen mittels *HTTPS* oder *SSH*     
+
+ 
+  1. SSH-Schlüsselpaar erzeugen und public-key unter settings - SSH and GPG Keys einfügen  
+  2. SSH-Config konfigurieren zur Verbindung mit Github
+		1. Config-Datei öffnen: nano ~/.ssh/config
+		2. Hinzufügen des Hosts github:
+		
+				Host github  
+					Hostname github.com  
+					User git  
+
+	

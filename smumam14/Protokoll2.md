@@ -25,5 +25,8 @@ ___________________
 
 #### Atmel Studio  
 Atmel Studio ist eine Entwicklungsumgebung, welche durch die Firma __Atmel__ zur Verfügung gestellt wird. Diese IDE ist optimiert für die eigenen Atmega-Chips. Man kann damit auch einen Mikrokontroller simulieren. Diese Software baut auf das Microsoft Visual Studio auf, daher ist sie leider nur für Windows-Systeme verfügbar.  
-Man kann damit einen µC komplett simulieren, und daher
+Man kann damit einen µC komplett simulieren, inklusive Einblick in den Speicher, die Register, usw. 
+Außerdem lässt sich der Maschinencode Zeile für Zeile abarbeiten und auswerten. Beim Maschinencode muss man aufpassen, da Atmel Studio immer zwei Bytes vertauscht.
+
+#### Aufbau einer CPU
 

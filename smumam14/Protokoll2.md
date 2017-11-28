@@ -17,4 +17,9 @@ Man kann über Git auch kommunizieren! Dazu geht man in ein beliebiges Repositor
 #### Wie funktioniert das Fork/Pull-Konzept?
 Wenn jemand auf ein Issue nicht reagiert, kann man mit `fork` ein bestimmte Repository für sich selbst kopieren, die Änderungen vornehmen und dann mit einem Pull-Request den eigentlichen Eigentümer bitten, die Änderungen zu übernehmen. Wenn dieser jemand dazu nicht bereit ist, kann man ja auch selbst die Änderungen veröffentlichen. So kann man auch, wenn man an einem fremden Repository keine Schreibrechte hat, an Projekten mitarbeiten.
 
+#### Kleines Zwischenthema: welche ist die häufigste Programmiersprache?
+Es gibt mehrere Webseiten, auf denen man die aktuellen Marktanteile der verschiedenen Plattformen einsehen kann. Eine davon ist [TIOBE](https://www.tiobe.com/tiobe-index/). Da der TIOBE-Index sich allerdings auf umstrittene Quellen verlässt (z.B. Google-Suchanfragen), wird er heftig kritisiert. Eine Alternative wäre [RedMonk](http://redmonk.com/sogrady/2017/06/08/language-rankings-6-17/). Diese Seite richtet sich nach der Anzahl der Sprachen, in den Projekte auf [GitHub](github.com) gehalten sind, und der Anzahl der Theards über diese Sprach auf [Stackoverflow](stackoverflow.com).
+
 ### Einführung µC
+#### 
+

@@ -31,6 +31,7 @@ Benutzer A wird benachrichtigt und kann diesen _pull request_ _commiten_, um Än
 
 ---------------------  
 ### Atmel Studio  
+![AtmelLogo](https://github.com/HTLMechatronics/m14-la1-sx/blob/samdam14/samdam14/atmel.jpg)  
 * Entwicklungsumgebung für die Programmierung von AVR- und ARM-Mikrokontrollor  
 * Kostenlos von Atmel zu Verfügung gestellt  
 * Basiert auf Virtual Studio Shell von Microsoft (ab Verion 5)  
@@ -42,6 +43,7 @@ Benutzer A wird benachrichtigt und kann diesen _pull request_ _commiten_, um Än
 * Editor  
 * Debugger  
 * Werkzeuge zur Beschreibung von µC  
+
 [Atmel Studio](http://www.atmel.com/)   
 [Mikrocontroller.net/Atmel Studio](https://www.mikrocontroller.net/articles/Atmel_Studio)  
 
@@ -49,8 +51,10 @@ Benutzer A wird benachrichtigt und kann diesen _pull request_ _commiten_, um Än
 #### Prozessorfenster  
 **Programm Counter**  
 * Gibt Adresse des nächsten Maschinenbefehls  
+
 **Cycle Counter**  
 * Gibt an, wie viele Zyklen seit dem letzten Reset durchgelaufen sind  
+
 **X-/Y-/Z-Register**  
 Um die 2048Byte nutzen zu können, bräuchte man theoretisch mehr als 32 Register (32 Register => 255 Werte). Im ATmega328 wurde die mit dem X-/Y-/ und Z-Register umgesetzt:  
 * X -> R27&R26  
@@ -69,16 +73,21 @@ Um die 2048Byte nutzen zu können, bräuchte man theoretisch mehr als 32 Registe
   * debug -> windows -> disassembly   //nun befindet man sich im _disassembly_  
   * disassembly: debug -> reset   //Reset  
   * mit F11 kann man jeden Maschinenbefehl eines Programms extra Aufrufen lassen  
+  
+Info's zum µC: [ATmega328 Wiki](https://en.wikipedia.org/wiki/ATmega328)  
+
 ----------------------------------------------  
 ##### Instruction Set Manual  
 Im _instruction set manual_ kann man die wichtigsten Maschinenbefehle und deren Beschreibungen nachschauen.  
 [Instruction Set Manual](http://www.atmel.com/images/Atmel-0856-AVR-Instruction-Set-Manual.pdf)  
 
+----------------------------------------
 ##### Beispiel  
 int main (void)  
 {  
   return 0;  
 }  
+Die folgenden Maschinenbefehle können im _instruction set manual_ genauer durchgelesen werden.  
 
 -----------------------------------  
 ###### RJMP 33.c0  
@@ -113,7 +122,7 @@ Muster für JMP: **11**kk kkkk kkkk kkkk
 ###### LDI R29(d), 0x08(k)  
 *	Load Immediate  
 * Ladet 8 Bit direkt ins Register 16-31  
-* Muster: 1110 kkkk dddd kkkk  
+* Muster: **1110** kkkk dddd kkkk  
 *	e0d8 = 1110 0000 1101 1000 k=8, d=13
 *	R29 wird auf 8 gesetzt  
 
@@ -128,9 +137,9 @@ Muster für JMP: **11**kk kkkk kkkk kkkk
 ----------------------------------------
 ###### RCALL PC+3  
 *	Do02 =1101 0000 0000 0010 k=2  
-*	Muster: 1101 kkkk kkkk kkkk  
+*	Muster: **1101** kkkk kkkk kkkk  
 * Stack -> PC +1  
-* SP=SP-2  
+* SP=SP-2   //SP=Stackpointer  
 
 --------------------------------------  
 ###### LDI R24, 0x00  
@@ -145,5 +154,20 @@ Muster für JMP: **11**kk kkkk kkkk kkkk
 *	Subroutine return  
 
 -----------------------------------  
-
+#### Aufbau einer SRAM  
+![Aufbau SRAM ATmega328P](https://github.com/HTLMechatronics/m14-la1-sx/blob/samdam14/samdam14//sram.jpg)  
+**SRAM bestehen aus:**  
+*	Globale Variablen  
+*	Heap  
+  * dynamische Speicherverwaltung  
+*	Freier Speicher  
+*	Stack  
+  * Daten werden unten im Stack eingefügt  
+  * Obersten Daten sind somit die ältesten Daten und müssen als nächstes verarbeitet werden (last in, first out)  
+  * [wiki/Stack](https://de.wikipedia.org/wiki/Stapelspeicher)  
+* SRAM Adresse beginnt nicht bei 0, sondern bei 0x100  
+##### Stackpointer  
+* Stackpointer zeigt auf den nächsten freien Platz im Speicher  
+* In unserem Fall setzen wir ihn nach dem Reset auf 0x08FF (erster freier Platz)  
+* Zeigt der Stackpointer auf einen besetzten Platz, dann ergibt sich ein Systemabsturz (_**Stackoverflow**_)  
 

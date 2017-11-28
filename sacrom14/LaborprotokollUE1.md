@@ -81,7 +81,8 @@ Weitere Informationen finden Sie [hier](https://guides.github.com/features/maste
 	
 	
 ## Git Repository 
-Um von Linux aus mit gitHub zu arbeiten muss man zuerst das gesamte Reposiroty vom Git-Server klonen. Dies geeschieht mit **git clone (link des Repository)** Hier kann man die Verbindung auswählen mittels *HTTPS* oder *SSH*     
+Um von Linux aus mit gitHub zu arbeiten muss man zuerst das gesamte Reposiroty vom Git-Server klonen. Dies geeschieht mit **git clone (link des Repository)** Hier kann man die Verbindung auswählen mittels *HTTPS* oder *SSH*  
+
 
  
   1. SSH-Schlüsselpaar erzeugen und public-key unter settings - SSH and GPG Keys einfügen  

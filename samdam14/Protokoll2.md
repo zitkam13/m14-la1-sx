@@ -30,6 +30,17 @@ Benutzer A wird benachrichtigt und kann diesen _pull request_ _commiten_, um Än
 [PullRequest](https://help.github.com/articles/about-pull-requests/)   
 
 ---------------------  
+### Aufbau der CPU eines ATmega328P  
+Bevor wir mit Atmel Studio begonnen haben, haben wir die einzelnen Bausteine einer CPU eines µC's besprochen, da sich diese in kurzer Zeit in Atmel Studio wiederfinden werden lassen.  
+* Program Counter  
+  * liefert die Adresse des nächsten Maschinenbefehls  
+* Stack Pointer  
+  * zeigt auf den nächsten freien Platz im Stack  
+* Befehls Register  
+  * empfängt Maschinenbefehle und speichert sie zwischen, während sie ausgeführt werden  
+* Statusregister  
+  * Flagregister, gewisse Zustände werden hier, während Befehle ausgeführt werden, gespeichert  
+![CPU-Aufbau](https://github.com/HTLMechatronics/m14-la1-sx/blob/samdam14/samdam14/CPU_Aufbau.svg)  
 ### Atmel Studio  
 ![AtmelLogo](https://github.com/HTLMechatronics/m14-la1-sx/blob/samdam14/samdam14/atmel.jpg)  
 * Entwicklungsumgebung für die Programmierung von AVR- und ARM-Mikrokontrollor  

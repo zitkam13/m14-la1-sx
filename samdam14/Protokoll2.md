@@ -41,6 +41,8 @@ Bevor wir mit Atmel Studio begonnen haben, haben wir die einzelnen Bausteine ein
 * Statusregister  
   * Flagregister, gewisse Zustände werden hier, während Befehle ausgeführt werden, gespeichert  
 ![CPU-Aufbau](https://github.com/HTLMechatronics/m14-la1-sx/blob/samdam14/samdam14/CPU_Aufbau.svg)  
+
+-------------------------------------  
 ### Atmel Studio  
 ![AtmelLogo](https://github.com/HTLMechatronics/m14-la1-sx/blob/samdam14/samdam14/atmel.jpg)  
 * Entwicklungsumgebung für die Programmierung von AVR- und ARM-Mikrokontrollor  

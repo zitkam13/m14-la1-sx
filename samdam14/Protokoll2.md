@@ -106,10 +106,9 @@ Die folgenden Maschinenbefehle können im _instruction set manual_ genauer durch
 ###### RJMP 33.c0  
 * RJMP springt zu einer Adresse innerhalb des Program Counters PC (von -2k bis +2k)  
 * Wenn der Programmspeicher kleiner als 4k ist, dann kann an jede beliebige Stelle gesprungen werden  
-  
-33.c0 => 0011 0011[Byte 2] 1100 0000[Byte 1]    //Byte 1 und 2 sind hingegen zum _instruction set manual_ vertauscht  
-1100 0000 0011 0011 Maschinenbefehl  -> 11=JMP, k=51  
-Muster für JMP: **11**kk kkkk kkkk kkkk  
+* Muster für JMP: **11**kk kkkk kkkk kkkk  //aus dem _instruction set manual_  
+* 33.c0 = 0011 0011[Byte 2] 1100 0000[Byte 1]    //Byte 1 und 2 sind hingegen zum _instruction set manual_ vertauscht  
+* 1100 0000 0011 0011 Maschinenbefehl  -> 11=JMP, k=51   
 
 ----------------------------------------------   
 ###### CLR  

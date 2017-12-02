@@ -72,7 +72,7 @@ Das sind folgende Informationen:
 
 * Cycle - Counter
 * Frequenz
-* Stop watch
+ * Stop watch
 Die letzten drei Anzeigen sind nur Infos für den Benutzer und sind am echten Prozessor nicht zu finden.
 Bild
 Außerdem lassen sich die 32 CPU - Register (welche durch jeweils 8 FlipFlops realisiert sind -> Werte 0...255) anzeigen.
@@ -111,19 +111,31 @@ Beispiel: Befehl *33.c0* wird zu *c0.33*
 #### RJUMP
 * RJUMP springt zu einer Adresse innerhalb des Programm Counters 
 * Muster: 11kk kkkk kkkk kkkk
-* Beispiel: c0.33 = 1100 0000 0011 0011 | -> RJUMP 51
+* Beispiel: c0.33 = 1100 0000 0011 0011 |-> RJUMP 51
 #### CLR
 * Clear setzt ein Register auf 0. Clear ist eigentlich eine EXOR-Verknüpfung eines Regsiters mit sich selbst.
 * Muster: 0010 01rd. dddd rrrr (d = EXOR-Register, r=Register)
 * Besipiel: 24.11 = 0010 0100. 0001 0001 |-> Zero Flag wird auf 0 gesetzt
 #### OUT
-OUT speichert Daten vom Rr Register ins I/O-Register(SREG)
+* OUT überträgt Daten vom CPU-Register ins I/O-Register(SREG)
+* Muster: 1011 1AAr. rrrr AAA (r = CPU-Register, A = I/O Register)
+* Beispiel: be.17 = 1011 1110 0001 1111 |-> Status Flags werden auf 0 gesetzt
 #### SER
+* Einem der Register 16-31 wird der Wert FF zugwiesen
+* Muster: 1110 1111. dddd 1111 ( 16 + d = Register)
+* Beispiel: ef.cf = 1110 111. 1100 1111  |-> Dem Register 28 wird der Wert FF zugewiesen
 #### LDI
-#### OUT
+* Load Immediate ladet einen Konstanten Wert in eines der Register 16-31
+* Muster: 1110 KKKK. dddd KKKK (K = der konstante Wert, 16 + d = Register)
+* Bespiel: e0.d8 = 1110 0000 1101 1000 |-> R29 wird auf 8 gesetzt
 #### RCALL
+* RCALL setzt den Programm Counter (PC) auf PC+1+k
+* Muster: 1101 kkkk. kkkkk kkkk ( k = Wert um den der PC erhöht werden soll)
+* Besipiel: d0.02 = 1101 0000, 0000 0010 |-> Der PC wird um 3 erhöht
 #### RET
-#### LDI
+* Mit RET wird von einer Subroutine zurückgekehrt
+* Muster: 1001 1010. 0000 1000
+
 
 
 

@@ -1,4 +1,4 @@
-Bil# **1.Laborprotokoll** 
+UmBil# **1.Laborprotokoll** 
 *von Florian Ruffenacht*
 
 Datum: 28.11.2017 (Gruppe 3)
@@ -61,6 +61,39 @@ von Atmel-Chips auch die Simulation von Mikroprozessoren durchgeführt werden ka
 [Website von Atmel Studio 7](http://www.atmel.com/microsite/atmel-studio/)
 
 Da im AtmelStudio der von uns verwendete Prozessor **Atmega 328p** nicht vefügbar ist, verwendeten wir bei der Übung den **Atmega 328**.
+Um die einfachsten Maschinenbefehle zu analysieren verwendeten wir folgendendes einfaches Programm:
+Bild
+In AtmelStudio besteht die Möglichkeit das Programm Schritt für Schritt durchzugehen und sich jeweils den aktuellen Status des Mikroprozessors anzeigen zu lassen. 
+Das sind folgende Informationen:
+* Programm - Counter (gibt Adresse des nächsten Maschinenbefehls an)
+* Stack Pointer (zeigt den Beginn des Stacks an)
+* Befehlsregister (X,Y,Z -> laden die nächsten Maschinenbefehle)
+* Status der Statusflagregister
+
+* Cycle - Counter
+* Frequenz
+* Stop watch
+Die letzten drei Anzeigen sind nur Infos für den Benutzer und sind am echten Prozessor nicht zu finden.
+Bild
+Außerdem lassen sich die 32 CPU - Register (welche durch jeweils 8 FlipFlops realisiert sind -> Werte 0...255) anzeigen.
+
+### XYZ - Register
+Weil aber Adressen, zum Beispiel für das SRAM, größere Werte als 255 annehmen können, werden jeweils zwei CPU - Register zusammengelegt.
+Die Register setzen sich folgendermaßen zusammen:
+
+
+* X = Register 26 + 27
+* Y = Register 28 + 29
+* Z = Register 30 + 31
+
+Weitere Informationen zur Pin- und Registerbelegung können [hier](http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf) im Datenblatt des Atmega 328/P nachgelesen werden.
+
+### Aufbau der CPU
+ Hier wird mithilfe eines Blockschaltbilds der Aufbau einer CPU anschaulich dargestellt
+ Bild
+ 
+### Stack
+Im Stack (auch **Stapelspeicher genannt**) werden Datenn von untern noch oben abelegt. Allerdings werden die Daten von oben nach unten eingelesen. Dieses Verfahren wird als Last-in-First-out bezeichnet.
 
 
 

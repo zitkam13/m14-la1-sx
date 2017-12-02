@@ -23,6 +23,9 @@ Git wird in 5 Ebenen unterteilt
 * local Repository (Repository am Rechner)
 * remote Repository (Repository am Git-Server)
 
+### Branches
+Branches werden verwendet um an einem Programm arbeiten, ohne eine stabile Version zu gefährden, die immer zur Verfügung stehen soll. Die stabile funktionsfähiger Version befindet sich immer im master-Branch. Wenn die Änderungen die an einem anderen Branch am Programm vorgenommen worden sind stabil sind kann der Branch wieder mit dem master-Branch zusammengeführt werden.  
+
 ### Befehle
 * `git clone `  
 klont das Repository ins aktuelle Verzeichnis

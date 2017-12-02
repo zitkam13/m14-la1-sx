@@ -31,7 +31,7 @@ zufrieden war (z.B: SVN,CVS,ClearCase)
 Git ist auf 5 Ebenen aufbgebaut:
 ![Aufbau GIT](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/Bild1.png)
 
-(Bild vom [Skript](https://www.htl-mechatronik.at/e-books/sx/html/git/git.html))
+(Bild vom [Skript](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildE1.png))
 
 * __*workspace:*__ Arbeitsbereich
 * __*stash:*__ Rücksicherung der Daten aus dem Workspace

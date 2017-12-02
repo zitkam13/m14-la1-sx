@@ -13,8 +13,6 @@ Lehrkraft: SX
 Abwesend: -
 
 
-
-
 ## **Issues auf GitHub**
 
 Issues sind eine Kommunkationsmöglichkeiit auf GitHub. Es lassen sich **Nachrichten** an andere

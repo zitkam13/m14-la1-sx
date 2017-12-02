@@ -38,7 +38,7 @@ erscheint jedes Monat. Doch der TIOBE Index ist umstritten, denn der nicht wisse
 in den Suchmaschinen verschieben.
 
 Der aktuelle TIOBE Index (Stand 11/2017):
-Bild
+![Tiobe Index](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildTiobeE2.svg)
 [TIOBE Index](https://www.tiobe.com/tiobe-index/)
 
 Der RedMonk Index hingegen bezieht seine Daten aus zwei anderen Quellen und stellt diese auch in einem Koordinationsystem dar. Einerseits
@@ -46,7 +46,7 @@ wird bemessen, wie häufig eine Programmiersprache in Projekten auf GitHub vorko
 dieser Sprache auf dem Forum StackOverflow gibt.
 Der Stackpointer zeigt immer auf den nächsten freien Platz im Stack-Speicher. Wenn der Stack also leer ist, zeigt der Stackpointer auf den unteresten Platz im Speicher. Bei unserer Simulation war das der Wert 08FF. Wenn der Stackpointer allerdings über den reservierten Speicherplatz hinaus geht, spricht man von einem Stackoverflow.
 Der aktuelle RedMonk Index (Stand 3.Quartal 2017)
-Bild
+![RedMonk Index](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildRedMonkE2.png)
 [RedMonk Index](https://redmonk.com/sogrady/2017/06/08/language-rankings-6-17/)
 
 Die Unterschiede der beiden Indizes sind teilweise sehr groß, was sich auf die unterschiedlichen Berechnungsmethoden zurückführen
@@ -62,7 +62,7 @@ von Atmel-Chips auch die Simulation von Mikroprozessoren durchgeführt werden ka
 
 Da im AtmelStudio der von uns verwendete Prozessor **Atmega 328p** nicht vefügbar ist, verwendeten wir bei der Übung den **Atmega 328**.
 Um die einfachsten Maschinenbefehle zu analysieren verwendeten wir folgendendes einfaches Programm:
-Bild
+![Programm](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildProgrammE2.JPG)
 In AtmelStudio besteht die Möglichkeit das Programm Schritt für Schritt durchzugehen und sich jeweils den aktuellen Status des Mikroprozessors anzeigen zu lassen. 
 Das sind folgende Informationen:
 * Programm - Counter (gibt Adresse des nächsten Maschinenbefehls an)
@@ -74,7 +74,7 @@ Das sind folgende Informationen:
 * Frequenz
  * Stop watch
 Die letzten drei Anzeigen sind nur Infos für den Benutzer und sind am echten Prozessor nicht zu finden.
-Bild
+![AtmelStudio](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildAtmelStudioE2.JPG)
 Außerdem lassen sich die 32 CPU - Register (welche durch jeweils 8 FlipFlops realisiert sind -> Werte 0...255) anzeigen.
 
 ### XYZ - Register
@@ -90,7 +90,7 @@ Weitere Informationen zur Pin- und Registerbelegung können [hier](http://www.at
 
 ### Aufbau der CPU
  Hier wird mithilfe eines Blockschaltbilds der Aufbau einer CPU anschaulich dargestellt
- Bild
+ ![CPU](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildCpuE2.png)
  
 ### Stack
 Im Stack (auch **Stapelspeicher genannt**) werden Datenn von untern noch oben abelegt. Allerdings werden die Daten von oben nach unten eingelesen. Dieses Verfahren wird als Last-in-First-out bezeichnet.
@@ -99,7 +99,7 @@ Im Stack (auch **Stapelspeicher genannt**) werden Datenn von untern noch oben ab
 Der Stackpointer zeigt immer auf den nächsten freien Platz im Stack-Speicher. Wenn der Stack also leer ist, zeigt der Stackpointer auf den unteresten Platz im Speicher. Bei unserer Simulation war das der Wert 08FF. Wenn der Stackpointer allerdings über den reservierten Speicherplatz hinaus geht, spricht man von einem Stackoverflow.
 
 **Aufbau des SRAM**
-Bild
+![Stack](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildStackE2.png)
 
 ### Analysierte Maschinenbefehle
 

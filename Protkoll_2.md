@@ -14,6 +14,7 @@ Abwesend: -
 
 
 
+
 ## **Issues auf GitHub**
 
 Issues sind eine Kommunkationsmöglichkeiit auf GitHub. Es lassen sich **Nachrichten** an andere
@@ -24,6 +25,7 @@ Issues können dazu verwendet werden Entwickler von **Open-Source Programmen** z
 über Fehler zu informieren. Sie können auch wieder geschlossen werden.
 
 [Weiteres zu Issues](https://guides.github.com/features/issues/) 
+
 
 
 
@@ -38,6 +40,7 @@ verbesserte Version zu übernehmen, was er aber nicht muss.
 [Weiteres zu Forks](https://guides.github.com/activities/forking/)
 
 [Weiteres zu Pull requests](https://help.github.com/articles/about-pull-requests/)
+
 
 
 

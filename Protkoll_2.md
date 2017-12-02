@@ -44,7 +44,7 @@ Bild
 Der RedMonk Index hingegen bezieht seine Daten aus zwei anderen Quellen und stellt diese auch in einem Koordinationsystem dar. Einerseits
 wird bemessen, wie häufig eine Programmiersprache in Projekten auf GitHub vorkommt und andererseits wie viele Aktivitäten es zu 
 dieser Sprache auf dem Forum StackOverflow gibt.
-
+Der Stackpointer zeigt immer auf den nächsten freien Platz im Stack-Speicher. Wenn der Stack also leer ist, zeigt der Stackpointer auf den unteresten Platz im Speicher. Bei unserer Simulation war das der Wert 08FF. Wenn der Stackpointer allerdings über den reservierten Speicherplatz hinaus geht, spricht man von einem Stackoverflow.
 Der aktuelle RedMonk Index (Stand 3.Quartal 2017)
 Bild
 [RedMonk Index](https://redmonk.com/sogrady/2017/06/08/language-rankings-6-17/)
@@ -95,6 +95,35 @@ Weitere Informationen zur Pin- und Registerbelegung können [hier](http://www.at
 ### Stack
 Im Stack (auch **Stapelspeicher genannt**) werden Datenn von untern noch oben abelegt. Allerdings werden die Daten von oben nach unten eingelesen. Dieses Verfahren wird als Last-in-First-out bezeichnet.
 
+**Stackpointer**
+Der Stackpointer zeigt immer auf den nächsten freien Platz im Stack-Speicher. Wenn der Stack also leer ist, zeigt der Stackpointer auf den unteresten Platz im Speicher. Bei unserer Simulation war das der Wert 08FF. Wenn der Stackpointer allerdings über den reservierten Speicherplatz hinaus geht, spricht man von einem Stackoverflow.
+
+**Aufbau des SRAM**
+Bild
+
+### Analysierte Maschinenbefehle
+
+Die von AtmelStudio ausgegebenen Maschinenbefehle, welche aus dem Quellcode kompiliert wurden, schlugen wir im [Atmel Instruction Manual](http://www.atmel.com/images/Atmel-0856-AVR-Instruction-Set-Manual.pdf) nach. Die im AtmelStudio in Hexadezimaler Darstellung angezeigten Maschinenbefehle, die aus zwei Bytes bestehen, sind vertauscht und müssen zuerst umgedreht werden.
+Beispiel: Befehl *33.c0* wird zu *c0.33*
+
+**Besprochene Maschinenbefehle:**
+
+#### RJUMP
+* RJUMP springt zu einer Adresse innerhalb des Programm Counters 
+* Muster: 11kk kkkk kkkk kkkk
+* Beispiel: c0.33 = 1100 0000 0011 0011 | -> RJUMP 51
+#### CLR
+* Clear setzt ein Register auf 0. Clear ist eigentlich eine EXOR-Verknüpfung eines Regsiters mit sich selbst.
+* Muster: 0010 01rd. dddd rrrr (d = EXOR-Register, r=Register)
+* Besipiel: 24.11 = 0010 0100. 0001 0001 |-> Zero Flag wird auf 0 gesetzt
+#### OUT
+OUT speichert Daten vom Rr Register ins I/O-Register(SREG)
+#### SER
+#### LDI
+#### OUT
+#### RCALL
+#### RET
+#### LDI
 
 
 

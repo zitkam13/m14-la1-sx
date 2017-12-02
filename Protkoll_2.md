@@ -1,4 +1,5 @@
-UmBil# **1.Laborprotokoll** 
+# **2.Laborprotokoll** 
+
 *von Florian Ruffenacht*
 
 Datum: 28.11.2017 (Gruppe 3)
@@ -9,20 +10,23 @@ Lehrkraft: SX
 
 Abwesend: -
 
-##**Issues auf GitHub**
 
-Issues sind eine Kommunkationsmöglichkeiit auf gitHub. Es lassen sich Nachrichten an andere
+## **Issues auf GitHub**
+
+Issues sind eine Kommunkationsmöglichkeiit auf GitHub. Es lassen sich **Nachrichten** an andere
 Benutzer schicken, die auch formatiert werden können. Des Weiteren lassen sich Bilder hinzufügen.
 An einem Issue können sich mehrere Benutzer beteiligen in dem sie einen Beitrag schreiben und außerdem 
 besteht auch die Möglichkeit nur passiv über neue Beiträge in einem Issue benachrichtigt zu werden.
-Issues können dazu verwendet werden Entwickler von Open-Source Programmen zu kontaktieren bzw. sie 
+Issues können dazu verwendet werden Entwickler von **Open-Source Programmen** zu kontaktieren bzw. sie 
 über Fehler zu informieren. Sie können auch wieder geschlossen werden.
 
 [Weiteres zu Issues](https://guides.github.com/features/issues/) 
 
-##**Forks auf GitHub**
+
+## **Forks auf GitHub**
+
 Ein Fork ist eine Kopie eines beliebigen Repositorys in das eigene Repository. Dafür sind keine besonderen Rechte
-erforderlich, aber es ist ersichtlich wer einen Fork gemacht hat. Das ist besonders nützlich, wenn ein Bug vom 
+erforderlich, aber es ist ersichtlich wer einen Fork gemacht hat. Das ist besonders nützlich, wenn ein **Bug** vom 
 Entwickler nicht behoben wird und man es selber machen möchte. Ist der Fehler behoben oder das Programm verbessert, 
 kann ein *__Pull request__* durchgeführt werden. Das bedeutet, dass dem ursprünglichen Entwickler angeboten wird, die 
 verbesserte Version zu übernehmen, was er aber nicht muss.
@@ -30,26 +34,31 @@ verbesserte Version zu übernehmen, was er aber nicht muss.
 [Weiteres zu Forks](https://guides.github.com/activities/forking/)
 [Weiteres zu Pull requests](https://help.github.com/articles/about-pull-requests/)
 
-##**Welche Programmiersprache soll ich lernen?**
+
+##  **Welche Programmiersprache soll ich lernen?**
+
 Die Frage, welche Programmiersprachen am Wichtigsten sind, ist nicht leicht zu beantworten, da sich das laufend ändert.
-Der TIOBE Index versucht die Sprachen nach ihrer Wichitgkeit zu platzieren, indem die Anzahl der Enwickler einer 
+
+Der **TIOBE Index** versucht die Sprachen nach ihrer Wichitgkeit zu platzieren, indem die Anzahl der Enwickler einer 
 Programmiersprache durch deren Aktivität auf Websites wie Wikepedia, YouTube, Amazon, usw. ermittelt wird. Ein Ranking
-erscheint jedes Monat. Doch der TIOBE Index ist umstritten, denn der nicht wissenschaftliche Logarythmus lässt sich durch teilweise geringfügig andere Suchbegriffe 
-in den Suchmaschinen verschieben.
+erscheint jedes Monat. Doch der TIOBE Index ist umstritten, denn der nicht wissenschaftliche Logarythmus lässt sich  teilweise durch geringfügig andere Suchbegriffe in den Suchmaschinen verschieben.
 
 Der aktuelle TIOBE Index (Stand 11/2017):
 ![Tiobe Index](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildTiobeE2.svg)
+
 [TIOBE Index](https://www.tiobe.com/tiobe-index/)
 
-Der RedMonk Index hingegen bezieht seine Daten aus zwei anderen Quellen und stellt diese auch in einem Koordinationsystem dar. Einerseits
-wird bemessen, wie häufig eine Programmiersprache in Projekten auf GitHub vorkommt und andererseits wie viele Aktivitäten es zu 
-dieser Sprache auf dem Forum StackOverflow gibt.
-Der Stackpointer zeigt immer auf den nächsten freien Platz im Stack-Speicher. Wenn der Stack also leer ist, zeigt der Stackpointer auf den unteresten Platz im Speicher. Bei unserer Simulation war das der Wert 08FF. Wenn der Stackpointer allerdings über den reservierten Speicherplatz hinaus geht, spricht man von einem Stackoverflow.
+Der **RedMonk Index** hingegen bezieht seine Daten aus zwei anderen Quellen und stellt diese auch in einem Koordinationsystem dar. Einerseits
+wird bemessen, wie häufig eine Programmiersprache in Projekten auf **GitHub** vorkommt und andererseits wie viele Aktivitäten es zu 
+dieser Sprache auf dem Forum **StackOverflow** gibt.
+
 Der aktuelle RedMonk Index (Stand 3.Quartal 2017)
 ![RedMonk Index](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildRedMonkE2.png)
+
+
 [RedMonk Index](https://redmonk.com/sogrady/2017/06/08/language-rankings-6-17/)
 
-Die Unterschiede der beiden Indizes sind teilweise sehr groß, was sich auf die unterschiedlichen Berechnungsmethoden zurückführen
+Die Unterschiede der beiden Indizes sind teilweise sehr groß, was sich auf die **unterschiedlichen Berechnungsmethoden** zurückführen
 lässt. Außerdem hat der TIOBE Index deutlich mehr Schwankungen, was damit zu tuen haben könnte, dass diese Berechnungsmethode anfälliger
 auf kurzzeitge Hypes von Videos, Büchern und Ähnlichem einer Programmiersprache ist.
 

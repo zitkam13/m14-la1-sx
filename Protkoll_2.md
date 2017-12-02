@@ -42,8 +42,7 @@ verbesserte Version zu übernehmen, was er aber nicht muss.
 
 Die Frage, welche Programmiersprachen am Wichtigsten sind, ist nicht leicht zu beantworten, da sich das laufend ändert.
 
-Der **TIOBE Index** versucht die Sprachen nach ihrer Wichitgkeit zu platzieren, indem die Anzahl der Enwickler einer 
-Programmiersprache durch deren Aktivität auf Websites wie Wikepedia, YouTube, Amazon, usw. ermittelt wird. Ein Ranking
+Der **TIOBE Index** versucht die Sprachen nach ihrer Wichitgkeit zu platzieren, indem die Anzahl der Enwickler einerProgrammiersprache durch deren Aktivität auf Websites wie Wikepedia, YouTube, Amazon, usw. ermittelt wird. Ein Ranking
 erscheint jedes Monat. Doch der TIOBE Index ist umstritten, denn der nicht wissenschaftliche Logarythmus lässt sich  teilweise durch geringfügig andere Suchbegriffe in den Suchmaschinen verschieben.
 
 Der aktuelle TIOBE Index (Stand 11/2017):
@@ -68,18 +67,14 @@ lässt. Außerdem hat der TIOBE Index deutlich mehr Schwankungen, was damit zu t
 auf kurzzeitge Hypes von Videos, Büchern und Ähnlichem einer Programmiersprache ist.
 
 
-## **Analysieren von Assembler Befehlen**
+## Analysieren von Assembler Befehlen
 
 ### AtmelStudio
 Zum Analysieren von Assembler Befehlen verwenden wir die Entwicklungsumgebung AtmelStudio der Firma Atmel, mit der neben dem Programmieren von Atmel-Chips auch die Simulation von Mikroprozessoren durchgeführt werden kann. 
 
-[Website von Atmel](http://www.atmel.com/)
-
 [Website von Atmel Studio 7](http://www.atmel.com/microsite/atmel-studio/)
 
 Da im AtmelStudio der von uns verwendete Prozessor **Atmega 328p** nicht vefügbar ist, verwendeten wir bei der Übung den **Atmega 328**.
-
-
 Um die einfachsten Maschinenbefehle zu analysieren verwendeten wir folgendendes einfaches Programm:
 
 ![Programm](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildProgrammE2.JPG)
@@ -103,7 +98,6 @@ Außerdem lassen sich die 32 CPU - Register (welche durch jeweils 8 FlipFlops re
 
 
 ### XYZ - Register
-
 Weil aber Adressen, zum Beispiel für das SRAM, größere Werte als 255 annehmen können, werden jeweils zwei CPU - Register zusammengelegt.
 Die Register setzen sich folgendermaßen zusammen:
 
@@ -115,8 +109,7 @@ Weitere Informationen zur Pin- und Registerbelegung können [hier](http://www.at
 
 
 ### Aufbau der CPU
-
- Hier wird mithilfe eines Blockschaltbilds der Aufbau einer CPU anschaulich dargestellt
+Hier wird mithilfe eines Blockschaltbilds der Aufbau einer CPU anschaulich dargestellt
  
  ![CPU](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildCpuE2.png)
  

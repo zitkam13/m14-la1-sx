@@ -70,6 +70,7 @@ auf kurzzeitge Hypes von Videos, Büchern und Ähnlichem einer Programmiersprach
 ## Analysieren von Assembler Befehlen
 
 ### AtmelStudio
+
 Zum Analysieren von Assembler Befehlen verwenden wir die Entwicklungsumgebung AtmelStudio der Firma Atmel, mit der neben dem Programmieren von Atmel-Chips auch die Simulation von Mikroprozessoren durchgeführt werden kann. 
 
 [Website von Atmel Studio 7](http://www.atmel.com/microsite/atmel-studio/)
@@ -98,6 +99,7 @@ Außerdem lassen sich die 32 CPU - Register (welche durch jeweils 8 FlipFlops re
 
 
 ### XYZ - Register
+
 Weil aber Adressen, zum Beispiel für das SRAM, größere Werte als 255 annehmen können, werden jeweils zwei CPU - Register zusammengelegt.
 Die Register setzen sich folgendermaßen zusammen:
 
@@ -109,6 +111,7 @@ Weitere Informationen zur Pin- und Registerbelegung können [hier](http://www.at
 
 
 ### Aufbau der CPU
+
 Hier wird mithilfe eines Blockschaltbilds der Aufbau einer CPU anschaulich dargestellt
  
  ![CPU](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildCpuE2.png)

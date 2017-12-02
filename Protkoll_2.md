@@ -12,7 +12,7 @@ Lehrkraft: SX
 
 Abwesend: -
 
-
+:
 ## **Issues auf GitHub**
 
 Issues sind eine Kommunkationsmöglichkeiit auf GitHub. Es lassen sich **Nachrichten** an andere
@@ -56,7 +56,7 @@ Der **RedMonk Index** hingegen bezieht seine Daten aus zwei anderen Quellen und 
 wird bemessen, wie häufig eine Programmiersprache in Projekten auf **GitHub** vorkommt und andererseits wie viele Aktivitäten es zu 
 dieser Sprache auf dem Forum **StackOverflow** gibt.
 
-Der aktuelle RedMonk Index (Stand 3.Quartal 2017)
+Der aktuelle RedMonk Index (Stand 3.Quartal 2017):
 ![RedMonk Index](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildRedMonkE2.png)
 
 
@@ -70,14 +70,15 @@ auf kurzzeitge Hypes von Videos, Büchern und Ähnlichem einer Programmiersprach
 
 ## **Analysieren von Assembler Befehlen**
 
+### AtmelStudio
 Zum Analysieren von Assembler Befehlen verwenden wir die Entwicklungsumgebung AtmelStudio der Firma Atmel, mit der neben dem Programmieren von Atmel-Chips auch die Simulation von Mikroprozessoren durchgeführt werden kann. 
 
 [Website von Atmel](http://www.atmel.com/)
 
 [Website von Atmel Studio 7](http://www.atmel.com/microsite/atmel-studio/)
 
-
 Da im AtmelStudio der von uns verwendete Prozessor **Atmega 328p** nicht vefügbar ist, verwendeten wir bei der Übung den **Atmega 328**.
+
 
 Um die einfachsten Maschinenbefehle zu analysieren verwendeten wir folgendendes einfaches Programm:
 
@@ -90,10 +91,9 @@ Das sind folgende Informationen:
 * Stack Pointer (zeigt den Beginn des Stacks an)
 * Befehlsregister (X,Y,Z -> laden die nächsten Maschinenbefehle)
 * Status der Statusflagregister
-
 * Cycle - Counter
 * Frequenz
- * Stop watch
+* Stop watch
  
 Die letzten drei Anzeigen sind nur Infos für den Benutzer und sind am echten Prozessor nicht zu finden.
 
@@ -106,7 +106,6 @@ Außerdem lassen sich die 32 CPU - Register (welche durch jeweils 8 FlipFlops re
 
 Weil aber Adressen, zum Beispiel für das SRAM, größere Werte als 255 annehmen können, werden jeweils zwei CPU - Register zusammengelegt.
 Die Register setzen sich folgendermaßen zusammen:
-
 
 * X = Register 26 + 27
 * Y = Register 28 + 29

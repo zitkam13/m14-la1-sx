@@ -32,7 +32,7 @@ Außerdem lässt sich der Maschinencode Zeile für Zeile abarbeiten und auswerte
 #### Aufbau einer CPU
 
 ![CPU](https://github.com/smumam14/labor1/blob/master/cpu.svg)
->abgerufen aus dem [FIV-Skript](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#189503049) der HTL Arnfels, DI Steiner M., 2017  
+>abgerufen aus dem [FIV-Skript](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#188315330) der HTL Arnfels, DI Steiner M., 2017  
 
 #### ATmega328P
 [Datenblatt des ATmega328P](http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf)
@@ -67,7 +67,19 @@ Maschinenbefehl | Bedeutung, Ausführung
 --------------- | ---------------------
 `RJMP` | Relativer Sprung (Relative Jump) zu einem anderen Maschinenbefehl. Die allgemeinere Version wäre `JMP`, womit man zu einer absoluten Stelle im Maschienencode springen kann.
 `RCALL` | Im Grunde w.o., jedoch wird hier die Rücksprungadresse am Stack abgelegt, so dass man wieder zurück springen kann, ähnlich einem "Funktionsaufruf" in C. `CALL` wäre hier auch wie oben die allgemeine Form.
+`RET` | springt nach `CALL`, respektive `RCALL`, von der Subroutine zum rufenden Befehl zurück.
 `CLR R1` | Damit wir das Register R1 Exklusiv Oder mit sich selbst verknüpft, also komplett mit 0 überschrieben.
 `OUT 0x3F, R1` | Damit wird der Inhalt des Registers R1 in das Stausregister geschrieben (3F = Statusregister)
 `SER R28` | Register R28 wird komplett auf 1 gesetzt
+`LDI R29, 0x08` |  `LDI` lädt eine Konstante in die Register 16-31. In diesem Falle wird der Wert 8hex ins Register R29 geladen. Dadurch, dass R28 auf FFhex und R29 auf 08hex gesetzt wurden, nimmt das Y-Register den Wert 08FF hex an. 
+`OUT 0x3E, R29` und   `OUT 0x3D, R28` | Damit wird der Stackpointer (3E & 3D = Stackpointer) auf 0x08FF gesetzt (=höchster Werte, leerer Stack, siehe unten)
+
+#### Der Stack
+Der Stack (zu Deutsch: Stapel) befindet sich im SRAM unseres µC. Er ist so konzipiert, dass er von unten nach oben wächst. Jedoch kann muss immer das letzte abgelegte Element, welches sich ja dann ganz oben befindet, als erstes ausgelesen und in weiterer Folge gelöscht werden (last-in-first-out-Prinzip).
+
+__Stackpointer__  
+Der Stackpointer zeigt immer auf die nächste freie Stelle im Stack. Hat dieser den Wert `0x08FF`, ist der Stack in unserem Falle leer. Zu einem Stackoverflow kommt es, wenn der Stackpointer über die für den Stack freien Bereich hinaus zeigt (sprich in den Heap = dt: Haufen, hier werden die dynamisch angeforderten Speicher abgelegt (in C mit `malloc` und `free`)). Siehe dazu auch die untere Grafik:
+![Stapel](https://github.com/smumam14/labor1/blob/master/stack.svg)
+>abgerufen aus dem [FIV-Skript](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#189503049) der HTL Arnfels, DI Steiner M., 2017; Angepasst für den ATmega328P durch Martin Schmuck;
+
 

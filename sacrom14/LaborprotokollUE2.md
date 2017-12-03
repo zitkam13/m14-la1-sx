@@ -96,7 +96,7 @@ return 0;
 
 
 
-### Hier eine Zusammenfassung der häufigsten Maschienenbefehle:
+### Zusammenfassung der häufigsten Maschienenbefehle:
 Maschinenbefehl | Ergebnis
 --------------- | --------
 JMP | Sprung zu einer bestimmten Adresse (benötigt 8 Bytes)

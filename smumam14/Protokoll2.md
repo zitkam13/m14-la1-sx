@@ -30,3 +30,7 @@ Außerdem lässt sich der Maschinencode Zeile für Zeile abarbeiten und auswerte
 
 #### Aufbau einer CPU
 
+![CPU](https://github.com/smumam14/labor1/blob/master/cpu.svg)
+>abgerufen aus dem [FIV-Skript](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#189503049) der HTL Arnfels, DI Steiner M., 2017  
+
+

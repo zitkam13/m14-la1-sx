@@ -78,7 +78,7 @@ Maschinenbefehl | Bedeutung, Ausführung
 Der Stack (zu Deutsch: Stapel) befindet sich im SRAM unseres µC. Er ist so konzipiert, dass er von unten nach oben wächst. Jedoch kann muss immer das letzte abgelegte Element, welches sich ja dann ganz oben befindet, als erstes ausgelesen und in weiterer Folge gelöscht werden (last-in-first-out-Prinzip).
 
 __Stackpointer__  
-Der Stackpointer zeigt immer auf die nächste freie Stelle im Stack. Hat dieser den Wert `0x08FF`, ist der Stack in unserem Falle leer. Zu einem Stackoverflow kommt es, wenn der Stackpointer über die für den Stack freien Bereich hinaus zeigt (sprich in den Heap = dt: Haufen, hier werden die dynamisch angeforderten Speicher abgelegt (in C mit `malloc` und `free`)). Siehe dazu auch die untere Grafik:
+Der Stackpointer zeigt immer auf die nächste freie Stelle im Stack. Hat dieser den Wert `0x08FF`, ist der Stack in unserem Falle leer. Zu einem Stackoverflow kommt es, wenn der Stackpointer über die für den Stack freien Bereich hinaus zeigt (sprich in den Heap = dt: Haufen, hier werden die dynamisch angeforderten Speicher abgelegt (z.B. in C mit `malloc` und `free`)). Siehe dazu auch die untere Grafik:  
 ![Stapel](https://github.com/smumam14/labor1/blob/master/stack.svg)
 >abgerufen aus dem [FIV-Skript](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#189503049) der HTL Arnfels, DI Steiner M., 2017; Angepasst für den ATmega328P durch Martin Schmuck;
 

@@ -42,6 +42,20 @@ Ein normales Register kann nur Werte von 0 bis 255 speichern. (8 bit) Um Werte g
 * Z = r30 & r31  
 
 ### Stack
+Der Stack ist ein wichtiger Bestandteil des Speichers und wird auch Stapelspeicher genannt. Die Datem werdem nach dem last-in first-out Prinzip gespeichert bzw. abgelegt. Die Daten werden von unten nach oben abgelegt und von oben nach unten wieder entnommen.
 #### Stack-Pointer
+Der Stackpointer entspricht einem Zeiger der, auf den nächsten freien Platz im Stack zeigt. Zeigt er auf den untersten Platz ist der Stack leer. Im unserem Fall (Atmega 328) wäre dies der Zeiger `08FF`. Falls der Stackpointer auf einen Bereich zeigt, der nicht für den Stack reserviert ist nennt man das *Stackoverflow*. Durch einen Stackoverflow treten Probleme auf die nicht unbedingt direkt zum Vorschein kommen.
 #### Aufbau des SRAM im Atmega 328
 ![Bild SRAM](https://github.com/suspam14/la1/blob/master/stack.svg)
+
+## Übung
+Folgender Quelltext wurde erstellt, simuliert und analysiert:
+```c
+int main ()
+{
+  return 0;
+}
+```
+Die Simulation lieferte uns daraufhin die kompilierten Maschinenbefehle. Um die Funktion der einzelnen Befehle zu verstehen verwendeten wir die [Atmel Instruction Set Manual](http://www.atmel.com/images/Atmel-0856-AVR-Instruction-Set-Manual.pdf).
+Bei verwendung eines Benutzerhandbuchs muss sichergestellt werden, dass es sich um das richtige für den Microprozessor handelt, es können nämlich einzelne Befehle abweichen.
+

@@ -75,7 +75,7 @@ Maschinenbefehl | Bedeutung, Ausführung
 `OUT 0x3F, R1` | Damit wird der Inhalt des Registers R1 in das Stausregister geschrieben (3F = Statusregister)
 `SER R28` | Register R28 wird komplett auf 1 gesetzt
 `LDI R29, 0x08` |  `LDI` lädt eine Konstante in die Register 16-31. In diesem Falle wird der Wert 8hex ins Register R29 geladen. Dadurch, dass R28 auf FFhex und R29 auf 08hex gesetzt wurden, nimmt das Y-Register den Wert 08FF hex an. 
-`OUT 0x3E, R29` und   `OUT 0x3D, R28` | Damit wird der Stackpointer (3E & 3D = Stackpointer) auf 0x08FF gesetzt (=höchster Werte, leerer Stack, siehe unten)
+`OUT 0x3E, R29` und   `OUT 0x3D, R28` | Damit wird der Stackpointer (3E & 3D = Stackpointer) auf 0x08FF gesetzt (=höchster Wert, leerer Stack, siehe unten)
 
 #### Der Stack
 Der Stack (zu Deutsch: Stapel) befindet sich im SRAM unseres µC. Er ist so konzipiert, dass er von unten nach oben wächst. Jedoch muss immer das letzte abgelegte Element, welches sich ja dann ganz oben befindet, als erstes ausgelesen und in weiterer Folge gelöscht werden (last-in-first-out-Prinzip).

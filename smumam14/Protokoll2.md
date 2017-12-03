@@ -27,7 +27,7 @@ ___________________
 #### Atmel Studio  
 Atmel Studio ist eine Entwicklungsumgebung, welche durch die Firma __Atmel__ zur Verfügung gestellt wird. Diese IDE ist optimiert für die eigenen Atmega-Chips. Man kann damit auch einen Mikrokontroller simulieren. Diese Software baut auf das Microsoft Visual Studio auf, daher ist sie leider nur für Windows-Systeme verfügbar.  
 Man kann damit einen µC komplett simulieren, inklusive Einblick in den Speicher, die Register, usw. 
-Außerdem lässt sich der Maschinencode Zeile für Zeile abarbeiten und auswerten. Beim Maschinencode muss man aufpassen, da Atmel Studio immer zwei Bytes vertauscht.
+Außerdem lässt sich der Maschinencode Zeile für Zeile abarbeiten und auswerten. Beim Maschinencode muss man aufpassen, da Atmel Studio immer zwei Bytes bei der Ausgabe des Maschinencodes am Bildschirm vertauscht. 
 
 #### Aufbau einer CPU
 
@@ -48,4 +48,26 @@ SRAM | 2KB
 Flash | 32KB  
 
 __Wofür gibt es XYZ-Register?__  
-Da es sich um einen 8-Bit-Prozessor handelt, können in einem Register nur Werte 0 bis 255 (2^8 - 1) gespeichert werden. Damit man größere Werte speichern kann, werden immer zwei Register zu einem zusammengefasst. Darin können dann Werte von 0 bis 65.535 (2^16 - 1) gespeichert werden.
+Da es sich um einen 8-Bit-Prozessor handelt, können in einem Register nur Werte 0 bis 255 (2^8 - 1) gespeichert werden. Damit man größere Werte speichern kann, werden immer zwei Register zu einem zusammengefasst. Darin können dann Werte von 0 bis 65.535 (2^16 - 1) gespeichert werden.  
+__X = 26 & 27__  
+__Y = 28 & 29__  
+__Z = 30 & 31__  
+
+#### Wichtige Maschinenbefehle
+Wir schreiben folgendes Programm in C:
+```c
+int main()
+{
+return 0;
+} 
+``` 
+Mithilfe des Atmel Studios lassen wir uns den Maschinencode anzeigen. Obwohl es sich hierbei zweifelsfrei um eines der kürzesten Programme handelt, kann man daraus Informationen über eine breite Anzahl an Maschinenbefehlen gewinnen.  
+
+Maschinenbefehl | Bedeutung, Ausführung
+--------------- | ---------------------
+`RJMP` | Relativer Sprung (Relative Jump) zu einem anderen Maschinenbefehl. Die allgemeinere Version wäre `JMP`, womit man zu einer absoluten Stelle im Maschienencode springen kann.
+`RCALL` | Im Grunde w.o., jedoch wird hier die Rücksprungadresse am Stack abgelegt, so dass man wieder zurück springen kann, ähnlich einem "Funktionsaufruf" in C. `CALL` wäre hier auch wie oben die allgemeine Form.
+`CLR R1` | Damit wir das Register R1 Exklusiv Oder mit sich selbst verknüpft, also komplett mit 0 überschrieben.
+`OUT 0x3F, R1` | Damit wird der Inhalt des Registers R1 in das Stausregister geschrieben (3F = Statusregister)
+`SER R28` | Register R28 wird komplett auf 1 gesetzt
+

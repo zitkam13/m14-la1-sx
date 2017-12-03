@@ -33,9 +33,12 @@ Außerdem lässt sich der Maschinencode Zeile für Zeile abarbeiten und auswerte
 
 ![CPU](https://github.com/smumam14/labor1/blob/master/cpu.svg)
 >abgerufen aus dem [FIV-Skript](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#188315330) der HTL Arnfels, DI Steiner M., 2017  
+* Stack Pointer: nächster freier Stack-Platz, näheres weiter unten
+* Program Counter: gibt die Speicheradresse des nächsten Maschinenbefehls vor
+* Befehlsregister: hier werden die eingelesenen Maschinenbefehle während der Ausführung zwischengespeichert
 
 #### ATmega328P
-[Datenblatt des ATmega328P](http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf)
+[Datenblatt des ATmega328P](http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf)  
 Am Ende des vorangegangenen Schuljahres bestellten wir Mikrokontroller der Firma Atmel des Typs ATmega328P, welche wir zu Beginn des aktuellen Schuljahres erhielten. Die Kollegen auf den Stand-PC's, wo ein ältere Version des Atmel Studios installiert ist, hatten diesen nicht zur Verfügung und verwendeten deswegen die Version 328. Die Laptop-Schüler mit Atmel Studio 7 konnten jedoch auch den 328P auswählen.   
   
   

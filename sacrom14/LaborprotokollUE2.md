@@ -67,10 +67,11 @@ Produktinformationen:
 Mithilfe dieser 3 Register kann man werte größer als 255 speichern. Im Normalfall besteht ein Register aus 8 Bit, damit kann man Werte bis 255 darstellen. Um diesen Bereich zu vergrößern werden, die Register 26-31 zu je 2 zusammengefasst und man kann somit 16 Bit also 65535 Werte darstellen.  
 
 ## Stack
-Im Stack werden Daten nach dem Last-in-first-out (LIFO) Verfahren gespeichert. Sprich, die Daten werden von unten nach oben abgelegt, gelesen werden kann aber immer nur von oben nach unten. Um in den Stack zu speichern, bzw. daraus zu lesen gibt es folgende Operationen:
+Im Stack werden Daten nach dem Last-in-first-out (LIFO) Verfahren gespeichert. Sprich, die Daten werden von unten nach oben abgelegt, gelesen werden kann aber immer nur von oben nach unten. Um in den Stack zu speichern, bzw. daraus zu lesen gibt es folgende Operationen:  
 - push: "Legt" die Daten auf den Stapel"
 - pop: Liest das oberste Objekt aus und entfernt es aus dem Stack
 - peek: Liest das oberste Objekt aus, aber belässt es auf dem Stapel
+
 
  
  ### CPU-Aufbau

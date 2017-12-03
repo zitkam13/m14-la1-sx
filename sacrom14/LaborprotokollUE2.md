@@ -45,10 +45,10 @@ Mit Atmel Studio kann man die Ausführung eines Programms auf einem Atmel-Mikrok
 Atmel Studio wurde in *Microsoft Visual Studio* programmiert, daher ist die Software nur für Microsoft **Windows**-betriebene Systeme verfügbar.
 Allein für die Prgrammierung gibt es aber Alternativen, wie das uns bekannte *NetBeans*, oder die *Arduino IDE*. Beide sind für **Linux** und Apples **OS X** ebenfalls verfügbar.
 
-  [Website Netbeans](https://netbeans.org)  
-  [Website Arduino IDE](https://www.arduino.cc/en/main/software#) 
-  [Website Atmel](http://www.atmel.com)  
-  [Website Atmel Studio 7](http://www.atmel.com/microsite/atmel-studio/)  
+  [Website Netbeans](https://netbeans.org)    
+  [Website Arduino IDE](https://www.arduino.cc/en/main/software#)   
+  [Website Atmel](http://www.atmel.com)    
+  [Website Atmel Studio 7](http://www.atmel.com/microsite/atmel-studio/)    
  
 
 ### Hardware

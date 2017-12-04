@@ -19,4 +19,46 @@ Atmel Studio ist eine Entwicklungsumgebung, welche von der Firma Atmel zur Verf�
 
 Wenn man mit Atmel Studios die Ausführung eines Programmes auf einem Mikrocontroller simuliert, erhält man detailierte Informationen über die Maschinenbefehle, welche aus dem Quellcode des Programmes kompiliert wurden. Desweiteren können die Register des Controllers eingesehen werden.  
 
-### CPU-Aufbau
+### CPU-Aufbau  
+![CPU](https://github.com/HTLMechatronics/m14-la1-sx/blob/sacmam14/sacmam14/CPU.PNG)  
+
+* **Befehlsregister**  hier werden die vom Speicher kommenden Maschinenbefehle zwischengespeichert  
+* **Program Counter** hier wird die Speicheradresse des nächsten Maschinbefehles angegeben    
+* **Stack Pointer** zeigt nächsten freien Platz im Stack-Speicher  
+
+### Atmega 328p  
+In der Schule arbeiten wir mit dem Atmega 328p. In Atmel Studios gibt es diese Ausführung des µ-Cs allerdings nicht, daher verwendeten wir bei der Übung den Atmega328.  
+
+Einige Daten zum Atmega 328p:  
+
+* 16MHz Mikroprozessor  
+* 32kB Flash-Speicher  
+* 32 Register  
+* 2kB SRAM  
+* 1kB EEPROM  
+
+### XYZ-Register  
+Beim Atmega328p gibt es die sogenannten XYZ Register. Diese werden dazu verwendet, um Werte > 255 zu speichern. Dies Register Setzen sich wie folgt zusammen:  
+
+* X = Register 26+27  
+* Y = Register 28+29  
+* Z = Register 30+31  
+
+Weitere wichtige Register sind:  
+
+* Register 3F = SREG = Statusflagregister  
+* Register 3E = SPH = Stackpointer initialisieren (Register 7-15)  
+* Register 3D = SPL = Stackpointer initialisieren (Register 0-7)  
+
+### Stack  
+Im Stack werden Daten nach dem Last-in-first-out (LIFO) Verfahren gespeichert. Sprich, die Daten werden von unten nach oben abgelegt, gelesen werden kann aber immer nur von oben nach unten. Um in den Stack zu speichern, bzw. daraus zu lesen gibt es folgende Operationen:  
+
+* push: Legt die Daten auf den Stapel  
+* pop: Liest das oberste Objekt aus und entfernt es aus dem Stack  
+* peek: Liest das oberste Objekt aus, aber belässt es auf dem Stapel  
+
+### Aufbau SRAM  
+
+
+
+

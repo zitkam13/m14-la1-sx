@@ -57,7 +57,31 @@ Im Stack werden Daten nach dem Last-in-first-out (LIFO) Verfahren gespeichert. S
 * pop: Liest das oberste Objekt aus und entfernt es aus dem Stack  
 * peek: Liest das oberste Objekt aus, aber belässt es auf dem Stapel  
 
+#### Stack-Pointer  
+Der Stackpointer zeigt immer auf den nächsten freien Platz im Stack-Speicher. Wenn der Stack also leer ist, zeigt der Stackpointer auf den unteresten Platz im Speicher. Bei unserer Simulation war das der Wert 08FF. Wenn der Stackpointer allerdings über den reservierten Speicherplatz hinaus geht, spricht man von einem Stackoverflow.  
+
 ### Aufbau SRAM  
+![SRAM](https://github.com/HTLMechatronics/m14-la1-sx/blob/sacmam14/sacmam14/SRAM_Aufbau.PNG)  
+
+### Übung  
+In Atmel Studio wurde folgender Code erstellt:  
+```c  
+int main ()  
+{  
+return 0;  
+}  
+```  
+Atmel Studio lieferte uns einige Maschinenbefehle, welche aus dem Quellcode kompiliert wurden. Mit Hilfe des [Atmel Instruction Set Manual](http://www.atmel.com/images/Atmel-0856-AVR-Instruction-Set-Manual.pdf) konnten wir dann die Funktion der Maschinenbefehle bestimmen. Die Maschinenbefehle müssen unter der mega-AVR-Familie nachgeschlagen werden, da die Maschinenbefehle bei anderen µ-Cs anders arbeiten könnten und z.B. andere Register beschreiben werden könnten.  
+
+### Maschinenbefehle  
+Maschinenbefehl | Funktion  
+--------------- | --------  
+JMP | Sprung zu einer bestimmten Adresse (benötigt 8 Bytes)  
+RJMP | Sprung zu einer Adresse (kann nur einen bestimmten Offset überspringen, benötigt 4 Bytes)  
+OUT | Überträgt die Daten von Register 1 in ein I/O Register  (0x3F -> 3F = Statusregister)   
+CLR | Setzt Register 1 auf 0 (Entspricht XOR)  
+SER |  Register wird mit Einsen überschrieben bzw. auf den höchstmöglichen Wert gesetzt 
+LDI | Konstante wird in Register geschrieben (nur bei Registern 16-31 möglich)  
 
 
 

@@ -12,7 +12,7 @@ Lehrkraft: SX
 
 Abwesend: -
 
-:
+
 ## **Issues auf GitHub**
 
 Issues sind eine Kommunkationsmöglichkeiit auf GitHub. Es lassen sich **Nachrichten** an andere
@@ -46,7 +46,7 @@ Der **TIOBE Index** versucht die Sprachen nach ihrer Wichitgkeit zu platzieren, 
 erscheint jedes Monat. Doch der TIOBE Index ist umstritten, denn der nicht wissenschaftliche Logarythmus lässt sich  teilweise durch geringfügig andere Suchbegriffe in den Suchmaschinen verschieben.
 
 Der aktuelle TIOBE Index (Stand 11/2017):
-![Tiobe Index](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildTiobeE2.svg)
+![Tiobe Index](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/BildTiobeE2.svg)
 
 [TIOBE Index](https://www.tiobe.com/tiobe-index/)
 
@@ -56,7 +56,7 @@ wird bemessen, wie häufig eine Programmiersprache in Projekten auf **GitHub** v
 dieser Sprache auf dem Forum **StackOverflow** gibt.
 
 Der aktuelle RedMonk Index (Stand 3.Quartal 2017):
-![RedMonk Index](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildRedMonkE2.png)
+![RedMonk Index](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/BildRedMonkE2.png)
 
 
 [RedMonk Index](https://redmonk.com/sogrady/2017/06/08/language-rankings-6-17/)
@@ -78,7 +78,7 @@ Zum Analysieren von Assembler Befehlen verwenden wir die Entwicklungsumgebung At
 Da im AtmelStudio der von uns verwendete Prozessor **Atmega 328p** nicht vefügbar ist, verwendeten wir bei der Übung den **Atmega 328**.
 Um die einfachsten Maschinenbefehle zu analysieren verwendeten wir folgendendes einfaches Programm:
 
-![Programm](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildProgrammE2.JPG)
+![Programm](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/BildProgrammE2.JPG)
 
 In AtmelStudio besteht die Möglichkeit das Programm **Schritt für Schritt** durchzugehen und sich jeweils den aktuellen Status des Mikroprozessors anzeigen zu lassen. 
 Das sind folgende Informationen:
@@ -93,7 +93,7 @@ Das sind folgende Informationen:
  
 Die letzten drei Anzeigen sind nur Infos für den Benutzer und sind am echten Prozessor nicht zu finden.
 
-![AtmelStudio](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildAtmelStudioE2.JPG)
+![AtmelStudio](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/BildAtmelStudioE2.JPG)
 
 Außerdem lassen sich die 32 CPU - Register (welche durch jeweils 8 FlipFlops realisiert sind -> Werte 0...255) anzeigen.
 
@@ -114,7 +114,7 @@ Weitere Informationen zur Pin- und Registerbelegung können [hier](http://www.at
 
 Hier wird mithilfe eines Blockschaltbilds der Aufbau einer CPU anschaulich dargestellt
  
- ![CPU](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildCpuE2.png)
+ ![CPU](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/BildCpuE2.png)
  
  
 ### Stack
@@ -127,7 +127,7 @@ Der Stackpointer zeigt immer auf den nächsten freien Platz im Stack-Speicher. W
 
 **Aufbau des SRAM**
 
-![Stack](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/BildStackE2.png)
+![Stack](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/BildStackE2.png)
 
 
 ### Besprochene Maschinenbefehle

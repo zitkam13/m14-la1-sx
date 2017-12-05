@@ -92,6 +92,33 @@ POP R0 (3 Mal) | Variablen e,b und a (in dieser Reihenfolge) werden freigegeben.
 POP R28 & POP R29 | Register 28 und 29 werden freigegeben.
 RET | Return from subroutine
 
------------------------------------------------
+-----------------------------------------------  
+#### Addieren, multiplizieren & dividieren mit unterschiedlichen Datentypen der Variablen  
+8 Bit + 8 Bit: *add; 46 Takte; 2,9µs*  
+8 Bit x 8 Bit: *mul; 47 Takte*  
+8 Bit / 8 Bit: *123 Takte; benötigt mehr Takte, weil es keinen eigenen Divisions-Maschinenbefehl gibt*  
+32 Bit + 32 Bit: *add; 92 Takte; mehr Takte aufgrund größerer Daten*  
+32 Bit x 32 Bit: *mul; 165 Takte; ca 10µs*  
+32 Bit / 32 Bit: *701 Takte; ca 44µs*  
+float + float: *9 11Takte*  
+float x float: *1763 Takte; ca 110µs*  
+float / float: *1380 Takte*  
+double / double: *1380 Takte*  
 
+---------------------------------------------  
+#### Übungsbeispiel 3  
+*Schleife*
+```C
+int main(void)  
+{  
+  volatile int i;  
+  volatile int a;  
+  for(i=0;i<10;i++)  
+  {  
+    a+=10;  
+  }  
+  return a;
+}  
+```
+Der wichtigste Maschinenbefehl ist der Befehl *BRNE*. BRNE bedeutet Branch if not equal. Er führt Befehle so lange aus, bis eine gewisse Bedingung erfüllt ist. Er zählt die Variable i (beziehungsweise den Inhalt des Registers, indem i steht) von 10 nach 0 und vergleicht mit dem Zero-Flag. Wenn das Zero-Flag-Register dem Register entspricht, dann verlässt er die Schleife.  
 

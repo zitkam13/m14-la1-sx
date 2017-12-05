@@ -4,5 +4,6 @@
   * [Protokoll Einheit 1](https://github.com/HTLMechatronics/m14-la1-sx/blob/samdam14/samdam14/Protokoll1.md)  
 * Gruppe 4: 2. Einheit, 28.11.2017  
   * [Protokoll Einheit 2](https://github.com/HTLMechatronics/m14-la1-sx/blob/samdam14/samdam14/Protokoll2.md)  
-* Gruppe 4: 3. Einheit, 05.12.2017
+* Gruppe 4: 3. Einheit, 05.12.2017  
+  * [Protokoll Einheit 3](https://github.com/HTLMechatronics/m14-la1-sx/blob/samdam14/samdam14/Protokoll3.md)  
 

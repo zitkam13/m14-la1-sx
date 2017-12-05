@@ -66,10 +66,12 @@ RET | Return to subroutine
 #### Übungsbeispiel 2  
 ```c
 int main(void)  
-volatile unsigned char a = 10;  
-volatile unsigned char b= 20;
-volatile unsigned char e=a+b;  
-return a+b;
+{  
+  volatile unsigned char a = 10;  
+  volatile unsigned char b= 20;  
+  volatile unsigned char e=a+b;  
+  return a+b;  
+}  
 ```
 
 --------------------------------

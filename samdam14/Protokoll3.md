@@ -107,6 +107,10 @@ float / float: *1380 Takte*
 double / double: *1380 Takte*  
 
 ---------------------------------------------  
+#### Startup-Code  
+Startup-Code ist dafür zuständig, all jene Requisiten für den restlichen Code vorzubereiten, um ihn fehlerfrei ausführen zu können. C-Programme brauchen einige Basis-Requisiten, um zufrieden zu sein.  
+
+----------------------------------------  
 #### Übungsbeispiel 3  
 *Schleife*
 ```C

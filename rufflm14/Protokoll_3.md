@@ -16,12 +16,12 @@ Die folgende Register werden für spezielle Zwecke verwendet:
 Register | Verwendung 
 |---|---|
 `R1`| ist immer mit 0x00 beschrieben
-`R8-R25`| für Pararmeter und Rückgabewerte
+`R8 - R25`| für Parameter und Rückgabewerte
 `R26 + R27`| X- Register für Adressen
 `R28 + R29`| Y- Register für Adressen
 `R30 + R31` | Z- Register für Adressen
 
-## Unterschied zwischen deklarieren, definieren und initialisieren
+## Der Unterschied zwischen "deklarieren", "definieren" und "initialisieren"
 
 **Deklaration:** Dem Compiler wird eine Variable bekannt gegeben
 
@@ -38,7 +38,7 @@ Register | Verwendung
 
   **volotaile**
   
-  Mit dem Schlüsselwort `volotaile` wir dem Compiler bei der Varaiblendeklaration bekannt gegeben, dass die Variab  auch durch analoge Signale von außen verändert werden kann. Das Schlüsselwort wurde verwendet um den Compiler davon abzuhalten,
+  Mit dem Schlüsselwort `volotaile` wir dem Compiler bei der Varaiblendeklaration bekannt gegeben, dass die Variable auch durch analoge Signale von außen verändert werden kann. Das Schlüsselwort wurde verwendet um den Compiler davon abzuhalten,
   die einfachen Gleichungen unserer Programme selber zu lösen und im Programm nur mehr zurückzugeben.
   
   **unsignede char**

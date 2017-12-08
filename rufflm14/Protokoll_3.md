@@ -1,4 +1,4 @@
-# **3.Laborprotokoll** 
+# **3. Laborprotokoll** 
 
 *von Florian Ruffenacht*
 
@@ -35,7 +35,7 @@ Register | Verwendung
 ## Analysieren von Assembler-Befehlen
   Wie bereits in der [letzten Einheit](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/Protkoll_2.md) analysierten wir einfache C-Programme mit AtmelStudio.
   
-### Informationen zum Syntax:
+### Informationen zur Übung:
 
   **volotaile**
   
@@ -46,6 +46,10 @@ Register | Verwendung
   
   Den Datentyp `unsigned char` verwenden wir um mit 1 Byte vorzeichenunbehaftete Zahlen zwischen 0 und 255 darstellen zu können. 
   Die Datentypen `char` und `signed char` sind vorzeichenbehaftet.
+  
+  **Startup Code**
+  Der Startup-Code ist dafür zuständig, den Mikroprozessor in ein solchen Zustand zu bringen, dass der restlich Code Fehlerlos abgearbeitet werden kann.  
+
  ### Zuweisen eines Konstanten Wertes
   Es wurde folgendes Programm analysiert:
   

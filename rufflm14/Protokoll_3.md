@@ -99,8 +99,8 @@ Maschinenbefehl | in Worten | Beschreibung
 '8b.83' | STD Y+3,R24| Ergebnis der Addition wird der Variable e im Stack zugewiesen
 '2b.81' | LDD R18, Y+3 | Die Variable e wird ins CPU-Register geladen. Das ist nötig, das sie sich aufgrund des Schlüsslwortes 'volotaile' verändern hätte können.
 '3c.81' | LDD R19, Y+4 | Die Variable e wird ins CPU-Register geladen. Das ist nötig, das sie sich aufgrund des Schlüsslwortes 'volotaile' verändern hätte können.
-'82.2f' | MOV R24,R18 | Die Variable e wird aufgrund interner Arbeitmuster in die Register R24/R25 verschoben.
-'93.2f' | MOV R25,R19 | Die Variable e wird aufgrund interner Arbeitmuster in die Register R24/R25 verschoben.
+' 82.2f ' | MOV R24,R18 | Die Variable e wird aufgrund interner Arbeitmuster in die Register R24/R25 verschoben.
+' 93.2f ' | MOV R25,R19 | Die Variable e wird aufgrund interner Arbeitmuster in die Register R24/R25 verschoben.
 `0f.90` | POP R0 | Variable a wird freigegeben.
 `0f.90` | POP R0 | Variable b wird freigegeben.
 `0f.90` | POP R0 | Variable e wird freigegeben.

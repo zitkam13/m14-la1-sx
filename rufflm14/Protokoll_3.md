@@ -1,4 +1,4 @@
-.# # **2.Laborprotokoll** 
+# **2.Laborprotokoll** 
 
 *von Florian Ruffenacht*
 
@@ -95,14 +95,16 @@ Maschinenbefehl | in Worten | Beschreibung
 `90.e0` | LDI R25, 0x00 | Konstante 0x00 wird am Register R19 abgelegt.
 `82.0f` | ADD R24,R18 | Die beiden Register werden addiert, ohne Berücksichtigung des Carry-Flags. Das Endergebnis wird in R24 gespeichert.
 `91.1d` | ADC R25,R1 | Addition mit Berücksichtigung des Carry-Flags. Das Carry-Flag enthält den Übertrag einer Addition. 
-'2b.81' | LDD R18, Y+3 |
-'3c.81' | LDD R19, Y+4 |
-'82.2f' | MOV R24,R18  |
-'93.2f' | MOV R25,R19 |
-`0f.90` | POP R0 | Variable b wird freigegeben.
+'9c.83' | STD Y+4,R25| Ergebnis der Addition wird der Variable e im Stack zugewiesen
+'8b.83' | STD Y+3,R24| Ergebnis der Addition wird der Variable e im Stack zugewiesen
+'2b.81' | LDD R18, Y+3 | Die Variable e wird ins CPU-Register geladen. Das ist nötig, das sie sich aufgrund des Schlüsslwortes 'volotaile' verändern hätte können.
+'3c.81' | LDD R19, Y+4 | Die Variable e wird ins CPU-Register geladen. Das ist nötig, das sie sich aufgrund des Schlüsslwortes 'volotaile' verändern hätte können.
+'82.2f' | MOV R24,R18 | Die Variable e wird aufgrund interner Arbeitmuster in die Register R24/R25 verschoben.
+'93.2f' | MOV R25,R19 | Die Variable e wird aufgrund interner Arbeitmuster in die Register R24/R25 verschoben.
 `0f.90` | POP R0 | Variable a wird freigegeben.
 `0f.90` | POP R0 | Variable b wird freigegeben.
-`0f.90` | POP R0 | Variable a wird freigegeben.
+`0f.90` | POP R0 | Variable e wird freigegeben.
+`0f.90` | POP R0 | Variable e wird freigegeben.
 `df.91` | POP R29 | Register R29 wird vom Stack wieder zurückgeholt.
 `cf.91` | POP R28 | Register R28 wird vom Stack wieder zurückgeholt.
 

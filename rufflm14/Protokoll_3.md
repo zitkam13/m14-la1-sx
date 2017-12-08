@@ -45,7 +45,7 @@ Register | Verwendung
   
   Den Datentyp 'unsigned char' verwenden wir um mit 1 Byte vorzeichenunbehaftete Zahlen zwischen 0 und 255 darstellen zu können. 
   Die Datentypen 'char' und 'signed char' sinf vorzeichenbehaftet.
-   ### Zuweisen eines Konstanten Wertes
+Bei   ### Zuweisen eines Konstanten Wertes
   Es wurde folgendes Programm analysiert:
   ![Bild C- Code Programm1]()
   
@@ -107,4 +107,24 @@ Maschinenbefehl | in Worten | Beschreibung
 `df.91` | POP R29 | Register R29 wird vom Stack wieder zurückgeholt.
 `cf.91` | POP R28 | Register R28 wird vom Stack wieder zurückgeholt.
 
+Zum besseren Verständnis ist hier noch einmal der Aufbau des Stacks skizziert:
 
+![Bild Stackaufbau E3]()
+
+## Testen der Prozessorgeschwindigkeit
+Um zu erkennen, mit welchen Operationen der Mikroprozesser des Atmega328 wie lang braucht, haben wir in einfachen Programmen verschiedene Operationen mit verschiedenen Datentypen druchgeführt. Dabei wurde im AtmelStudio jeweils die rein zum Rechnen benötigte Zeit herausgelesen.
+
+Operation| Datentyp und Operation | Anzahl der benötigten Takte | Kommentar
+---|---|---|---
+Addition| 8 Bit + 8 Bit | **46 Takte** |
+Multiplikation| 8 Bit * 8 Bit | **47 Takte**| kaum ein Unterschied zur Addition, weil ein eigener Multiplikationsbefehl zur Vefügung steht
+Division| 8 Bit / 8 Bit | **123 Takte** | deutlich mehr Takte als bei der Multiplikaton, weil die Operation mit einer Schleife ud keinem eigenen Befehl durchgeführt wird
+Addition| 32 Bit + 32 Bit | **192 Takte** |
+Multiplikation| 32 Bit * 32 Bit | **165 Takte**| 
+Division| 32 Bit / 32 Bit | **701 Takte** | 
+Addition| float + float | **905 Takte** |
+Multiplikation| float * float | **1763 Takte**| 
+Division| float / float | **1380 Takte** | Dass zum Dividieren weniger Takte gebraucht werden als beim Multiplizieren liegt wahrscheinlich an den Verwendeten Werten, die sich scheinbar schnell dividieren lassen.
+Division| double / double | **1380 Takte** | Der Datentyp 'double' wir von dem Kompiler als 'float' verarbeitet, da keine doppeltgenauen Fließkommazahlen für den Mikroprozessor zur Verfügung stehen
+
+Die Erkentnis aus dem Test ist, dass es sich vor allem bei Echtzeitsystemen durchaus auszahlt, den kleinstmöglichen Datentyp zu verwenden.

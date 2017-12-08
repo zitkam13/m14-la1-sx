@@ -78,7 +78,7 @@ Es wurde folgendes Programm analysiert:
 ![Bild C-Code Programm 2](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/BildE3P2C.JPG)
 
 Dabei ergab sich nach dem Debuggen und Kompilieren folgender Maschinencode:
-
+**
 ![Bild Assembler-Code Programm 2](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/BildE3P2A.JPG)
 
 Analyse des Maschinencodes:
@@ -133,4 +133,4 @@ Multiplikation| `float` * `float` | **1763 Takte**|
 Division| `float` / `float` | **1380 Takte** | Dass zum Dividieren weniger Takte gebraucht werden als beim Multiplizieren liegt wahrscheinlich an den Verwendeten Werten, die sich scheinbar schnell dividieren lassen.
 Division| `double` / `double` | **1380 Takte** | Der Datentyp `double` wir von dem Kompiler als `float ` verarbeitet, da keine doppeltgenauen Fließkommazahlen für den Mikroprozessor zur Verfügung stehen
 
-Die Erkentnis aus dem Test ist, dass es sich vor allem bei Echtzeitsystemen durchaus auszahlt, den kleinstmöglichen Datentyp zu verwenden.
+Die **Erkentnis** aus dem Test ist, dass es sich vor allem bei Echtzeitsystemen durchaus auszahlt, den __*kleinstmöglichen Datentyp*__ zu verwenden.

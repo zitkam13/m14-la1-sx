@@ -23,6 +23,7 @@ Register | Verwendung
 
 ## Der Unterschied zwischen "deklarieren", "definieren" und "initialisieren"
 
+
 **Deklaration:** Dem Compiler wird eine Variable bekannt gegeben
 
 **Definition:** Der Variable wird ein Speicherbereich zugeteilt
@@ -47,11 +48,14 @@ Register | Verwendung
   Die Datentypen `char` und `signed char` sind vorzeichenbehaftet.
  ### Zuweisen eines Konstanten Wertes
   Es wurde folgendes Programm analysiert:
+  
   ![Bild C- Code Programm1](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/BildE3P1C.JPG)
   
   Dabei ergab sich nach dem Debuggen und Kompilieren folgender Maschinencode:
   
   ![Bild Assembler-Code Programm1](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/BildE3P1A.JPG)
+  
+  Analyse des Maschinenecodes:
   
   Maschinenbefehl | in Worten | Beschreibung
 --- | --- | ---
@@ -76,6 +80,8 @@ Es wurde folgendes Programm analysiert:
 Dabei ergab sich nach dem Debuggen und Kompilieren folgender Maschinencode:
 
 ![Bild Assembler-Code Programm 2](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/BildE3P2A.JPG)
+
+Analyse des Maschinencodes:
 
 Maschinenbefehl | in Worten | Beschreibung
 --------------- | --------- | ---------

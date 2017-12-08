@@ -19,15 +19,15 @@ Register | Verwendung
 'R8-R25'| für Pararmeter und Rückgabewerte
 'R26 + R27'| X- Register für Adressen
 'R28 + R29'| Y- Register für Adressen
-'R30 + R31 | Z- Register für Adressen
+'R30 + R31' | Z- Register für Adressen
 
 ## Unterschied zwischen deklarieren, definieren und initialisieren
 
-**Deklaration:** Dabei wird dem Compiler eine Variable bekannt gegeben
+**Deklaration:** Dem Compiler wird eine Variable bekannt gegeben
 
-**Definition:** Dabei wird einer Variable ein Speicherbereich zugeteilt
+**Definition:** Der Variable wird ein Speicherbereich zugeteilt
 
-**Initialisierung:** Dabei wird der Variable ein Wert zugewiesen
+**Initialisierung:** Der Variable wird ein Wert zugewiesen
 
 [Weitere Informationen](http://www.c-howto.de/tutorial/variablen/deklaration/)
 
@@ -96,7 +96,7 @@ Maschinenbefehl | in Worten | Beschreibung
 `91.1d` | ADC R25,R1 | Addition mit Berücksichtigung des Carry-Flags. Das Carry-Flag enthält den Übertrag einer Addition. 
 '9c.83' | STD Y+4,R25| Ergebnis der Addition wird der Variable e im Stack zugewiesen
 '8b.83' | STD Y+3,R24| Ergebnis der Addition wird der Variable e im Stack zugewiesen
- '2b.81' | LDD R18, Y+3 | Die Variable e wird ins CPU-Register geladen. Das ist nötig, das sie sich aufgrund des Schlüsslwortes   'volotaile' verändern hätte können.
+'2b.81' | LDD R18, Y+3 | Die Variable e wird ins CPU-Register geladen. Das ist nötig, das sie sich aufgrund des Schlüsslwortes   'volotaile' verändern hätte können.
 '3c.81' | LDD R19, Y+4 | Die Variable e wird ins CPU-Register geladen. Das ist nötig, das sie sich aufgrund des Schlüsslwortes 'volotaile' verändern hätte können.
 '82.2f' | MOV R24,R18 | Die Variable e wird aufgrund interner Arbeitmuster in die Register R24/R25 verschoben.
 '93.2f' | MOV R25,R19 | Die Variable e wird aufgrund interner Arbeitmuster in die Register R24/R25 verschoben.
@@ -125,6 +125,6 @@ Division| 32 Bit / 32 Bit | **701 Takte** |
 Addition| float + float | **905 Takte** |
 Multiplikation| float * float | **1763 Takte**| 
 Division| float / float | **1380 Takte** | Dass zum Dividieren weniger Takte gebraucht werden als beim Multiplizieren liegt wahrscheinlich an den Verwendeten Werten, die sich scheinbar schnell dividieren lassen.
-Division| double / double | **1380 Takte** | Der Datentyp 'double' wir von dem Kompiler als 'float' verarbeitet, da keine doppeltgenauen Fließkommazahlen für den Mikroprozessor zur Verfügung stehen
+Division| double / double | **1380 Takte** | Der Datentyp 'double' wir von dem Kompiler als ' float ' verarbeitet, da keine doppeltgenauen Fließkommazahlen für den Mikroprozessor zur Verfügung stehen
 
 Die Erkentnis aus dem Test ist, dass es sich vor allem bei Echtzeitsystemen durchaus auszahlt, den kleinstmöglichen Datentyp zu verwenden.

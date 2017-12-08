@@ -1,4 +1,4 @@
-# **2.Laborprotokoll** 
+3# **2.Laborprotokoll** 
 
 *von Florian Ruffenacht*
 
@@ -15,11 +15,11 @@ Die folgende Register werden für spezielle Zwecke verwendet:
 
 Register | Verwendung 
 |---|---|
-'R1'| ist immer mit 0x00 beschrieben
-'R8-R25'| für Pararmeter und Rückgabewerte
-'R26 + R27'| X- Register für Adressen
-'R28 + R29'| Y- Register für Adressen
-'R30 + R31' | Z- Register für Adressen
+`R1`| ist immer mit 0x00 beschrieben
+`R8-R25`| für Pararmeter und Rückgabewerte
+`R26 + R27`| X- Register für Adressen
+`R28 + R29`| Y- Register für Adressen
+`R30 + R31` | Z- Register für Adressen
 
 ## Unterschied zwischen deklarieren, definieren und initialisieren
 
@@ -38,14 +38,14 @@ Register | Verwendung
 
   **volotaile**
   
-  Mit dem Schlüsselwort 'volotaile' wir dem Compiler bei der Varaiblendeklaration bekannt gegeben, dass die Variab  auch durch analoge Signale von außen verändert werden kann. Das Schlüsselwort wurde verwendet um den Compiler davon abzuhalten,
+  Mit dem Schlüsselwort `volotaile` wir dem Compiler bei der Varaiblendeklaration bekannt gegeben, dass die Variab  auch durch analoge Signale von außen verändert werden kann. Das Schlüsselwort wurde verwendet um den Compiler davon abzuhalten,
   die einfachen Gleichungen unserer Programme selber zu lösen und im Programm nur mehr zurückzugeben.
   
   **unsignede char**
   
-  Den Datentyp 'unsigned char' verwenden wir um mit 1 Byte vorzeichenunbehaftete Zahlen zwischen 0 und 255 darstellen zu können. 
-  Die Datentypen 'char' und 'signed char' sinf vorzeichenbehaftet.
-Bei   ### Zuweisen eines Konstanten Wertes
+  Den Datentyp `unsigned char` verwenden wir um mit 1 Byte vorzeichenunbehaftete Zahlen zwischen 0 und 255 darstellen zu können. 
+  Die Datentypen `char` und `signed char` sind vorzeichenbehaftet.
+ ### Zuweisen eines Konstanten Wertes
   Es wurde folgendes Programm analysiert:
   ![Bild C- Code Programm1]()
   
@@ -94,12 +94,12 @@ Maschinenbefehl | in Worten | Beschreibung
 `90.e0` | LDI R25, 0x00 | Konstante 0x00 wird am Register R19 abgelegt.
 `82.0f` | ADD R24,R18 | Die beiden Register werden addiert, ohne Berücksichtigung des Carry-Flags. Das Endergebnis wird in R24 gespeichert.
 `91.1d` | ADC R25,R1 | Addition mit Berücksichtigung des Carry-Flags. Das Carry-Flag enthält den Übertrag einer Addition. 
-'9c.83' | STD Y+4,R25| Ergebnis der Addition wird der Variable e im Stack zugewiesen
-'8b.83' | STD Y+3,R24| Ergebnis der Addition wird der Variable e im Stack zugewiesen
-'2b.81' | LDD R18, Y+3 | Die Variable e wird ins CPU-Register geladen. Das ist nötig, das sie sich aufgrund des Schlüsslwortes   'volotaile' verändern hätte können.
-'3c.81' | LDD R19, Y+4 | Die Variable e wird ins CPU-Register geladen. Das ist nötig, das sie sich aufgrund des Schlüsslwortes 'volotaile' verändern hätte können.
-'82.2f' | MOV R24,R18 | Die Variable e wird aufgrund interner Arbeitmuster in die Register R24/R25 verschoben.
-'93.2f' | MOV R25,R19 | Die Variable e wird aufgrund interner Arbeitmuster in die Register R24/R25 verschoben.
+`9c.83` | STD Y+4,R25| Ergebnis der Addition wird der Variable e im Stack zugewiesen
+`8b.83` | STD Y+3,R24| Ergebnis der Addition wird der Variable e im Stack zugewiesen
+`2b.81` | LDD R18, Y+3 | Die Variable e wird ins CPU-Register geladen. Das ist nötig, das sie sich aufgrund des Schlüsslwortes   `volotaile` verändern hätte können.
+`3c.81` | LDD R19, Y+4 | Die Variable e wird ins CPU-Register geladen. Das ist nötig, das sie sich aufgrund des Schlüsslwortes `volotaile` verändern hätte können.
+`82.2f` | MOV R24,R18 | Die Variable e wird aufgrund interner Arbeitmuster in die Register R24/R25 verschoben.
+`93.2f` | MOV R25,R19 | Die Variable e wird aufgrund interner Arbeitmuster in die Register R24/R25 verschoben.
 `0f.90` | POP R0 | Variable a wird freigegeben.
 `0f.90` | POP R0 | Variable b wird freigegeben.
 `0f.90` | POP R0 | Variable e wird freigegeben.
@@ -112,7 +112,7 @@ Zum besseren Verständnis ist hier noch einmal der Aufbau des Stacks skizziert:
 ![Bild Stackaufbau E3]()
 
 ## Testen der Prozessorgeschwindigkeit
-Um zu erkennen, mit welchen Operationen der Mikroprozesser des Atmega328 wie lang braucht, haben wir in einfachen Programmen verschiedene Operationen mit verschiedenen Datentypen druchgeführt. Dabei wurde im AtmelStudio jeweils die rein zum Rechnen benötigte Zeit herausgelesen.
+Um zu erkennen, mit welchen Operationen der Mikroprozesser des Atmega328 wie lange braucht, haben wir in einfachen Programmen verschiedene Operationen mit verschiedenen Datentypen druchgeführt. Dabei wurde im AtmelStudio jeweils die rein zum Rechnen benötigte Zeit herausgelesen.
 
 Operation| Datentyp und Operation | Anzahl der benötigten Takte | Kommentar
 ---|---|---|---
@@ -122,9 +122,9 @@ Division| 8 Bit / 8 Bit | **123 Takte** | deutlich mehr Takte als bei der Multip
 Addition| 32 Bit + 32 Bit | **192 Takte** |
 Multiplikation| 32 Bit * 32 Bit | **165 Takte**| 
 Division| 32 Bit / 32 Bit | **701 Takte** | 
-Addition| float + float | **905 Takte** |
-Multiplikation| float * float | **1763 Takte**| 
-Division| float / float | **1380 Takte** | Dass zum Dividieren weniger Takte gebraucht werden als beim Multiplizieren liegt wahrscheinlich an den Verwendeten Werten, die sich scheinbar schnell dividieren lassen.
-Division| double / double | **1380 Takte** | Der Datentyp 'double' wir von dem Kompiler als ' float ' verarbeitet, da keine doppeltgenauen Fließkommazahlen für den Mikroprozessor zur Verfügung stehen
+Addition| `float` + `float` | **905 Takte** |
+Multiplikation| `float` * `float` | **1763 Takte**| 
+Division| `float` / `float` | **1380 Takte** | Dass zum Dividieren weniger Takte gebraucht werden als beim Multiplizieren liegt wahrscheinlich an den Verwendeten Werten, die sich scheinbar schnell dividieren lassen.
+Division| `double` / `double` | **1380 Takte** | Der Datentyp `double` wir von dem Kompiler als `float ` verarbeitet, da keine doppeltgenauen Fließkommazahlen für den Mikroprozessor zur Verfügung stehen
 
 Die Erkentnis aus dem Test ist, dass es sich vor allem bei Echtzeitsystemen durchaus auszahlt, den kleinstmöglichen Datentyp zu verwenden.

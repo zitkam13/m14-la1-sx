@@ -24,6 +24,7 @@ Register | Verwendung
 ## Der Unterschied zwischen "deklarieren", "definieren" und "initialisieren"
 
 
+
 **Deklaration:** Dem Compiler wird eine Variable bekannt gegeben
 
 **Definition:** Der Variable wird ein Speicherbereich zugeteilt
@@ -48,6 +49,7 @@ Register | Verwendung
   Die Datentypen `char` und `signed char` sind vorzeichenbehaftet.
   
   **Startup Code**
+  
   Der Startup-Code ist dafür zuständig, den Mikroprozessor in ein solchen Zustand zu bringen, dass der restlich Code Fehlerlos abgearbeitet werden kann.  
 
  ### Zuweisen eines Konstanten Wertes

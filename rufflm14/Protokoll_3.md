@@ -1,4 +1,4 @@
-3# **2.Laborprotokoll** 
+# **2.Laborprotokoll** 
 
 *von Florian Ruffenacht*
 
@@ -32,7 +32,7 @@ Register | Verwendung
 [Weitere Informationen](http://www.c-howto.de/tutorial/variablen/deklaration/)
 
 ## Analysieren von Assembler-Befehlen
-  Wie bereits in der [letzten Einheit]() analysierten wir einfache C-Programme mit AtmelStudio.
+  Wie bereits in der [letzten Einheit](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/Protkoll_2.md) analysierten wir einfache C-Programme mit AtmelStudio.
   
 ### Informationen zum Syntax:
 
@@ -47,11 +47,11 @@ Register | Verwendung
   Die Datentypen `char` und `signed char` sind vorzeichenbehaftet.
  ### Zuweisen eines Konstanten Wertes
   Es wurde folgendes Programm analysiert:
-  ![Bild C- Code Programm1]()
+  ![Bild C- Code Programm1](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/BildE3P1C.JPG)
   
   Dabei ergab sich nach dem Debuggen und Kompilieren folgender Maschinencode:
   
-  ![Bild Assembler-Code Programm1]()
+  ![Bild Assembler-Code Programm1](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/BildE3P1A.JPG)
   
   Maschinenbefehl | in Worten | Beschreibung
 --- | --- | ---
@@ -71,11 +71,11 @@ Register | Verwendung
 ### Addition zweier Variablen
 Es wurde folgendes Programm analysiert:
 
-![Bild C-Code Programm 2]()
+![Bild C-Code Programm 2](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/BildE3P2C.JPG)
 
 Dabei ergab sich nach dem Debuggen und Kompilieren folgender Maschinencode:
 
-![Bild Assembler-Code Programm 2]()
+![Bild Assembler-Code Programm 2](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/BildE3P2A.JPG)
 
 Maschinenbefehl | in Worten | Beschreibung
 --------------- | --------- | ---------
@@ -109,7 +109,7 @@ Maschinenbefehl | in Worten | Beschreibung
 
 Zum besseren Verständnis ist hier noch einmal der Aufbau des Stacks skizziert:
 
-![Bild Stackaufbau E3]()
+![Bild Stackaufbau E3](https://github.com/HTLMechatronics/m14-la1-sx/blob/rufflm14/rufflm14/StackE3.svg)
 
 ## Testen der Prozessorgeschwindigkeit
 Um zu erkennen, mit welchen Operationen der Mikroprozesser des Atmega328 wie lange braucht, haben wir in einfachen Programmen verschiedene Operationen mit verschiedenen Datentypen druchgeführt. Dabei wurde im AtmelStudio jeweils die rein zum Rechnen benötigte Zeit herausgelesen.

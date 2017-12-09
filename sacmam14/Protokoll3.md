@@ -10,11 +10,11 @@ Abwesend: -
 ### Wiederholung der 2. Einheit  
 #### CPU - Register  
 Register | Verwendung 
-|---|---|
-R1| immer mit 0x00 beschrieben  
-R8 - R25| für Parameter und Rückgabewerte  
-R26 + R27| X- Register  
-R28 + R29| Y- Register  
+--- | ---  
+R1 | immer mit 0x00 beschrieben  
+R8 - R25 | für Parameter und Rückgabewerte  
+R26 + R27 | X- Register  
+R28 + R29 | Y- Register  
 R30 + R31 | Z- Register  
 
 #### Atmel Studio Fenster   
@@ -31,9 +31,9 @@ Im disassembly findet man:
 -------------------------------------------------------------------------  
 ### Datentypen  
 **Datentyp** | **Beschreibung**  
-|---|---|  
-`unsigned`| Modifierzt den eigentlichen Datentyp. In unserem Fall ist es der Datentyp `int`. Steht vor dem `int` `unsigned` dann deckt man alle Zahlen im Bereich von 0 bis 2³² ab.  
-`volatile`| In C und C++ wird durch diesen Typqualifikator spezifiziert, dass sich der Wert der Variable jederzeit ändern kann, beispielsweise durch andere Prozesse, Threads oder sogar externe Hardware. Bei der Generierung des Maschinen-Codes aus einem in C oder C++ geschriebenen Programm verhindert die Kennzeichnung einer Variablen als volatile eine in diesem Fall die Funktionalität beeinträchtigende Optimierung, so dass das Programm immer auf den tatsächlich in der Hardware vorhandenen Wert zugreift. Quelle: [Wikipedia 09.12.2017](https://de.wikipedia.org/wiki/Volatile_(Informatik))  
+--- | ---  
+`unsigned` | Modifierzt den eigentlichen Datentyp. In unserem Fall ist es der Datentyp `int`. Steht vor dem `int` `unsigned` dann deckt man alle Zahlen im Bereich von 0 bis 2³² ab.  
+`volatile` | In C und C++ wird durch diesen Typqualifikator spezifiziert, dass sich der Wert der Variable jederzeit ändern kann, beispielsweise durch andere Prozesse, Threads oder sogar externe Hardware. Bei der Generierung des Maschinen-Codes aus einem in C oder C++ geschriebenen Programm verhindert die Kennzeichnung einer Variablen als volatile eine in diesem Fall die Funktionalität beeinträchtigende Optimierung, so dass das Programm immer auf den tatsächlich in der Hardware vorhandenen Wert zugreift. Quelle: [Wikipedia 09.12.2017](https://de.wikipedia.org/wiki/Volatile_(Informatik))  
 
 ### Übung 1  
 ```
@@ -73,7 +73,7 @@ int main(void)
 }  
 ```  
 
-Maschinenbefehl | in Worten | Beschreibung  
+Maschinenbefehl | | Beschreibung  
 --------------- | --------- | ---------  
 `cf.93` | PUSH R28 | Register R28 wird auf den Stack gelegt.  
 `df.93` | PUSH R29 | Register R29 wird auf den Stack gelegt.  
@@ -103,3 +103,19 @@ Maschinenbefehl | in Worten | Beschreibung
 `df.91` | POP R29 | Register wird freigegeben.   
 `cf.91` | POP R28 | Register wird freigegeben.  
 || RET| Return to Subroutine  
+
+### Prozessorgeschwindigkeit testen  
+Wir haben mit verschiedenen Datentypen addiert, multipliziert und dividiert.  
+
+Operation| Datentyp | Takte | Kommentar  
+--- | --- | --- | ---  
+`add` | 8 Bit + 8 Bit | 46 Takte | -  
+`mul` | 8 Bit * 8 Bit | 47 Takte | -  
+dividiert | 8 Bit / 8 Bit | 123 Takte | da es keinen eigenen Divisions Befehl gibt, dauert es deutlich länger  
+`add` | 32 Bit + 32 Bit | 192 Takte | -  
+`mul` | 32 Bit * 32 Bit | 165 Takte | -   
+dividiert | 32 Bit / 32 Bit | 701 Takte | da es keinen eigenen Divisions Befehl gibt, dauert es deutlich länger  
+`add` | `float` + `float` | 905 Takte | -  
+`mul` | `float` * `float` | 1763 Takte | -  
+dividiert| `float` / `float` | 1380 Takte | es wurden Werte genommen die leicht zu dividieren sind, deswegen sind es weniger Takte als bei der Multiplikation  
+dividiert | `double` / `double` | 1380 Takte | es gibt keinen `double` Datentyp bei unserem µC, deswegen werden alle `double` Datentypen als `float` Datentypen gewertet  

@@ -119,3 +119,18 @@ dividiert | 32 Bit / 32 Bit | 701 Takte | da es keinen eigenen Divisions Befehl 
 `mul` | `float` * `float` | 1763 Takte | -  
 dividiert| `float` / `float` | 1380 Takte | es wurden Werte genommen die leicht zu dividieren sind, deswegen sind es weniger Takte als bei der Multiplikation  
 dividiert | `double` / `double` | 1380 Takte | es gibt keinen `double` Datentyp bei unserem µC, deswegen werden alle `double` Datentypen als `float` Datentypen gewertet  
+
+### Übung 3  
+```
+int main(void)  
+{  
+  volatile int x;  
+  volatile int a;  
+  for(i=0;x<10;i++)  
+  {  
+    a += 10;  
+  }  
+  return a;  
+}  
+```  
+Der Maschinenbefehl `BRNE` (branch if not equal) bedeutet, dass er solange die Befehle ausführt, bis die Bedingung erfüllt ist. Der Befehl vergleicht das Register, indem die Variable x steht, mit dem Z-Flag und verlässt die Schleife erst wenn das Z-Flag dem Register entspricht.

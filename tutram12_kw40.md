@@ -7,10 +7,16 @@ Klasse: 4AHME
 Gruppe: 4  
 Datum: 03.10.2017
 
-### *Github*
+### *Mikroprozessor (µP)*
 
-### *Git*
+### *Atmel Studio*  
 
-### *Branch*
+### *ATmega328p*  
 
-### *Wichtige Befehle*
+#### **XYZ-Register** 
+
+### *Stack*  
+
+#### *Stackpointer*  
+
+### *Debugger*  

@@ -52,7 +52,7 @@ SER | Register wird mit Einsen überschrieben bzw. auf den höchstmöglichen Wer
 LDI | Konstante wird in Register geschrieben (nur bei Registern 16-31 möglich)  
 
 ## Stack  
-Im Stack werden Daten nach dem **Last in frist out(LIFO)** Verfahre gespeichert. Das heißt die Daten welche als letztes in den Stack kommen, kommen als erstes heraus. 
+Im Stack werden Daten nach dem **Last in frist out(LIFO)** Verfahren gespeichert. Das heißt die Daten welche als letztes in den Stack kommen, kommen als erstes heraus. 
 
 Um in den Stack Daten zu speichern, bzw daraus zu lesen gibt es folgende Operationen:  
 

@@ -2,8 +2,8 @@
 
 ## Mikroprozessor  
 Am Beginn der Stunde wiederholten wir den prinzipiellen Aufbau der CPU.  
-![CPU](https://github.com/HTLMechatronics/m14-la1-sx/tree/zitkam13/zitkam13/CPU.PNG)  
-Quelle: [FIVU Skript](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#189503049)  
+![CPU](/zitkam13/CPU.PNG)  
+Quelle: [FIVU Skript](https://lms.at/dotlrn/classes/informatik/610437.4AHME_FIVU.17_18/xolrn/EC743ABCF7AB5.symlink?resource_id=0-237409759&m=view#188315330)  
 
 **Befehlsaufbau** (Von-Neumann-Architekur)  
 * Reset :arrow_right: bringt das System in den Ausgangszustand, der Befehlszähler wird auf den Wert 0 gesetzt und die Bits im Status-Flag werden auch zurükgesetzt  
@@ -50,3 +50,15 @@ OUT | schreibt Daten von einem in ein anderes Register
 CLR | Register wird mit Nullen überschrieben (Realisierung durch XOR-Verknüpfung mit sich selbst)
 SER | Register wird mit Einsen überschrieben bzw. auf den höchstmöglichen Wert gesetzt
 LDI | Konstante wird in Register geschrieben (nur bei Registern 16-31 möglich)  
+
+## Stack  
+Im Stack werden Daten nach dem **Last in frist out(LIFO)** Verfahre gespeichert. Das heißt die Daten welche als letztes in den Stack kommen, kommen als erstes heraus. 
+
+Um in den Stack Daten zu speichern, bzw daraus zu lesen gibt es folgende Operationen:  
+
+- push: "Legt" die Daten auf den Stapel"
+- pop: Liest das oberste Objekt aus und entfernt es aus dem Stack
+- peek: Liest das oberste Objekt aus, aber belässt es auf dem Stapel
+
+# Stackpointer  
+Der **Stackpointer** zeigt immer auf den nächsten freien Platz im Stack-Speicher. Wenn der Stack leer ist zeigt der Stackpointer also auf den untersten Platz im Speicher. Wenn der Satckpointer allerdings über den reservierten Speicherplatz hinaus geht, spricht man von einem Stackoverflow.

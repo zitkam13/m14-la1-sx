@@ -2,7 +2,7 @@
 
 ## Mikroprozessor  
 Am Beginn der Stunde wiederholten wir den prinzipiellen Aufbau der CPU.  
-![SRAM](https://github.com/HTLMechatronics/m14-la1-sx/blob/zitzkam13/zitkam13/CPU.PNG)
+![CPU](https://github.com/HTLMechatronics/m14-la1-sx/tree/zitkam13/zitkam13/CPU.PNG)
 **Befehlsaufbau** (Von-Neumann-Architekur)  
 * Reset :arrow_right: bringt das System in den Ausgangszustand, der Befehlszähler wird auf den Wert 0 gesetzt und die Bits im Status-Flag werden auch zurükgesetzt  
 * Takt  :arrow_right: bestimmt den zetilichen Ablauf (auch Clock genannt)  

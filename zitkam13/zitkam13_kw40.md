@@ -60,5 +60,5 @@ Um in den Stack Daten zu speichern, bzw daraus zu lesen gibt es folgende Operati
 - pop: Liest das oberste Objekt aus und entfernt es aus dem Stack
 - peek: Liest das oberste Objekt aus, aber belässt es auf dem Stapel
 
-# Stackpointer  
+### Stackpointer  
 Der **Stackpointer** zeigt immer auf den nächsten freien Platz im Stack-Speicher. Wenn der Stack leer ist zeigt der Stackpointer also auf den untersten Platz im Speicher. Wenn der Satckpointer allerdings über den reservierten Speicherplatz hinaus geht, spricht man von einem Stackoverflow.

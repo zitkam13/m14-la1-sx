@@ -56,7 +56,7 @@ Im Stack werden Daten nach dem **Last in frist out(LIFO)** Verfahren gespeichert
 
 Um in den Stack Daten zu speichern, bzw daraus zu lesen gibt es folgende Operationen:  
 
-- push: "Legt" die Daten auf den Stapel"
+- push: "Legt die Daten auf den Stapel"
 - pop: Liest das oberste Objekt aus und entfernt es aus dem Stack
 - peek: Liest das oberste Objekt aus, aber belässt es auf dem Stapel
 
